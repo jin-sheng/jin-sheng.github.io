@@ -9,7 +9,7 @@ https://github.com/dianping/cat/wiki/readme_server#2-docker快速部署
 
 安装 Docker Desktop Community
 ```url
-https://www.runoob.com/docker/windows-docker-install.html
+参考 https://www.runoob.com/docker/windows-docker-install.html
 ```
 
 开启本地或远程 API 调用
