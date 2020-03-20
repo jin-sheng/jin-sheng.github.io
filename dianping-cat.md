@@ -43,11 +43,11 @@ $ git clone https://github.com/dianping/cat.git
 # 替换 volumes
 volumes:
     # - "./client.xml:/data/appdatas/cat/client.xml"
-    - "/d/Workspaces/GitHub/dianping/cat/docker/client.xml:/data/appdatas/cat/client.xml"
+    - "/d/dianping/cat/docker/client.xml:/data/appdatas/cat/client.xml"
     # - "./mysql/volume:/var/lib/mysql"
-    - "/d/Workspaces/GitHub/dianping/cat/docker/mysql/volume:/var/lib/mysql"
+    - "/d/dianping/cat/docker/mysql/volume:/var/lib/mysql"
     # - "../script/CatApplication.sql:/init.sql"
-    - "/d/Workspaces/GitHub/dianping/cat/script/CatApplication.sql:/init.sql"
+    - "/d/dianping/cat/script/CatApplication.sql:/init.sql"
 
 # 注释 links
 #    links:
