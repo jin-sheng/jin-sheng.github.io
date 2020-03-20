@@ -1,4 +1,4 @@
-# 点评 CAT Docker 快速部署（Windows 环境）
+# 点评 CAT 使用 Docker 快速部署（Windows 环境）
 ## Github
 
 https://github.com/dianping/cat
