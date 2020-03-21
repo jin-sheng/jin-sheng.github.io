@@ -33,11 +33,15 @@ Settings -> General -> 勾选 Expose daemon on tcp://localhost:2375 without TLS
 ## Git Bash
 
 克隆
-```bash
+```shell
 $ git config --global core.autocrlf false # windows 环境必须执行，否则 cat 实例可能无法启动
 $ git clone https://github.com/dianping/cat.git
 ```
 删除 dianping/cat/docker/mysql 目录
+```shell
+$ rm -rf /d/dianping/cat/docker/mysql
+```
+
 修改 dianping/cat/docker/docker-compose.yml
 ```yml
 # 替换 volumes
@@ -58,16 +62,16 @@ volumes:
 ```
 
 运行
-```docker
+```shell
 $ cd /d/dianping/cat/docker
 $ docker-compose up
 ```
 初始化 MySQL
-```docker
+```shell
 $ docker exec <container_id> bash -c "mysql -uroot -Dcat < /init.sql"
 ```
 访问
-```url
+```
 http://127.0.0.1:8080/cat
 ```
 
