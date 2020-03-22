@@ -50,3 +50,32 @@ $ sudo docker save -o ubuntu_14.04.tar ubuntu:14.04
 ```
 $ sudo docker load < ubuntu_14.04.tar
 ```
+
+## 容器
+新建一个容器
+```
+$ sudo docker create -it ubuntuL:latest
+```
+
+启动一个 bash 终端
+```
+# -t 让 Docker 分配一个伪终端并绑定到容器的标准输入上
+# -i 让容器的标准输入保持打开
+$ sudo docker run -t -i ubuntu:14.04 /bin/bash
+```
+
+终止一个运行中的容器
+```
+$ sudo docker stop <container_id>
+```
+
+启动处于终止状态的容器
+```
+$ sudo docker start <container_id>
+```
+
+# 其他
+获取容器的输出信息
+```
+$ sudo docker logs <container_id>
+```
