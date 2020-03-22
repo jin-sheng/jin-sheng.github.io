@@ -89,6 +89,21 @@ $ sudo docker exec -ti <container_id> /bin/bash
 $ sudo docker inspect --format "{{.State.Pid}}" <container_id>
 ```
 
+删除一个运行中的容器
+```
+$ sudo docker rm <container_id>
+```
+
+导出容器到 test.tar 文件
+```
+$ sudo docker export <container_id> > test.tar
+```
+
+从 test.tar 文件导入，成为镜像
+```
+$ cat test.tar | sudo docker import - test:v1.0
+```
+
 # 其他
 获取容器的输出信息
 ```
