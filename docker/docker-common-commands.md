@@ -18,15 +18,25 @@ $ sudo docker images
 
 获取镜像详细信息
 ```
-$ sudo docker inspect <IMAGE_ID>
+$ sudo docker inspect <image_id>
 ```
 
 获取镜像的 Architecture 信息
 ```
-$ sudo docker inspect -f {{".Architecture"}} <IMAGE_ID>
+$ sudo docker inspect -f {{".Architecture"}} <image_id>
 ```
 
 搜索带 mysql 关键字的镜像
 ```
 $ sudo docker search mysql
+```
+
+删除标签为 mysql:latest 的镜像
+```
+$ sudo docker rmi mysql:latest
+```
+
+提交为一个新的镜像
+```
+$ sudo docker commit -m <message> -a <author> <container_id> <new_name>
 ```
