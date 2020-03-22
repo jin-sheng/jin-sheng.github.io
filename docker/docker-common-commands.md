@@ -40,3 +40,13 @@ $ sudo docker rmi mysql:latest
 ```
 $ sudo docker commit -m <message> -a <author> <container_id> <new_name>
 ```
+
+导出本地的 ubuntu:14.04 镜像为文件 ubuntu_14.04.tar
+```
+$ sudo docker save -o ubuntu_14.04.tar ubuntu:14.04
+```
+
+从文件 ubuntu_14.04.tar 导入镜像到本地镜像
+```
+$ sudo docker load < ubuntu_14.04.tar
+```
