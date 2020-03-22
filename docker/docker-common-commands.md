@@ -9,3 +9,13 @@ $ sudo docker pull ubuntu: 14.04
 ```
 $ sudo docker pull dl.dockerpool.com:5000/ubuntu
 ```
+
+列出本地主机上镜像信息
+```
+$ sudo docker images
+```
+
+获取镜像详细信息
+```
+$ sudo docker inspect <IMAGE_ID>
+```
