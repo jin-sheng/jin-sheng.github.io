@@ -74,6 +74,21 @@ $ sudo docker stop <container_id>
 $ sudo docker start <container_id>
 ```
 
+重新启动一个容器
+```
+$ sudo docker restart <container_id>
+```
+
+进入一个运行中的容器并启动一个 bash
+```
+$ sudo docker exec -ti <container_id> /bin/bash
+```
+
+获取容器的PID
+```
+$ sudo docker inspect --format "{{.State.Pid}}" <container_id>
+```
+
 # 其他
 获取容器的输出信息
 ```
