@@ -114,6 +114,11 @@ $ sudo docker export <container_id> > test.tar
 $ cat test.tar | sudo docker import - test:v1.0
 ```
 
+挂载本地主机的目录到容器内
+```
+$ sudo docker run -d -P -v /opt/mysqldb:/var/lib/mysql mysql
+```
+
 # 其他
 获取容器的输出信息
 ```
