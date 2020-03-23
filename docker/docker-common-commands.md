@@ -51,6 +51,11 @@ $ sudo docker save -o ubuntu_14.04.tar ubuntu:14.04
 $ sudo docker load < ubuntu_14.04.tar
 ```
 
+保存为一个新的 sshd:ubuntu 镜像
+```
+$ sudo docker commit <container_id> sshd:ubuntu
+```
+
 ## 容器
 新建一个容器
 ```
