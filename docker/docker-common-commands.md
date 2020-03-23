@@ -56,6 +56,11 @@ $ sudo docker load < ubuntu_14.04.tar
 $ sudo docker commit <container_id> sshd:ubuntu
 ```
 
+使用当前目录中的 Dockerfile 创建自定义镜像
+```
+$ sudo docker build -t custom:dockerfile .
+```
+
 ## 容器
 新建一个容器
 ```
