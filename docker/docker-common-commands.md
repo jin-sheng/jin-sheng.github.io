@@ -119,6 +119,12 @@ $ cat test.tar | sudo docker import - test:v1.0
 $ sudo docker run -d -P -v /opt/mysqldb:/var/lib/mysql mysql
 ```
 
+# MongoDB
+启动
+```
+$ sudo docker run -d -p 27017:27017 -e AUTH=no --name mongo mongo
+```
+
 # 其他
 获取容器的输出信息
 ```
