@@ -4,6 +4,10 @@
 ```shell
 # vi /path/custom.sh
 ```
+```shell
+#!/bin/bash
+...
+```
 
 设置只有拥有者有读、写、执行权限
 ```shell
