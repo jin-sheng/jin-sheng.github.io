@@ -36,7 +36,8 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 
 Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
 
-### JVM
+### Java
+[Java common tools](https://jin-sheng.github.io/java/java-common-tools)<br>
 [Class Loader](https://jin-sheng.github.io/java/jvm/class-loader)
 
 ### I/O
@@ -44,7 +45,7 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
 
 ### Docker
 [Docker common commands](https://jin-sheng.github.io/docker/docker-common-commands)<br>
-[Using docker to quickly deploy Dianping CAT (Windows Environment)](https://jin-sheng.github.io/dianping-cat)
+[Using docker to quickly deploy Dianping CAT (Windows Environment)](https://jin-sheng.github.io/artical/dianping-cat)
 
 ### Linux
 [Crontab](https://jin-sheng.github.io/linux/crontab)
