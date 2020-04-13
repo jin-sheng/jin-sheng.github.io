@@ -19,3 +19,13 @@
 ```shell
 # jstat -gcutil <pid> 1000 2
 ```
+
+输出线程信息
+```shell
+# jstack -l <pid>
+```
+
+查看内存使用情况的基本信息
+```shell
+# jmap -heap <pid>
+```
