@@ -29,3 +29,8 @@
 ```shell
 # jmap -heap <pid>
 ```
+
+查看 JVM 参数值（以 GC 信息为例）
+```shell
+# jinfo -flag PrintGCDetails <pid>
+```
