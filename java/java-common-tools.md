@@ -9,3 +9,13 @@
 ```shell
 # javap -verbose <类名称>
 ```
+
+过滤出 Java 本身的进程以及运行的引导类
+```shell
+# jps -l
+```
+
+查看 JVM 中每个区域的情况（每 1000ms 采集一次数据，共采集两次数据）
+```shell
+# jstat -gcutil <pid> 1000 2
+```
