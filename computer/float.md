@@ -11,7 +11,31 @@
 
 用单精度浮点数表示十进制数 0.75
 ```java
-
+public static void main(String[] args)
+{
+    float f = 0.75f;
+    int i = Float.floatToIntBits(f);
+    StringBuilder sb = new StringBuilder(Integer.toBinaryString(i));
+    for (int j = 32 - sb.length(); j > 0; j--)
+    {
+        sb.insert(0, "0");
+    }
+    char[] b = sb.toString().toCharArray();
+    char[] c = new char[34];
+    for (int j = 0, k = 0; j < 34; j++)
+    {
+        if (j == 1 || j == 10)
+        {
+            c[j] = '-';
+        }
+        else
+        {
+            c[j] = b[k];
+            k++;
+        }
+    }
+    System.out.println(c);
+}
 ```
 
 十进制数 0.75 用单精度浮点数来表示
