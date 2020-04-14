@@ -15,3 +15,9 @@ grant codebase "file:${java.home}/../lib/tools.jar" {
 ```shell
 # jstatd -J-Djava.security.policy=/ux/security/visualvm.remote.policy -p 9000
 ```
+
+## 内存分析工具
+MAT(Memory Analyzer Tool)
+```url
+https://www.eclipse.org/mat/downloads.php
+```
