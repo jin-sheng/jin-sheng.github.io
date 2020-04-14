@@ -36,6 +36,10 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 
 Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
 
+### Computer
+[Binary](https://jin-sheng.github.io/computer/binary)<br>
+[Float](https://jin-sheng.github.io/computer/float)
+
 ### Java
 [Java common tools](https://jin-sheng.github.io/java/java-common-tools)<br>
 [Class Loader](https://jin-sheng.github.io/java/jvm/class-loader)<br>
