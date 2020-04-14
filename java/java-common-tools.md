@@ -34,3 +34,8 @@
 ```shell
 # jinfo -flag PrintGCDetails <pid>
 ```
+
+Java 监视和管理控制台
+```shell
+# jconsole
+```
