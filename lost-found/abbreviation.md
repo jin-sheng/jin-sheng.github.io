@@ -15,6 +15,7 @@
 |K|||||
 |L|||||
 |M|||||
+||MESI|Modified Exclusive Shared Or Invalid|CPU 缓存一致性协议||
 |N|||||
 |O|||||
 |P|||||
