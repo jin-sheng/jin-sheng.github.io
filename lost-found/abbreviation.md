@@ -15,6 +15,7 @@
 |J|||||
 |K|||||
 |L|||||
+||LRU|Least Recently Used|最近最少使用|页面置换算法|
 |M|||||
 ||MESI|Modified Exclusive Shared Or Invalid|CPU 缓存一致性协议||
 |N|||||
