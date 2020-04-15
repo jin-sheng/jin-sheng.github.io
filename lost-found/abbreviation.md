@@ -1,6 +1,7 @@
 |字典|英文缩写|英文全称|中文全称|备注|
 |---|---|---|---|---|
 |A|||||
+||APR|Apache Portable Run-time libraries|Apache 可移植运行库||
 |B|||||
 ||BCD|Binary Coded Decimal|二进制化十进制数||
 |C|||||
@@ -13,6 +14,9 @@
 ||IEEE|Institute of Electrical and Electronics Engineers|美国电气和电子工程师协会||
 ||IOPS|Input/Output Operations Per Second|磁盘每秒最多可以完成的 I/O 次数||
 |J|||||
+||JNI|Java Native Interface|Java 本地接口||
+||JSP|Java Server Pages|Java 服务器页面||
+||JVM|Java Virtual Machine|Java 虚拟机||
 |K|||||
 |L|||||
 ||LRU|Least Recently Used|最近最少使用|页面置换算法|
