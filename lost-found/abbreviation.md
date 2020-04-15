@@ -20,6 +20,7 @@
 |O|||||
 |P|||||
 |Q|||||
+||QPI|Quick Path Interconnect|快速通道互联||
 |R|||||
 |S|||||
 |T|||||
