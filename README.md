@@ -55,4 +55,5 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
 [Crontab](https://jin-sheng.github.io/linux/crontab)
 
 ### Lost found
+[Maven](https://jin-sheng.github.io/lost-found/maven)<br>
 [Using docker to quickly deploy Dianping CAT (Windows Environment)](https://jin-sheng.github.io/lost-found/dianping-cat)
