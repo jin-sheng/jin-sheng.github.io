@@ -43,7 +43,8 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
 ### Java
 [Java common tools](https://jin-sheng.github.io/java/java-common-tools)<br>
 [Class Loader](https://jin-sheng.github.io/java/jvm/class-loader)<br>
-[JVM Garbage Collection](https://jin-sheng.github.io/java/jvm/jvm-garbage-collection)
+[JVM Garbage Collection](https://jin-sheng.github.io/java/jvm/jvm-garbage-collection)<br>
+[JNDI](https://jin-sheng.github.io/java/java/jndi)
 
 ### I/O
 [I/O system](https://jin-sheng.github.io/io/system)
