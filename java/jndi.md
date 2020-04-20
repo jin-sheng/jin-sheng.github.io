@@ -136,3 +136,6 @@ public class JNDIController
     }
 }
 ```
+
+# 参考
+[Spring Boot Configure DataSource Using JNDI with Example](https://www.java4s.com/spring-boot-tutorials/spring-boot-configure-datasource-using-jndi-with-example/)
