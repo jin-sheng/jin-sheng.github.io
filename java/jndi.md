@@ -1,3 +1,5 @@
+JNDI 是 J2EE 容器的规范，消除程序与目录系统之间的耦合，使程序可配置并且高可扩展。
+
 # 使用 Spring Boot Embedded Tomcat 配置 JNDI 连接 MySQL
 
 pom.xml 主要配置
