@@ -1,3 +1,4 @@
+# JNDI 是什么
 JNDI 是 J2EE 的标准之一，目的是消除程序与目录系统之间的耦合，使程序可配置并且高可扩展。
 
 # 使用 Spring Boot Embedded Tomcat 配置 JNDI 连接 MySQL
