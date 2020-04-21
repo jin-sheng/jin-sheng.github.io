@@ -16,6 +16,21 @@ $ git checkout -b master_hotfix
 $ git push -u origin master
 ```
 
+更新本地仓库中的所有远程分支，删除所有远程上不存在的分支
+```shell
+$ git fetch -p
+```
+
+拉取 origin/master 远程分支的最新信息并合并到本地 master 分支
+```shell
+$ git checkout master
+$ git pull
+# 等价于
+$ git fetch
+$ git checkout master
+$ git merge origin/master
+```
+
 改写 master 分支的本地历史，将 HEAD 指向 becd81c9 这次提交
 ```shell
 $ git checkout master
@@ -48,6 +63,7 @@ $ gitk
 显示历史记录时，每个提交的信息只显示一行（默认 medium）
 ```shell
 $ git config format.pretty oneline
+$ git log
 ```
 
 # 参考
