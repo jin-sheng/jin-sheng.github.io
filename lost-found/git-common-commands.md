@@ -1,4 +1,4 @@
-# Git 常用命令
+# Git 常用命令（Git Bash）
 
 克隆 git 源代码仓库
 ```shell
@@ -11,12 +11,12 @@ $ git checkout master
 $ git checkout -b master_hotfix
 ```
 
-本地的 master 分支推送到 origin 主机，同时指定 origin 为默认主机（后面就可以不加任何参数使用 git push 了）
+将本地的 master 分支推送到 origin 主机，同时指定 origin 为默认主机（后面就可以不加任何参数使用 git push 了）
 ```shell
 $ git push -u origin master
 ```
 
-更新本地仓库中的所有远程分支，删除所有远程上不存在的分支
+更新本地仓库中的所有远程分支，并删除所有远程上不存在的分支
 ```shell
 $ git fetch -p
 ```
@@ -25,6 +25,7 @@ $ git fetch -p
 ```shell
 $ git checkout master
 $ git pull
+
 # 等价于
 $ git fetch
 $ git checkout master
