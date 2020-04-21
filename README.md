@@ -37,13 +37,13 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
 
 ### Computer
-[Binary](https://jin-sheng.github.io/computer/binary)<br>
+[Binary](https://jin-sheng.github.io/computer/binary)  
 [Float](https://jin-sheng.github.io/computer/float)
 
 ### Java
-[Java common tools](https://jin-sheng.github.io/java/java-common-tools)<br>
-[Class Loader](https://jin-sheng.github.io/java/jvm/class-loader)<br>
-[JVM Garbage Collection](https://jin-sheng.github.io/java/jvm/jvm-garbage-collection)<br>
+[Java common tools](https://jin-sheng.github.io/java/java-common-tools)  
+[Class Loader](https://jin-sheng.github.io/java/jvm/class-loader)  
+[JVM Garbage Collection](https://jin-sheng.github.io/java/jvm/jvm-garbage-collection)  
 [JNDI](https://jin-sheng.github.io/java/java/jndi)
 
 ### I/O
@@ -56,5 +56,6 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
 [Crontab](https://jin-sheng.github.io/linux/crontab)
 
 ### Lost found
-[Maven](https://jin-sheng.github.io/lost-found/maven)<br>
-[Using docker to quickly deploy Dianping CAT (Windows Environment)](https://jin-sheng.github.io/lost-found/dianping-cat)
+[Using docker to quickly deploy Dianping CAT (Windows Environment)](https://jin-sheng.github.io/lost-found/dianping-cat)  
+[Maven](https://jin-sheng.github.io/lost-found/maven)  
+[Git common commands(Git Bash)](https://jin-sheng.github.io/lost-found/git-common-commands)
