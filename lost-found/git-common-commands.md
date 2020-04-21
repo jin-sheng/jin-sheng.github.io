@@ -125,7 +125,7 @@ $ git config --global user.email 'xxx@xxx.xxx'
 ```
 
 # 参考
-[git 简明指南](https://www.runoob.com/manual/git-guide/)<br>
-[PRETTY FORMATS](https://git-scm.com/docs/pretty-formats/2.11.4)<br>
-[Learn Git Branching](https://learngitbranching.js.org/)<br>
+[git 简明指南](https://www.runoob.com/manual/git-guide/)  
+[PRETTY FORMATS](https://git-scm.com/docs/pretty-formats/2.11.4)  
+[Learn Git Branching](https://learngitbranching.js.org/)  
 [图解 Git](http://marklodato.github.io/visual-git-guide/index-zh-cn.html)
