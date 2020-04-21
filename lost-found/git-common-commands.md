@@ -1,8 +1,8 @@
 # Git 常用命令（Git Bash）
 
-克隆 git 源代码仓库
+取得项目的 git 仓库
 ```shell
-$ git clone https://github.com/git/git.git
+$ git clone xxx
 ```
 
 查看仓库状态
@@ -19,6 +19,22 @@ $ git branch -a
 ```shell
 $ git checkout master
 $ git checkout -b master_hotfix
+```
+
+把所有文件放入暂存区域
+```shell
+$ git add .
+```
+
+提交，自动暂存已修改和删除的文件，并同时书写 commit message
+```shell
+$ git commit -am 'hello world'
+```
+
+在 master 分支 push 之前修改最后一次提交的 commit message
+```shell
+$ git checkout master
+$ git commit --amend
 ```
 
 将本地的 master 分支推送到 origin 主机，同时指定 origin 为默认主机（后面就可以不加任何参数使用 git push 了）
@@ -46,6 +62,12 @@ $ git merge origin/master
 ```shell
 $ git checkout master
 $ git reset --hard becd81c9
+```
+
+改写 master 分支的本地历史，将 HEAD 指向 becd81c9 这次提交，同时保留更改的文件
+```shell
+$ git checkout master
+$ git reset --mixed becd81c9
 ```
 
 改写 master 分支的远程历史，撤销 becd81c9 这次提交
@@ -77,7 +99,33 @@ $ git config format.pretty oneline
 $ git log
 ```
 
+查看 git 已有的配置信息
+```shell
+$ git config --list
+```
+
+查看 git 作者
+```shell
+$ git config --global user.name
+```
+
+设置 git 作者
+```shell
+$ git config --global user.name 'xxx'
+```
+
+查看 git 邮箱
+```shell
+$ git config --global user.email
+```
+
+设置 git 邮箱
+```shell
+$ git config --global user.email 'xxx@xxx.xxx'
+```
+
 # 参考
 [git 简明指南](https://www.runoob.com/manual/git-guide/)<br>
 [PRETTY FORMATS](https://git-scm.com/docs/pretty-formats/2.11.4)<br>
-[Learn Git Branching](https://learngitbranching.js.org/)
+[Learn Git Branching](https://learngitbranching.js.org/)<br>
+[图解 Git](http://marklodato.github.io/visual-git-guide/index-zh-cn.html)
