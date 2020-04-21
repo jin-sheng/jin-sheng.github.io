@@ -5,6 +5,16 @@
 $ git clone https://github.com/git/git.git
 ```
 
+查看仓库状态
+```shell
+$ git status
+```
+
+列出仓库的所有分支，包括远程分支
+```shell
+$ git branch -a
+```
+
 基于 master 分支创建并切换到新的分支 master_hotfix
 ```shell
 $ git checkout master
@@ -16,7 +26,7 @@ $ git checkout -b master_hotfix
 $ git push -u origin master
 ```
 
-更新本地仓库中的所有远程分支，并删除所有远程上不存在的分支
+更新本地仓库中的所有远程分支，并删除所有本地存在但远程上不存在的分支
 ```shell
 $ git fetch -p
 ```
@@ -27,8 +37,8 @@ $ git checkout master
 $ git pull
 
 # 等价于
-$ git fetch
 $ git checkout master
+$ git fetch
 $ git merge origin/master
 ```
 
