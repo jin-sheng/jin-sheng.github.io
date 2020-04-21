@@ -21,6 +21,22 @@ $ git checkout master
 $ git checkout -b master_hotfix
 ```
 
+删除本地 master_hotfix 分支
+```shell
+$ git branch -d master_hotfix
+```
+
+删除远程 origin/master_hotfix 分支
+```shell
+$ git push origin --delete master_hotfix
+```
+
+将本地 master_hotfix 分支合并到本地 master 分支
+```shell
+$ git checkout master
+$ git merge master_hotfix
+```
+
 把所有文件放入暂存区域
 ```shell
 $ git add .
