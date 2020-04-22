@@ -31,6 +31,7 @@
 ||QPI|Quick Path Interconnect|快速通道互联||
 |R|||||
 ||RMI|Remote Method Invocation|远程方法调用||
+||RPC|Remote Procedure Call|远程过程调用||
 |S|||||
 |T|||||
 |U|||||
