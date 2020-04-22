@@ -54,6 +54,7 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
 
 ### Linux
 [Crontab](https://jin-sheng.github.io/linux/crontab)
+[Bash common commands](https://jin-sheng.github.io/linux/bash-common-commands)
 
 ### Lost found
 [Using docker to quickly deploy Dianping CAT (Windows Environment)](https://jin-sheng.github.io/lost-found/dianping-cat)  
