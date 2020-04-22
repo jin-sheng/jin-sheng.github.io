@@ -140,6 +140,7 @@ $ git config --global user.email 'xxx@xxx.xxx'
 ```
 
 # 参考
+[Git-Book](https://git-scm.com/book/zh/v2)  
 [git 简明指南](https://www.runoob.com/manual/git-guide/)  
 [Learn Git Branching](https://learngitbranching.js.org/)  
 [图解 Git](http://marklodato.github.io/visual-git-guide/index-zh-cn.html)
