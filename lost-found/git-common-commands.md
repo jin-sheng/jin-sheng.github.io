@@ -124,7 +124,7 @@ $ git config --list
 $ git config --global user.name
 ```
 
-设置 git 作者
+配置 git 作者
 ```shell
 $ git config --global user.name 'xxx'
 ```
@@ -134,7 +134,7 @@ $ git config --global user.name 'xxx'
 $ git config --global user.email
 ```
 
-设置 git 邮箱
+配置 git 邮箱
 ```shell
 $ git config --global user.email 'xxx@xxx.xxx'
 ```
