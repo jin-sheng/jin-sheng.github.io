@@ -109,10 +109,9 @@ $ git diff master master_hotfix
 $ gitk
 ```
 
-显示历史记录时，每个提交的信息只显示一行（默认 medium）
+显示历史记录时，每个提交的信息只显示一行
 ```shell
-$ git config format.pretty oneline
-$ git log
+$ git log --pretty=oneline
 ```
 
 查看 git 已有的配置信息
@@ -142,6 +141,5 @@ $ git config --global user.email 'xxx@xxx.xxx'
 
 # 参考
 [git 简明指南](https://www.runoob.com/manual/git-guide/)  
-[PRETTY FORMATS](https://git-scm.com/docs/pretty-formats/2.11.4)  
 [Learn Git Branching](https://learngitbranching.js.org/)  
 [图解 Git](http://marklodato.github.io/visual-git-guide/index-zh-cn.html)
