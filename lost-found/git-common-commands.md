@@ -93,7 +93,7 @@ $ git revert becd81c9
 $ git push
 ```
 
-将分支 master_hotfix becd81c9 这次提交复制到 master 分支
+将分支 master_hotfix 的 becd81c9 这次提交复制到 master 分支
 ```shell
 $ git checkout master
 $ git cherry-pick becd81c9
