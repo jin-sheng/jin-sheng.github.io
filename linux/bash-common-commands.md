@@ -5,5 +5,41 @@
 $ bash --version
 ```
 
+在屏幕输出 hello world
+```shell
+$ echo hello world
+```
+
+每行列出一个文件
+```shell
+$ ls -l
+```
+
+只有cat命令执行成功，才会继续执行ls命令
+```shell
+$ cat filelist.txt && ls -l filelist.txt
+```
+
+只有mkdir foo命令执行失败（比如foo目录已经存在），才会继续执行mkdir bar命令
+```shell
+$ mkdir foo || mkdir bar
+```
+
+查看 echo 命令的所有定义
+```shell
+$ type -a echo
+```
+
+# 快捷键
+清除屏幕并将当前行移到页面顶部
+```
+Ctrl + L
+```
+
+关闭 Shell 会话
+```
+Ctrl + D
+```
+
 # 参考
 [Bash 脚本教程](https://wangdoc.com/bash/index.html)  
