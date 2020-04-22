@@ -58,7 +58,7 @@ $ git commit --amend
 $ git push -u origin master
 ```
 
-更新本地仓库中的所有远程分支，并删除所有本地存在但远程上不存在的分支
+更新本地仓库中的所有远程分支，并删除所有本地存在但远程上不存在的远程分支
 ```shell
 $ git fetch -p
 ```
