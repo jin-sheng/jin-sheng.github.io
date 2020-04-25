@@ -59,6 +59,22 @@ $ ls */*.xml
 $ ls */*/*.xml
 ```
 
+# 变量
+显示所有环境变量
+```shell
+$ env
+```
+
+查看单个环境变量的值
+```shell
+$ echo $PATH
+```
+
+创建变量
+```shell
+$ custom="hello world"
+```
+
 # 快捷键
 清除屏幕并将当前行移到页面顶部
 ```
