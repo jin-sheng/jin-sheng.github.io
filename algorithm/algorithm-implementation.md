@@ -1,4 +1,5 @@
-# 二分查找
+# 算法实现
+## 二分查找
 java.util.Arrays
 ```java
 public static int binarySearch(Object[] a, Object key)
