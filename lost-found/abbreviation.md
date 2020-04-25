@@ -6,6 +6,7 @@
 ||BCD|Binary Coded Decimal|二进制化十进制数||
 |C|||||
 ||CA|Certification Authority|证书颁发机构||
+||CSR|Certificate Signing Request|证书请求文件||
 |D|||||
 |E|||||
 |F|||||
