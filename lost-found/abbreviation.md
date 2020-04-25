@@ -5,6 +5,7 @@
 |B|||||
 ||BCD|Binary Coded Decimal|二进制化十进制数||
 |C|||||
+||CA|Certification Authority|证书颁发机构||
 |D|||||
 |E|||||
 |F|||||
