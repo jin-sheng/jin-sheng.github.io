@@ -25,7 +25,37 @@ public class BinaryNode<E>
 }
 ```
 
-## 二叉树类
+## 遍历
+先根次序
+```java
+public void preOrder(BinaryNode<E> node)
+{
+    // print node
+    preOrder(node.left);
+    preOrder(node.right);
+}
+```
+
+中跟次序
+```java
+public void inOrder(BinaryNode<E> node)
+{
+    inOrder(node.left);
+    // print node
+    inOrder(node.right);
+}
+```
+后跟次序
+```java
+public void postOrder(BinaryNode<E> node)
+{
+    postOrder(node.left);
+    postOrder(node.right);
+    // print node
+}
+```
+
+## 类
 Tree.java
 ```java
 public interface Tree<T>
