@@ -5,7 +5,7 @@
 |完全二叉树|顺序存储结构||
 |满二叉树|顺序存储结构||
 |二叉搜索树|链式存储结构||
-|线索二叉树|||
+|线索二叉树|链式存储结构||
 |红黑树|链式存储结构||
 |B树|链式存储结构||
 
@@ -95,12 +95,6 @@ public class BinaryNode<T>
         this.value = value;
         this.left = left;
         this.right = right;
-    }
-
-    @Override
-    public String toString()
-    {
-        return super.toString() + ", value = " + this.value;
     }
 }
 ```
