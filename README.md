@@ -56,7 +56,7 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
 [Java common tools](https://jin-sheng.github.io/java/java-common-tools)  
 [Class Loader](https://jin-sheng.github.io/java/jvm/class-loader)  
 [JVM Garbage Collection](https://jin-sheng.github.io/java/jvm/jvm-garbage-collection)  
-[JNDI](https://jin-sheng.github.io/java/java/jndi)
+[JNDI](https://jin-sheng.github.io/java/jndi)
 
 ### Linux
 [Crontab](https://jin-sheng.github.io/linux/crontab)  
