@@ -51,6 +51,7 @@ public void inOrder(BinaryNode<E> node)
     inOrder(node.right);
 }
 ```
+
 后序遍历
 ```java
 // 遍历左子树，遍历右子树，访问根接点
