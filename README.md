@@ -38,13 +38,14 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
 
 ### Algorithm
 [Binary Search](https://jin-sheng.github.io/algorithm/algorithm-binary-search)  
+[Binary Tree](https://jin-sheng.github.io/algorithm/algorithm-binary-tree)  
 
 ### Computer
 [Binary](https://jin-sheng.github.io/computer/binary)  
 [Float](https://jin-sheng.github.io/computer/float)
 
 ### Data Structure
-[Binary Tree](https://jin-sheng.github.io/data/binary-tree)  
+[Binary Tree](https://jin-sheng.github.io/data/data-binary-tree)  
 
 ### Docker
 [Docker common commands](https://jin-sheng.github.io/docker/docker-common-commands)
