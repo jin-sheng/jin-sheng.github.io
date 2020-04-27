@@ -5,7 +5,7 @@
 |完全二叉树|√||
 |满二叉树|√||
 |二叉搜索树||√||
-|线索二叉树||√||
+|线索二叉树||√|按某种遍历次序进行线索化的二叉树|
 |红黑树||√||
 |B树||√||
 
@@ -26,6 +26,16 @@ public class BinaryNode<E>
 {
     public E data;
     public BinaryNode<E> left, right, parent;
+}
+```
+
+线索二叉树二叉链表
+```java
+public class BinaryNode<E>
+{
+    public E data;
+    public BinaryNode<E> left, right;
+    public int leftTag, rightTag;
 }
 ```
 
