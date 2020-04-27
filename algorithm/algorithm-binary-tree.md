@@ -1,5 +1,6 @@
 # 算法-二叉树
 
+## 遍历
 先序遍历
 ```java
 public void preOrder()
