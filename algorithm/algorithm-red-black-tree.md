@@ -1,6 +1,19 @@
 # 红黑树
 
-## 引理：一棵有 n 个内部结点的红黑树的高度至多为 2lg(n+1)
+## 性质
+1. 每个结点或是红色的，或是黑色的。
+1. 根结点是黑色的。
+1. 每个叶结点（NIL）是黑色的。
+1. 如果一个结点是红色的，则它的两个子结点都是黑色的。
+1. 对每个结点，从该结点到其所有后代叶结点的简单路径上，均包含相同数目的黑色结点。
+
+## 概念
+黑高
+```
+从某个结点 x 出发（不含该结点）到达一个叶结点的任意一条简单路径上的黑色结点个数称为该结点的黑高，记为 bh(x)。
+```
+
+## 引理：一棵有 n 个内部结点的红黑树的高度至多为 ![](http://latex.codecogs.com/gif.latex?2\log_2(n+1))
 先证明以任一结点 x 为根的子树中至少包含 ![](http://latex.codecogs.com/gif.latex?2^{bh(x)}-1) 个内部结点。  
 
 考虑一个高度为正值且有两个子结点的内部结点 x，每个子结点有黑高 bh(x) 或 bh(x) - 1。
@@ -9,10 +22,10 @@
 
 于是，以 x 为根的子树至少包含 ![](http://latex.codecogs.com/gif.latex?(2^{bh(x)-1}-1)+(2^{bh(x)-1}-1)+1=2^{bh(x)}-1) 个内部结点，得证。  
 
-设 h 为树的高度，根的黑高至少为 h/2。  
+设 h 为树的高度，根据性质 4，从根到叶结点（不包括根结点）的任何一条简单路径上都至少有一半的结点为黑色，因此，根的黑高至少为 h/2。  
 
 于是有 ![](http://latex.codecogs.com/gif.latex?n\geq2^{h/2}-1)  
 
-把1移到不等式的左边，再对两边取对数，得到 ![](http://latex.codecogs.com/gif.latex?lg(n+1)\geq{h/2})  
+把 1 移到不等式的左边，再对两边取对数，得到 ![](http://latex.codecogs.com/gif.latex?\log_2(n+1)\geq{h/2})  
 
-即 ![](http://latex.codecogs.com/gif.latex?h\leq2lg(n+1))
+即 ![](http://latex.codecogs.com/gif.latex?h\leq2\log_2(n+1))
