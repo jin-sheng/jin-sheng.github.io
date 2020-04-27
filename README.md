@@ -39,6 +39,7 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
 ### Algorithm
 [Binary Search](https://jin-sheng.github.io/algorithm/algorithm-binary-search)  
 [Binary Tree](https://jin-sheng.github.io/algorithm/algorithm-binary-tree)  
+[Red Black Tree](https://jin-sheng.github.io/algorithm/algorithm-red-black-tree)
 
 ### Computer
 [Binary](https://jin-sheng.github.io/computer/binary)  
