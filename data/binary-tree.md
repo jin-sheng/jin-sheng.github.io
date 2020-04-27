@@ -30,8 +30,9 @@ public class BinaryNode<E>
 ```
 
 ## 遍历
-先根次序
+先序遍历
 ```java
+// 访问根接点，遍历左子树，遍历右子树
 public void preOrder(BinaryNode<E> node)
 {
     // print node
@@ -40,8 +41,9 @@ public void preOrder(BinaryNode<E> node)
 }
 ```
 
-中跟次序
+中序遍历
 ```java
+// 遍历左子树，访问根接点，遍历右子树
 public void inOrder(BinaryNode<E> node)
 {
     inOrder(node.left);
@@ -49,12 +51,22 @@ public void inOrder(BinaryNode<E> node)
     inOrder(node.right);
 }
 ```
-后跟次序
+后序遍历
 ```java
+// 遍历左子树，遍历右子树，访问根接点
 public void postOrder(BinaryNode<E> node)
 {
     postOrder(node.left);
     postOrder(node.right);
+    // print node
+}
+```
+
+层次遍历
+```java
+// 从根节点开始，逐层深入，从左至右依次访问完当前层的所有结点，再访问下一层。
+public void levelOrder(BinaryNode<E> node)
+{
     // print node
 }
 ```
