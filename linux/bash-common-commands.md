@@ -59,7 +59,7 @@ $ ls */*.xml
 $ ls */*/*.xml
 ```
 
-# 变量
+## 变量
 显示所有环境变量
 ```shell
 $ env
@@ -73,6 +73,27 @@ $ echo $PATH
 创建变量
 ```shell
 $ custom="hello world"
+```
+
+## 算数运算
+位运算
+```shell
+$ echo $((16>>2))
+$ echo $((16>>2))
+$ echo $((17&3))
+$ echo $((17|3))
+$ echo $((17^3))
+```
+
+逻辑运算
+```shell
+$ echo $(( (3 > 2) || (4 <= 1) ))
+$ echo $((3<1 ? 1 : 0))
+```
+
+expr 命令
+```shell
+$ expr 3 + 2
 ```
 
 # 快捷键
