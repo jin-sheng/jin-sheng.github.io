@@ -4,6 +4,7 @@
 ||APR|Apache Portable Run-time libraries|Apache 可移植运行库||
 |B|||||
 ||BCD|Binary Coded Decimal|二进制化十进制数||
+||BSD|Binary Search Tree|二叉排序树||
 |C|||||
 ||CA|Certificate Authority|证书颁发机构||
 ||CSR|Certificate Signing Request|证书请求文件||
