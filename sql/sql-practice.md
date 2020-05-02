@@ -17,3 +17,7 @@ select * from order where desc like '%...'
 -- 可优化为非前导模糊查询
 select * from order where desc like '...%'
 ```
+
+
+# 参考
+[或许你不知道的12条SQL技巧](https://mp.weixin.qq.com/s/AwAEJVWtYfiy79jXGC7olA)  
