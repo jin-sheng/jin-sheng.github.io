@@ -73,7 +73,7 @@ public static void main(String[] args) throws Exception
 }
 ```
 
-注册 url 协议
+注册 url 协议处理器
 ```java
 JarFile.registerUrlProtocolHandler();
 ```
