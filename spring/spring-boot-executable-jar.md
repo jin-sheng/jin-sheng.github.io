@@ -8,6 +8,7 @@ pom.xml
         <plugin>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-maven-plugin</artifactId>
+            <version>2.2.6.RELEASE</version>
         </plugin>
     </plugins>
 </build>
@@ -61,6 +62,30 @@ Start-Class: com.example.demo.DemoApplication
 Spring-Boot-Version: 2.2.6.RELEASE
 Spring-Boot-Classes: BOOT-INF/classes/
 Spring-Boot-Lib: BOOT-INF/li
+```
+
+java 命令从 MANIFEST.MF 文件中读取 Main-Class 并执行其 main 方法
+
+```java
+public static void main(String[] args) throws Exception
+{
+    new JarLauncher().launch(args);
+}
+```
+
+注册 url 协议
+```java
+JarFile.registerUrlProtocolHandler();
+```
+
+获取 jar 包文件并创建类加载器
+```java
+ClassLoader classLoader = createClassLoader(getClassPathArchives());
+```
+
+从 MANIFEST.MF 文件中读取 Start-Class 并执行其 main 方法
+```java
+launch(args, getMainClass(), classLoader);
 ```
 
 ## 参考
