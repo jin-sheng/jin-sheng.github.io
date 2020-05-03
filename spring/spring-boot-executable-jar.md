@@ -89,4 +89,4 @@ launch(args, getMainClass(), classLoader);
 ```
 
 ## 参考
-[为什么SpringBoot的 jar 可以直接运行？](https://mp.weixin.qq.com/s?__biz=MzA4NjgxMjQ5Mg==&mid=2665763886&idx=1&sn=70a5ec87f91aa00709925b9d267838f4)  
+[为什么 SpringBoot 的 jar 可以直接运行？](https://mp.weixin.qq.com/s?__biz=MzA4NjgxMjQ5Mg==&mid=2665763886&idx=1&sn=70a5ec87f91aa00709925b9d267838f4)  
