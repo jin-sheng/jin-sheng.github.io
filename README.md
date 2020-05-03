@@ -69,6 +69,7 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
 
 ### Spring
 [Spring Boot Starter](https://jin-sheng.github.io/spring/spring-boot-starter)  
+[Spring Boot Executable Jar](https://jin-sheng.github.io/spring/spring-boot-executable-jar)  
 
 ### SQL
 [SQL Practice](https://jin-sheng.github.io/sql/sql-practice) 
