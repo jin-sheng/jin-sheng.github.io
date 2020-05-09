@@ -76,6 +76,7 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
 [SQL Practice](https://jin-sheng.github.io/sql/sql-practice) 
 
 ### Lost found
-[Using docker to quickly deploy Dianping CAT (Windows Environment)](https://jin-sheng.github.io/lost-found/dianping-cat)  
+[Git common commands(Git Bash)](https://jin-sheng.github.io/lost-found/git-common-commands)  
 [Maven](https://jin-sheng.github.io/lost-found/maven)  
-[Git common commands(Git Bash)](https://jin-sheng.github.io/lost-found/git-common-commands)
+[Regular Expression](https://jin-sheng.github.io/lost-found/regular-expression)  
+[Using docker to quickly deploy Dianping CAT (Windows Environment)](https://jin-sheng.github.io/lost-found/dianping-cat)  
