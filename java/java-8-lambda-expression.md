@@ -46,18 +46,26 @@ public class Main
 
 ## 常用
 
+启动一个线程
+```java
+new Thread(
+    () -> System.out.println("Hello world")
+).start();
+```
+
 Person 列表按照主键 id 分组
 ```java
-List<Person> list = Lists.newArrayList();
-...
-Map<String, Person> map = list.stream().collect(Collectors.toMap(Person::getId, Function.identity))
+Map<String, Person> map = personList.stream().collect(Collectors.toMap(Person::getId, Function.identity));
 ```
 
 Person 列表按照年龄 age 分组
 ```java
-List<Person> list = Lists.newArrayList();
-...
-Map<Integer, List<Person>> map = list.stream().collect(Collectors.groupingBy(Person::getAge))
+Map<Integer, List<Person>> map = personList.stream().collect(Collectors.groupingBy(Person::getAge));
+```
+
+打印所有 Person 的 name
+```java
+personList..forEach(person -> System.out.println(person.getName()));
 ```
 
 ## 参考
