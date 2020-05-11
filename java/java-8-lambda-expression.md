@@ -44,6 +44,13 @@ public class Main
 }
 ```
 
+## Consumer 接口
+
+```java
+Consumer<String> c = System.out::println;
+c.accept("Hello world");
+```
+
 ## 常用
 
 启动一个线程
@@ -51,6 +58,16 @@ public class Main
 new Thread(
     () -> System.out.println("Hello world")
 ).start();
+```
+
+打印所有 Person 的 name
+```java
+personList.forEach(person -> System.out.println(person.getName()));
+```
+
+打印所有 Person 的 name 到一行上
+```java
+System.out.println(personList.stream().map(Person::getName).collect(Collectors.joining(", ")))
 ```
 
 Person 列表按照主键 id 分组
@@ -63,9 +80,12 @@ Person 列表按照年龄 age 分组
 Map<Integer, List<Person>> map = personList.stream().collect(Collectors.groupingBy(Person::getAge));
 ```
 
-打印所有 Person 的 name
+过滤出年龄大于30岁的男性列表
 ```java
-personList..forEach(person -> System.out.println(person.getName()));
+personList = personList.stream()
+                       .filter(person -> person.age > 30)
+                       .filter(person -> person.gender = "MAN")
+                       .collect(Collectors.toList());
 ```
 
 求平方
@@ -77,8 +97,17 @@ list.stream().map((x) -> x * x).forEach(System.out::println);
 求平方和
 ```java
 List<Integer> list = Arrays.asList(1, 2, 3, 4, 5, 6, 7);
-int sum = list.stream().map(x -> x * x).reduce((x, y) -> x + y).get();
-System.out.println(sum);
+System.out.println(list.stream().map(x -> x * x).reduce(Integer::sum).get());
+```
+
+计算集合元素的最大值、最小值、总和以及平均值
+```java
+List<Integer> primes = Arrays.asList(2, 3, 5, 7, 11, 13, 17, 19, 23, 29);
+IntSummaryStatistics statistics = primes.stream().mapToInt((x) -> x).summaryStatistics();
+System.out.println("Max : " + statistics.getMax());
+System.out.println("Min : " + statistics.getMin());
+System.out.println("Sum : " + statistics.getSum());
+System.out.println("Average : " + statistics.getAverage());
 ```
 
 ## 参考
