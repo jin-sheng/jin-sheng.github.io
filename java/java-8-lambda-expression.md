@@ -88,6 +88,12 @@ personList = personList.stream()
                        .collect(Collectors.toList());
 ```
 
+Person 列表按照name、age升序排序
+```java
+personList.sort(Comparator.comparing(Person::getName).
+				thenComparing(Person::getAge));
+```
+
 求平方
 ```java
 List<Integer> list = Arrays.asList(1, 2, 3, 4, 5, 6, 7);
