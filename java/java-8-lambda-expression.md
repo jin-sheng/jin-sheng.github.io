@@ -90,8 +90,7 @@ personList = personList.stream()
 
 Person 列表按照name、age升序排序
 ```java
-personList.sort(Comparator.comparing(Person::getName).
-				thenComparing(Person::getAge));
+personList.sort(Comparator.comparing(Person::getName).thenComparing(Person::getAge));
 ```
 
 求平方
