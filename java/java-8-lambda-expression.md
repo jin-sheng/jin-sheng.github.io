@@ -1,6 +1,11 @@
 # Java 8 Lambda 表达式
 
-## 不需要声明参数类型
+## 语法
+```
+(argument) -> (body)
+```
+
+## 函数式接口
 
 Person.java
 ```java
