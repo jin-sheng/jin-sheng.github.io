@@ -68,5 +68,18 @@ Map<Integer, List<Person>> map = personList.stream().collect(Collectors.grouping
 personList..forEach(person -> System.out.println(person.getName()));
 ```
 
+求平方
+```java
+List<Integer> list = Arrays.asList(1, 2, 3, 4, 5, 6, 7);
+list.stream().map((x) -> x * x).forEach(System.out::println);
+```
+
+求平方和
+```java
+List<Integer> list = Arrays.asList(1, 2, 3, 4, 5, 6, 7);
+int sum = list.stream().map(x -> x * x).reduce((x, y) -> x + y).get();
+System.out.println(sum);
+```
+
 ## 参考
 [Java 8 Lambda 表达式](https://www.runoob.com/java/java8-lambda-expressions.html)  
