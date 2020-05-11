@@ -63,7 +63,8 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
 
 ### Linux
 [Crontab](https://jin-sheng.github.io/linux/crontab)  
-[Bash common commands](https://jin-sheng.github.io/linux/bash-common-commands)
+[Bash common commands](https://jin-sheng.github.io/linux/bash-common-commands)  
+[Installing and uninstalling JDK on Linux](https://jin-sheng.github.io/linux/installing-and-uninstalling-jdk)  
 
 ### RPC
 [Apache Dubbo](https://jin-sheng.github.io/rpc/apache-dubbo)
