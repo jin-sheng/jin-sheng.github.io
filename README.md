@@ -62,9 +62,10 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
 [JVM Garbage Collection](https://jin-sheng.github.io/java/jvm/jvm-garbage-collection)  
 
 ### Linux
-[Crontab](https://jin-sheng.github.io/linux/crontab)  
 [Bash common commands](https://jin-sheng.github.io/linux/bash-common-commands)  
+[Crontab](https://jin-sheng.github.io/linux/crontab)  
 [Installing and uninstalling JDK on Linux](https://jin-sheng.github.io/linux/installing-and-uninstalling-jdk)  
+[Share Directory](https://jin-sheng.github.io/linux/share-directory)  
 
 ### RPC
 [Apache Dubbo](https://jin-sheng.github.io/rpc/apache-dubbo)
