@@ -32,7 +32,7 @@
 
 通过 yum 的方式在线安装 autofs 服务
 ```shell
-# yum -y install autofs showmount
+# yum -y install autofs
 ```
 
 检查 nfs 服务器的共享，是否给本服务器开放了权限
