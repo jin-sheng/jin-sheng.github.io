@@ -139,6 +139,13 @@ $ git config --global user.email
 $ git config --global user.email 'xxx@xxx.xxx'
 ```
 
+将分支名 master_old 改为 master_new
+```shell
+$ git branch -m master_old master_new
+$ git push origin --delete master_old
+$ git push -u origin master_new
+```
+
 # 参考
 [Git-Book](https://git-scm.com/book/zh/v2)  
 [git 简明指南](https://www.runoob.com/manual/git-guide/)  
