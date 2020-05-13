@@ -81,6 +81,7 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
 [SQL Practice](https://jin-sheng.github.io/sql/sql-practice) 
 
 ### Lost found
+[Abbreviation](https://jin-sheng.github.io/lost-found/abbreviation)  
 [Git common commands(Git Bash)](https://jin-sheng.github.io/lost-found/git-common-commands)  
 [Maven](https://jin-sheng.github.io/lost-found/maven)  
 [Regular Expression](https://jin-sheng.github.io/lost-found/regular-expression)  
