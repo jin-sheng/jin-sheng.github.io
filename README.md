@@ -67,6 +67,9 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
 [Installing and uninstalling JDK on Linux](https://jin-sheng.github.io/linux/installing-and-uninstalling-jdk)  
 [Share Directory](https://jin-sheng.github.io/linux/share-directory)  
 
+### MQ
+[Queue](https://jin-sheng.github.io/mq/queue)  
+
 ### RPC
 [Apache Dubbo](https://jin-sheng.github.io/rpc/apache-dubbo)
 
