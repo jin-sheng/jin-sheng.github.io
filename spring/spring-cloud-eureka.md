@@ -1,15 +1,6 @@
-# Spring Cloud
+# 服务发现组件 Eureka
 
-## 服务监控组件 Actuator
-```xml
-<dependency>
-    <groupId>org.springframework.boot</groupId>
-    <artifactId>spring-boot-starter-actuator</artifactId>
-</dependency>
-```
-
-## 服务发现组件 Eureka
-### Eureka Server
+## Eureka Server
 pom.xml
 ```xml
 <dependency>
@@ -18,7 +9,7 @@ pom.xml
 </dependency>
 ```
 
-### 将微服务注册到 Eureka Server 上
+## 将微服务注册到 Eureka Server 上
 pom.xml
 ```xml
 <dependency>
@@ -53,7 +44,7 @@ public class Application
 }
 ```
 
-### Eureka Server 集群
+## Eureka Server 集群
 /etc/hosts
 ```hosts
 127.0.0.1 peer1 peer2
@@ -95,7 +86,7 @@ $ java -jar spring-cloud-sample-0.0.1-SNAPSHOT --spring.profiles.active=peer1
 $ java -jar spring-cloud-sample-0.0.1-SNAPSHOT --spring.profiles.active=peer2
 ```
 
-### 将微服务注册到 Eureka Server 集群上
+## 将微服务注册到 Eureka Server 集群上
 
 application.yml
 ```yml
@@ -105,7 +96,7 @@ eureka:
       defaultZone: http://peer1:8761/eureka/,http://peer2:8762/eureka/
 ```
 
-### 需认证的 Eureka Server
+## 需认证的 Eureka Server
 
 pom.xml
 ```xml
@@ -125,7 +116,7 @@ security:
     password: password123       # 配置登录的密码是password123
 ```
 
-### 将微服务注册到需认证的 Eureka Server 集群上
+## 将微服务注册到需认证的 Eureka Server 集群上
 
 application.yml
 ```yml
