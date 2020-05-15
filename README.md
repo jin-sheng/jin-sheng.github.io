@@ -76,6 +76,8 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
 ### Spring
 [Spring Boot Starter](https://jin-sheng.github.io/spring/spring-boot-starter)  
 [Spring Boot Executable Jar](https://jin-sheng.github.io/spring/spring-boot-executable-jar)  
+[Spring Cloud Actuator](https://jin-sheng.github.io/spring/spring-cloud-actuator)  
+[Spring Cloud Eureka](https://jin-sheng.github.io/spring/spring-cloud-eureka)  
 
 ### SQL
 [SQL Practice](https://jin-sheng.github.io/sql/sql-practice) 
