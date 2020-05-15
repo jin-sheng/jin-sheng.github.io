@@ -154,9 +154,14 @@ eureka:
 $ cat ./rest-api-test.xml | curl -v -X POST -H "Content-type: application/xml" -d @- http://localhost:8761/eureka/apps/rest-api-test
 ```
 
-查看微服务 rest-api-test 的所有实例
+查看微服务 rest-api-test 实例
 ```url
 http://localhost:8761/eureka/apps/rest-api-test
+```
+
+注销微服务 rest-api-test 实例
+```shell
+$ curl -v -X DELETE http://localhost:8761/eureka/apps/rest-api-test/spring-cloud-sample:rest-api-test:9000
 ```
 
 ## 参考
