@@ -164,5 +164,49 @@ http://localhost:8761/eureka/apps/rest-api-test
 $ curl -v -X DELETE http://localhost:8761/eureka/apps/rest-api-test/spring-cloud-sample:rest-api-test:9000
 ```
 
+## 多网卡环境下的 IP 选择
+
+忽略 docker0 网卡以及所有以 veth 开头的网卡
+```yml
+spring:
+  cloud:
+    inetutils:
+      ignored-interfaces:
+        - docker0
+        - veth.*
+eureka:
+  instance:
+    prefer-ip-address: true
+```
+
+使用正则表达式指定使用的网络地址
+```yml
+spring:
+  cloud:
+    inetutils:
+      preferredNetworks:
+        - 192.168
+        - 10.0
+```
+
+只使用站点本地地址
+```yml
+spring:
+  cloud:
+    inetutils:
+      useOnlySiteLocalInterfaces: true
+eureka:
+  instance:
+    prefer-ip-address: true
+```
+
+手动指定 IP 地址
+```yml
+eureka:
+  instance:
+    prefer-ip-address: true
+    ip-address: 127.0.0.1
+``
+
 ## 参考
 [Spring Cloud 与 Docker 微服务架构实战](https://github.com/itmuch/spring-cloud-docker-microservice-book-code)  
