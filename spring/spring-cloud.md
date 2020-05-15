@@ -42,11 +42,11 @@ Application.java
 ```java
 @EnableDiscoveryClient
 @SpringBootApplication
-public class ProviderUserApplication
+public class Application
 {
     public static void main(String[] args)
     {
-        SpringApplication.run(ProviderUserApplication.class, args);
+        SpringApplication.run(Application.class, args);
     }
 }
 ```
