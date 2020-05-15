@@ -52,4 +52,4 @@ public class Application
 ```
 
 ## 参考
-[Spring Cloud 与 Docker 微服务架构实战]()  
+[Spring Cloud 与 Docker 微服务架构实战](https://github.com/itmuch/spring-cloud-docker-microservice-book-code)  
