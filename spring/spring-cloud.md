@@ -29,7 +29,9 @@ pom.xml
 
 application.yml
 ```yml
-...
+spring:
+  application:
+    name: spring-cloud-sample
 eureka:
   client:
     serviceUrl:
@@ -49,6 +51,58 @@ public class Application
         SpringApplication.run(Application.class, args);
     }
 }
+```
+
+### Eureka Server 集群
+/etc/hosts
+```hosts
+127.0.0.1 peer1 peer2
+```
+
+application.yml
+```yml
+spring:
+  application:
+    name: spring-cloud-sample
+---
+spring:
+  profiles: peer1                                 # 指定profile=peer1
+server:
+  port: 8761
+eureka:
+  instance:
+    hostname: peer1                               # 指定当profile=peer1时，主机名是peer1
+  client:
+    serviceUrl:
+      defaultZone: http://peer2:8762/eureka/      # 将自己注册到peer2这个Eureka上面去
+
+---
+spring:
+  profiles: peer2
+server:
+  port: 8762
+eureka:
+  instance:
+    hostname: peer2
+  client:
+    serviceUrl:
+      defaultZone: http://peer1:8761/eureka/
+```
+
+启动
+```shell
+$ java -jar spring-cloud-sample-0.0.1-SNAPSHOT --spring.profiles.active=peer1
+$ java -jar spring-cloud-sample-0.0.1-SNAPSHOT --spring.profiles.active=peer2
+```
+
+### 将微服务注册到 Eureka Server 集群上
+
+application.yml
+```yml
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://peer1:8761/eureka/,http://peer2:8762/eureka/
 ```
 
 ## 参考
