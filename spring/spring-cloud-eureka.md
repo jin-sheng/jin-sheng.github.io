@@ -126,5 +126,38 @@ eureka:
       defaultZone: http://user:password123@localhost:8761/eureka/
 ```
 
+## 使用 REST 端点将微服务注册到 Eureka Server 上
+
+符合 XSD 的 XML 文件 rest-api-test.xml
+```xml
+<instance>
+    <instanceId>spring-cloud-sample:rest-api-test:9000</instanceId>
+    <hostName>itmuch</hostName>
+    <app>REST-API-TEST</app>
+    <ipAddr>127.0.0.1</ipAddr>
+    <vipAddress>rest-api-test</vipAddress>
+    <secureVipAddress>rest-api-test</secureVipAddress>
+    <status>UP</status>
+    <port enabled="true">9000</port>
+    <securePort enabled="false">443</securePort>
+    <homePageUrl>http://127.0.0.1:9000/</homePageUrl>
+    <statusPageUrl>http://127.0.0.1:9000/info</statusPageUrl>
+    <healthCheckUrl>http://127.0.0.1:9000/health</healthCheckUrl>
+    <dataCenterInfo class="com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo">
+        <name>spring-cloud-sample</name>
+    </dataCenterInfo>
+</instance>
+```
+
+使用 curl 命令
+```shell
+$ cat ./rest-api-test.xml | curl -v -X POST -H "Content-type: application/xml" -d @- http://localhost:8761/eureka/apps/rest-api-test
+```
+
+查看微服务 rest-api-test 的所有实例
+```url
+http://localhost:8761/eureka/apps/rest-api-test
+```
+
 ## 参考
 [Spring Cloud 与 Docker 微服务架构实战](https://github.com/itmuch/spring-cloud-docker-microservice-book-code)  
