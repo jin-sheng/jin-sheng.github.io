@@ -105,5 +105,35 @@ eureka:
       defaultZone: http://peer1:8761/eureka/,http://peer2:8762/eureka/
 ```
 
+### 需认证的 Eureka Server
+
+pom.xml
+```xml
+<dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-security</artifactId>
+</dependency>
+```
+
+application.yml
+```yml
+security:
+  basic:
+    enabled: true               # 开启基于HTTP basic的认证
+  user:
+    name: user                  # 配置登录的账号是user
+    password: password123       # 配置登录的密码是password123
+```
+
+### 将微服务注册到需认证的 Eureka Server 集群上
+
+application.yml
+```yml
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://user:password123@localhost:8761/eureka/
+```
+
 ## 参考
 [Spring Cloud 与 Docker 微服务架构实战](https://github.com/itmuch/spring-cloud-docker-microservice-book-code)  
