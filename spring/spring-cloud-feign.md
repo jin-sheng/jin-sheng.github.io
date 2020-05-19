@@ -9,7 +9,7 @@ pom.xml
 </dependency>
 ```
 
-FeignClient.java
+UserFeignClient.java
 ```java
 import org.springframework.cloud.netflix.feign.FeignClient;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -17,10 +17,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
 @FeignClient(name = "客户端名称")
-public interface FeignClient
+public interface UserFeignClient
 {
     @RequestMapping(value = "/{id}", method = RequestMethod.GET)
-    public Object findById(@PathVariable("id") Long id);
+    public User findById(@PathVariable("id") Long id);
 }
 ```
 
@@ -30,12 +30,12 @@ Controller.java
 public class Controller
 {
     @Autowired
-    private FeignClient feignClient;
+    private UserFeignClient userFeignClient;
 
     @GetMapping("/{id}")
-    public Object findById(@PathVariable Long id)
+    public User findById(@PathVariable Long id)
     {
-        return this.feignClient.findById(id);
+        return this.userFeignClient.findById(id);
     }
 }
 ```
@@ -78,7 +78,7 @@ public class FeignConfiguration
 }
 ```
 
-FeignClient.java
+UserFeignClient.java
 ```java
 import org.springframework.cloud.netflix.feign.FeignClient;
 
@@ -86,10 +86,10 @@ import feign.Param;
 import feign.RequestLine;
 
 @FeignClient(name = "客户端名称", configuration = FeignConfiguration.class)
-public interface FeignClient
+public interface UserFeignClient
 {
     @RequestLine("GET /{id}")
-    public Object findById(@Param("id") Long id);
+    public User findById(@Param("id") Long id);
 }
 ```
 
