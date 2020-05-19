@@ -92,3 +92,56 @@ public interface FeignClient
     public Object findById(@Param("id") Long id);
 }
 ```
+
+## Feign 对压缩的支持
+对请求或响应进行压缩
+```application.properties
+feign.compression.request.enabled=true
+```
+
+对响应进行压缩
+```application.properties
+feign.compression.response.enabled=true
+```
+
+设置支持的媒体类型列表
+```application.properties
+feign.compression.request.mime-types=text/xml,application/xml,application/json
+```
+
+设置请求的最小阈值
+```application.properties
+feign.compression.request.min-request-size=2048
+```
+
+## 使用 Feign 构造多参数请求
+
+GET 请求多参数方法一
+```java
+@FeignClient(name = "客户端名称")
+public interface UserFeignClient
+{
+    @RequestMapping(value = "/get", method = RequestMethod.GET)
+    public User get(@RequestParam("id") Long id, @RequestParam("username") String username);
+}
+```
+
+GET 请求多参数方法二
+```java
+@FeignClient(name = "客户端名称")
+public interface UserFeignClient
+{
+    @RequestMapping(value = "/get", method = RequestMethod.GET)
+    public User get(@RequestParam Map<String, Object> map);
+}
+```
+
+POST 请求多参数
+```java
+@FeignClient(name = "客户端名称")
+public interface UserFeignClient
+{
+    @RequestMapping(value = "/post", method = RequestMethod.POST)
+    public User post(@RequestBody User user);
+}
+```
