@@ -31,4 +31,9 @@ public class Application
 @HystrixCommand 注解
 ```java
 @HystrixCommand(fallbackMethod = "xxx")
+@GetMapping("/user/{id}")
+public User findById(@PathVariable Long id)
+{
+    ...
+}
 ```
