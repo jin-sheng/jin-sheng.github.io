@@ -128,3 +128,58 @@ turbine:
   appConfig: 微服务1,微服务2
   clusterNameExpression: "'default'"
 ```
+
+## 使用 RabbitMQ 收集数据
+改造微服务 pom.xml
+```xml
+<dependency>
+    <groupId>org.springframework.cloud</groupId>
+    <artifactId>spring-cloud-netflix-hystrix-stream</artifactId>
+</dependency>
+<dependency>
+    <groupId>org.springframework.cloud</groupId>
+    <artifactId>spring-cloud-starter-stream-rabbit</artifactId>
+</dependency>
+```
+
+改造微服务 application.yml
+```yml
+spring:
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+```
+
+改造 Turbine pom.xml
+```xml
+<dependency>
+    <groupId>org.springframework.cloud</groupId>
+    <artifactId>spring-cloud-starter-turbine-stream</artifactId>
+</dependency>
+<dependency>
+    <groupId>org.springframework.cloud</groupId>
+    <artifactId>spring-cloud-starter-stream-rabbit</artifactId>
+</dependency>
+<!--
+<dependency>
+    <groupId>org.springframework.cloud</groupId>
+    <artifactId>spring-cloud-starter-turbine</artifactId>
+</dependency>
+-->
+```
+
+改造 Turbine application.yml
+```yml
+spring:
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+    
+# turbine:
+#   appConfig: 微服务1,微服务2
+#   clusterNameExpression: "'default'"
+```
