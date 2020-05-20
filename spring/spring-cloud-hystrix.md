@@ -5,6 +5,10 @@ pom.xml
 ```xml
 <dependency>
     <groupId>org.springframework.cloud</groupId>
+    <artifactId>spring-cloud-starter-actuator</artifactId>
+</dependency>
+<dependency>
+    <groupId>org.springframework.cloud</groupId>
     <artifactId>spring-cloud-starter-hystrix</artifactId>
 </dependency>
 ```
