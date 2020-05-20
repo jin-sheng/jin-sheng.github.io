@@ -43,7 +43,43 @@ public User findById(@PathVariable Long id)
 ```
 
 ## 指定隔离策略（默认THREAD）
-application.properties
 ```properties
 execution.isolation.strategy=SEMAPHORE
+```
+
+## 全局禁用 Hystrix
+```properties
+feign.hystrix.enabled=false
+```
+
+## 使用 Hystrix Dashboard 可视化监控数据
+pom.xml
+```xml
+<dependency>
+    <groupId>org.springframework.cloud</groupId>
+    <artifactId>spring-cloud-starter-netflix-hystrix-dashboard</artifactId>
+</dependency>
+```
+
+Application.java
+```java
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.netflix.hystrix.dashboard.EnableHystrixDashboard;
+
+@SpringBootApplication
+@EnableHystrixDashboard
+public class HystrixDashboardApplication
+{
+    public static void main(String[] args)
+    {
+        SpringApplication.run(HystrixDashboardApplication.class, args);
+    }
+}
+```
+
+application.yml
+```yml
+server:
+  port: 8030
 ```
