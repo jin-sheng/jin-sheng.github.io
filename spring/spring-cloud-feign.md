@@ -32,7 +32,7 @@ public class Controller
     @Autowired
     private UserFeignClient userFeignClient;
 
-    @GetMapping("/{id}")
+    @GetMapping("/user/{id}")
     public User findById(@PathVariable Long id)
     {
         return this.userFeignClient.findById(id);
