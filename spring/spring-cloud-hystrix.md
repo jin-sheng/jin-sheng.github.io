@@ -41,3 +41,9 @@ public User findById(@PathVariable Long id)
     ...
 }
 ```
+
+## 指定隔离策略（默认THREAD）
+application.properties
+```properties
+execution.isolation.strategy=SEMAPHORE
+```
