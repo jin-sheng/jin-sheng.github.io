@@ -82,6 +82,7 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
 [Spring Cloud Eureka](https://jin-sheng.github.io/spring/spring-cloud-eureka)  
 [Spring Cloud Hystrix](https://jin-sheng.github.io/spring/spring-cloud-hystrix)  
 [Spring Cloud Ribbon](https://jin-sheng.github.io/spring/spring-cloud-ribbon)  
+[Spring Cloud Zuul](https://jin-sheng.github.io/spring/spring-cloud-zuul)  
 
 ### SQL
 [SQL Practice](https://jin-sheng.github.io/sql/sql-practice) 
