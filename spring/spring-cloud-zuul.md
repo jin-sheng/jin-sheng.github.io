@@ -82,3 +82,52 @@ zuul:
   routes:
     微服务名称: /user/**
 ```
+
+## 自定义过滤器
+CustomZuulFilter.java
+```java
+import com.netflix.zuul.ZuulFilter;
+import org.springframework.cloud.netflix.zuul.filters.support.FilterConstants;
+
+public class CustomZuulFilter extends ZuulFilter
+{
+    @Override
+    public String filterType()
+    {
+        return FilterConstants.PRE_TYPE;
+    }
+
+    @Override
+    public int filterOrder()
+    {
+        return FilterConstants.PRE_DECORATION_FILTER_ORDER - 1;
+    }
+
+    @Override
+    public boolean shouldFilter()
+    {
+        return true;
+    }
+
+    @Override
+    public Object run()
+    {
+        // ...
+        return null;
+    }
+}
+```
+
+定义 Bean
+```java
+@Bean
+public CustomZuulFilter customZuulFilter()
+{
+    return new CustomZuulFilter();
+}
+```
+
+禁用 CustomZuulFilter 过滤器
+```properties
+zuul.CustomZuulFilter.pre.disable=true
+```
