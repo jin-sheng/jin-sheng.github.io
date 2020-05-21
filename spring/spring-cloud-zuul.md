@@ -52,3 +52,33 @@ eureka:
     service-url:
       defaultZone: http://localhost:8761/eureka/
 ```
+
+## Zuul 路由配置
+将微服务映射到 /user/** 路径
+```yml
+zuul:
+  routes:
+    微服务名称: /user/**
+```
+
+忽略指定微服务
+```yml
+zuul:
+  ignored-services: 微服务1,微服务2
+```
+
+忽略所有微服务，只路由指定微服务
+```yml
+zuul:
+  ignored-services: '*'
+  routes:
+    微服务名称: /user/**
+```
+
+将微服务映射到 /user/** 路径，但忽略该微服务中所有包含 /admin/ 的路径
+```yml
+zuul:
+  ignoredPatterns: /**/admin/**
+  routes:
+    微服务名称: /user/**
+```
