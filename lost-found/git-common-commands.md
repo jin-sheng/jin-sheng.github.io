@@ -146,6 +146,16 @@ $ git push origin --delete master_old
 $ git push -u origin master_new
 ```
 
+查看未合并到 master 的分支
+```shell
+$ git branch --no-merged master
+```
+
+查找包含 becd81c9 这次提交的分支列表
+```shell
+$ git branch --contains becd81c9
+```
+
 # 参考
 [Git-Book](https://git-scm.com/book/zh/v2)  
 [git 简明指南](https://www.runoob.com/manual/git-guide/)  
