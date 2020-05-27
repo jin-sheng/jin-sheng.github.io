@@ -91,5 +91,6 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
 [Abbreviation](https://jin-sheng.github.io/lost-found/abbreviation)  
 [Git common commands(Git Bash)](https://jin-sheng.github.io/lost-found/git-common-commands)  
 [Maven](https://jin-sheng.github.io/lost-found/maven)  
+[Maven common commands](https://jin-sheng.github.io/lost-found/maven-common-commands)  
 [Regular Expression](https://jin-sheng.github.io/lost-found/regular-expression)  
 [Using docker to quickly deploy Dianping CAT (Windows Environment)](https://jin-sheng.github.io/lost-found/dianping-cat)  
