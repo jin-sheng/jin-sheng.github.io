@@ -107,6 +107,7 @@ spring:
 ## 使用 /refresh 端点手动刷新配置
 
 pom.xml
+```xml
 <dependency>
     <groupId>org.springframework.boot</groupId>
     <artifactId>spring-boot-starter-actuator</artifactId>
