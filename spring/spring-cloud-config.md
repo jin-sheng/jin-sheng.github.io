@@ -128,3 +128,33 @@ public class Controller
 ```shell
 $ curl -X POST http://localhost:8081/refresh
 ```
+
+## 用户认证
+
+Config Server 端 pom.xml
+```xml
+<dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-security</artifactId>
+</dependency>
+```
+
+Config Server 端 application.yml
+```yml
+security:
+  basic:
+    enabled: true
+  user:
+    name: admin
+    password: 123456
+```
+
+Config Client 端 application.yml
+```yml
+spring:
+  cloud:
+    config:
+      uri: http://localhost:8080/
+      username: admin
+      password: 123456
+```
