@@ -91,6 +91,7 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
 ### Lost found
 [Abbreviation](https://jin-sheng.github.io/lost-found/abbreviation)  
 [Git common commands(Git Bash)](https://jin-sheng.github.io/lost-found/git-common-commands)  
+[IntelliJ IDEA](https://jin-sheng.github.io/lost-found/intellij-idea)  
 [Maven](https://jin-sheng.github.io/lost-found/maven)  
 [Maven common commands](https://jin-sheng.github.io/lost-found/maven-common-commands)  
 [Regular Expression](https://jin-sheng.github.io/lost-found/regular-expression)  
