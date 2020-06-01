@@ -103,3 +103,27 @@ spring:
       profile: dev
       label: master
 ```
+
+## 使用 /refresh 端点手动刷新配置
+
+pom.xml
+<dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-actuator</artifactId>
+</dependency>
+```
+
+Controller.java
+```java
+@RestController
+@RefreshScope
+public class Controller
+{
+    ...
+}
+```
+
+发送 POST 请求
+```shell
+$ curl -X POST http://localhost:8081/refresh
+```
