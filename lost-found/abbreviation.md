@@ -8,6 +8,7 @@
 |C|||||
 ||CA|Certificate Authority|证书颁发机构||
 ||CSR|Certificate Signing Request|证书请求文件||
+||CSRF|Cross-site request forgery|跨站请求伪造||
 |D|||||
 |E|||||
 |F|||||
