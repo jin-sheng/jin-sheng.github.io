@@ -78,6 +78,7 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
 [Spring Boot Executable Jar](https://jin-sheng.github.io/spring/spring-boot-executable-jar)  
 
 ### Spring Cloud
+[Spring Cloud Application Context Services](https://jin-sheng.github.io/spring/spring-cloud-application-context-services)  
 [Spring Cloud Actuator](https://jin-sheng.github.io/spring/spring-cloud-actuator)  
 [Spring Cloud Eureka](https://jin-sheng.github.io/spring/spring-cloud-eureka)  
 [Spring Cloud Hystrix](https://jin-sheng.github.io/spring/spring-cloud-hystrix)  
