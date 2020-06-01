@@ -20,6 +20,9 @@
 |Ctrl + Home|跳到文件头|
 |Ctrl + Delete|删除光标后面的单词或是中文句|
 |Ctrl + Backspace|删除光标前面的单词或是中文句|
-|Shift + Shift|弹出 Search Everywhere 弹出层|
+
 |Alt + `|显示版本控制常用操作菜单弹出层|
 |Alt + Q|显示当前类的声明/上下文信息|
+
+
+|Shift + Shift|弹出 Search Everywhere 弹出层|
