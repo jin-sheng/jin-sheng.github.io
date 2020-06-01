@@ -38,7 +38,7 @@ spring:
     config:
       server:
         git:
-          uri:                                                              # 配置Git仓库的地址
-          username:                                                         # Git仓库的账号
-          password:                                                         # Git仓库的密码
+          uri: Git仓库的地址
+          username: Git仓库的账号
+          password: Git仓库的密码
 ```
