@@ -30,6 +30,7 @@
 |Shift + Enter|光标所在行下空出一行，光标定位到新行位置|
 |Shift + 左键单击|在打开的文件名上按此快捷键，可以关闭当前打开文件|
 |Shift + 滚轮前后滚动|当前文件的横向滚动轴滚动|
+|Shift + Shift|弹出 Search Everywhere 弹出层|
 |Ctrl + Alt + O|优化导入的类，可以对当前文件和整个包目录使用|
 |Ctrl + Alt + T|对选中的代码弹出环绕选项弹出层|
 |Ctrl + Alt + S|打开 IntelliJ IDEA 系统设置|
@@ -49,7 +50,6 @@
 |Ctrl + Shift + Alt + V|无格式黏贴|
 |Ctrl + Shift + Alt + S|打开当前项目设置|
 |Ctrl + Shift + Alt + C|复制参考信息|
-|Shift + Shift|弹出 Search Everywhere 弹出层|
 
 ## 参考
 [你们要的Windows IDEA 快捷键终极大全，速度收藏！](https://mp.weixin.qq.com/s?__biz=MzA4NjgxMjQ5Mg==&mid=2665764290&idx=2&sn=6f1a24e362aa90f1877f2d5e70521512)  
