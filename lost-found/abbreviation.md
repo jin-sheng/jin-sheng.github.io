@@ -39,6 +39,7 @@
 ||RMI|Remote Method Invocation|远程方法调用||
 ||RPC|Remote Procedure Call|远程过程调用||
 |S|||||
+||SSRF|Server-Side Request Forgery|服务器端请求伪造||
 |T|||||
 |U|||||
 |V|||||
