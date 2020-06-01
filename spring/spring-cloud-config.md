@@ -48,6 +48,10 @@ Git 仓库中创建配置文件
 spring-cloud-sample-dev.properties
 ```
 
+禁用健康状况指示器
+```properties
+spring.cloud.config.server.health.enabled=false
+```
 
 ## Config Client
 
