@@ -7,6 +7,7 @@
 ||BSD|Binary Search Tree|二叉排序树||
 |C|||||
 ||CA|Certificate Authority|证书颁发机构||
+||CORS|Cross-origin resource sharing|跨域资源共享||
 ||CSR|Certificate Signing Request|证书请求文件||
 ||CSRF|Cross-site request forgery|跨站请求伪造||
 |D|||||
