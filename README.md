@@ -60,6 +60,7 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
 [Java 8 Lambda Expression](https://jin-sheng.github.io/java/java-8-lambda-expression)  
 [JNDI](https://jin-sheng.github.io/java/jndi)  
 [JVM Garbage Collection](https://jin-sheng.github.io/java/jvm/jvm-garbage-collection)  
+[Serializable and Deserialize](https://jin-sheng.github.io/java/serializable-and-deserialize)  
 
 ### Linux
 [Bash common commands](https://jin-sheng.github.io/linux/bash-common-commands)  
