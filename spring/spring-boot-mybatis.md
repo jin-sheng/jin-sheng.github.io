@@ -1,0 +1,162 @@
+# Spring Boot 集成 MyBatis
+
+建库建表
+```sql
+CREATE DATABASE demo CHARACTER SET utf8 COLLATE utf8_general_ci;
+CREATE TABLE USER ( 
+  id int(11) not null AUTO_INCREMENT,
+  name varchar(20) not null,
+  age smallint not null,
+  PRIMARY KEY (id) 
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+```
+
+pom.xml
+```xml
+<dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-web</artifactId>
+</dependency>
+
+<dependency>
+    <groupId>org.mybatis.spring.boot</groupId>
+    <artifactId>mybatis-spring-boot-starter</artifactId>
+    <version>2.1.3</version>
+</dependency>
+
+<dependency>
+    <groupId>mysql</groupId>
+    <artifactId>mysql-connector-java</artifactId>
+    <scope>runtime</scope>
+</dependency>
+```
+
+application.properties
+```properties
+spring.datasource.url=jdbc:mysql://127.0.0.1:3306/demo?useUnicode=true&characterEncoding=UTF-8
+spring.datasource.username=root
+spring.datasource.password=root
+spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+```
+
+User.java
+```java
+public class User
+{
+    private Long id;
+    private String name;
+    private Integer age;
+
+    public Long getId()
+    {
+        return id;
+    }
+
+    public void setId(Long id)
+    {
+        this.id = id;
+    }
+
+    public String getName()
+    {
+        return name;
+    }
+
+    public void setName(String name)
+    {
+        this.name = name;
+    }
+
+    public Integer getAge()
+    {
+        return age;
+    }
+
+    public void setAge(Integer age)
+    {
+        this.age = age;
+    }
+}
+```
+
+UserMapper.java
+```java
+@Mapper
+public interface UserMapper
+{
+    @Insert("insert into user(name,age) values(#{name},#{age})")
+    @Options(useGeneratedKeys = true, keyColumn = "id", keyProperty = "id")
+    Long insert(User user);
+
+    @Update("update user set name=#{name},age=#{age} where id=#{id}")
+    Long update(User user);
+
+    @Delete("delete from user where id=#{id}")
+    Long delete(@Param("id") Long id);
+
+    @Select("select id,name,age from user")
+    List<User> selectAll();
+
+    @Select("select id,name,age from user where id=#{id}")
+    User selectById(@Param("id") Long id);
+}
+```
+
+UserController.java
+```java
+@RestController
+public class UserController
+{
+    @Autowired
+    private UserMapper userMapper;
+
+    @GetMapping("/save")
+    public Long save(@RequestParam String name, @RequestParam int age)
+    {
+        User user = new User();
+        user.setName(name);
+        user.setAge(age);
+        userMapper.insert(user);
+        return user.getId();
+    }
+
+    @GetMapping("/update/{id}")
+    public Long update(@PathVariable Long id, @RequestParam String name, @RequestParam int age)
+    {
+        User user = new User();
+        user.setId(id);
+        user.setName(name);
+        user.setAge(age);
+        return userMapper.update(user);
+    }
+
+    @GetMapping("/delete/{id}")
+    public Long save(@PathVariable Long id)
+    {
+        return userMapper.delete(id);
+    }
+
+    @GetMapping("/list")
+    public List<User> list()
+    {
+        return userMapper.selectAll();
+    }
+
+    @GetMapping("/get/{id}")
+    public User get(@PathVariable Long id)
+    {
+        return userMapper.selectById(id);
+    }
+}
+```
+
+DemoApplication.java
+```java@SpringBootApplication
+public class DemoApplication
+{
+    public static void main(String[] args)
+    {
+        SpringApplication.run(DemoApplication.class, args);
+    }
+}
+```
