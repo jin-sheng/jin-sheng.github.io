@@ -64,7 +64,7 @@ $ sudo docker build -t custom:dockerfile .
 ## 容器
 新建一个容器
 ```
-$ sudo docker create -it ubuntuL:latest
+$ sudo docker create -it ubuntu:latest
 ```
 
 启动一个 bash 终端
