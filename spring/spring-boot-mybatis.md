@@ -160,3 +160,6 @@ public class DemoApplication
     }
 }
 ```
+
+## 参考
+[Spring Boot + MyBatis + MySQL 整合](https://www.jianshu.com/p/c2444ddd2de9)  
