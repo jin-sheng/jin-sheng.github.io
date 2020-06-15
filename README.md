@@ -75,8 +75,9 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
 [Apache Dubbo](https://jin-sheng.github.io/rpc/apache-dubbo)
 
 ### Spring Boot
-[Spring Boot Starter](https://jin-sheng.github.io/spring/spring-boot-starter)  
 [Spring Boot Executable Jar](https://jin-sheng.github.io/spring/spring-boot-executable-jar)  
+[Spring Boot MyBatis](https://jin-sheng.github.io/spring/spring-boot-mybatis)  
+[Spring Boot Starter](https://jin-sheng.github.io/spring/spring-boot-starter)  
 
 ### Spring Cloud
 [Spring Cloud Application Context Services](https://jin-sheng.github.io/spring/spring-cloud-application-context-services)  
