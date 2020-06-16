@@ -104,48 +104,80 @@ public interface UserMapper
 
 UserController.java
 ```java
+import com.example.demo.entity.User;
+import com.example.demo.mapper.UserMapper;
+import org.apache.ibatis.session.SqlSession;
+import org.apache.ibatis.session.SqlSessionFactory;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.RestController;
+
+import java.util.List;
+
 @RestController
 public class UserController
 {
     @Autowired
-    private UserMapper userMapper;
+    private SqlSessionFactory sqlSessionFactory;
 
     @GetMapping("/save")
     public Long save(@RequestParam String name, @RequestParam int age)
     {
-        User user = new User();
-        user.setName(name);
-        user.setAge(age);
-        userMapper.insert(user);
-        return user.getId();
+        try (SqlSession session = sqlSessionFactory.openSession())
+        {
+            UserMapper userMapper = session.getMapper(UserMapper.class);
+            User user = new User();
+            user.setName(name);
+            user.setAge(age);
+            userMapper.insert(user);
+            return user.getId();
+        }
     }
 
     @GetMapping("/update/{id}")
     public Long update(@PathVariable Long id, @RequestParam String name, @RequestParam int age)
     {
-        User user = new User();
-        user.setId(id);
-        user.setName(name);
-        user.setAge(age);
-        return userMapper.update(user);
+        try (SqlSession session = sqlSessionFactory.openSession())
+        {
+            UserMapper userMapper = session.getMapper(UserMapper.class);
+            User user = new User();
+            user.setId(id);
+            user.setName(name);
+            user.setAge(age);
+            return userMapper.update(user);
+        }
     }
 
     @GetMapping("/delete/{id}")
     public Long save(@PathVariable Long id)
     {
-        return userMapper.delete(id);
+        try (SqlSession session = sqlSessionFactory.openSession())
+        {
+            UserMapper userMapper = session.getMapper(UserMapper.class);
+            return userMapper.delete(id);
+        }
     }
 
     @GetMapping("/list")
     public List<User> list()
     {
-        return userMapper.selectAll();
+        try (SqlSession session = sqlSessionFactory.openSession())
+        {
+            UserMapper userMapper = session.getMapper(UserMapper.class);
+            return userMapper.selectAll();
+        }
     }
 
     @GetMapping("/get/{id}")
     public User get(@PathVariable Long id)
     {
-        return userMapper.selectById(id);
+        try (SqlSession session = sqlSessionFactory.openSession())
+        {
+            UserMapper userMapper = session.getMapper(UserMapper.class);
+            return userMapper.selectById(id);
+        }
     }
 }
 ```
