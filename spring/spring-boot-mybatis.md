@@ -2,7 +2,7 @@
 
 建库建表
 ```sql
-CREATE DATABASE demo CHARACTER SET utf8 COLLATE utf8_general_ci;
+CREATE DATABASE mybatis CHARACTER SET utf8 COLLATE utf8_general_ci;
 CREATE TABLE USER ( 
   id int(11) not null AUTO_INCREMENT,
   name varchar(20) not null,
@@ -33,7 +33,7 @@ pom.xml
 
 application.properties
 ```properties
-spring.datasource.url=jdbc:mysql://127.0.0.1:3306/demo?useUnicode=true&characterEncoding=UTF-8
+spring.datasource.url=jdbc:mysql://127.0.0.1:3306/mybatis?useUnicode=true&characterEncoding=UTF-8
 spring.datasource.username=root
 spring.datasource.password=root
 spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
