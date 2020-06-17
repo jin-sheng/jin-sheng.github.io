@@ -3,7 +3,8 @@
 建库建表
 ```sql
 CREATE DATABASE mybatis CHARACTER SET utf8 COLLATE utf8_general_ci;
-CREATE TABLE USER ( 
+USE mybatis;
+CREATE TABLE user ( 
   id int(11) not null AUTO_INCREMENT,
   name varchar(20) not null,
   age smallint not null,
