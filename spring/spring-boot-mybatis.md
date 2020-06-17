@@ -81,6 +81,9 @@ public class User
 
 UserMapper.java
 ```java
+import org.apache.ibatis.annotations.*;
+import java.util.List;
+
 @Mapper
 public interface UserMapper
 {
@@ -104,8 +107,6 @@ public interface UserMapper
 
 UserController.java
 ```java
-import com.example.demo.entity.User;
-import com.example.demo.mapper.UserMapper;
 import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -182,17 +183,17 @@ public class UserController
 }
 ```
 
-DemoApplication.java
+Application.java
 ```java
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class DemoApplication
+public class Application
 {
     public static void main(String[] args)
     {
-        SpringApplication.run(DemoApplication.class, args);
+        SpringApplication.run(Application.class, args);
     }
 }
 ```
