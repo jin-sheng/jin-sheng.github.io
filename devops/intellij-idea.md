@@ -51,5 +51,21 @@
 |Ctrl + Shift + Alt + S|打开当前项目设置|
 |Ctrl + Shift + Alt + C|复制参考信息|
 
+## Live Templates
+Stream
+```java
+// .toList
+.collect(Collectors.toList())
+
+// .toSet
+.collect(Collectors.toSet())
+
+// .join
+.collect(Collectors.joining(""))
+
+// .groupBy
+.collect(Collectors.groupingBy())
+```
+
 ## 参考
 [你们要的Windows IDEA 快捷键终极大全，速度收藏！](https://mp.weixin.qq.com/s?__biz=MzA4NjgxMjQ5Mg==&mid=2665764290&idx=2&sn=6f1a24e362aa90f1877f2d5e70521512)  
