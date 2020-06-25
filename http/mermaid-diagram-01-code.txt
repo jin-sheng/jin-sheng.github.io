@@ -1,0 +1,13 @@
+sequenceDiagram
+  用户->>浏览器: 首次访问 https://www.baidu.com
+  浏览器->>服务器: 发送请求
+  服务器->>服务器: 创建 Session
+  服务器-->>浏览器: 返回 SessionID
+  浏览器->>浏览器: 将 SessionID 存入 Cookie 
+	用户->>浏览器: 再次访问 https://www.baidu.com
+  浏览器->>浏览器: 判断是否存在 Cookie
+  浏览器->>服务器: 发送请求并附带 Cookie
+  服务器->>服务器: 从 Cookie 中获取 SessionID
+  服务器->>服务器: 根据 SessionID 获取 Session
+  服务器-->>浏览器: 返回信息
+  浏览器-->>用户: 返回信息
