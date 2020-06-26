@@ -97,7 +97,7 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
 [Spring Cloud Zuul](https://jin-sheng.github.io/spring/spring-cloud-zuul)  
 
 ### SQL
-[Redis Common Commands](https://jin-sheng.github.io/sql/redis-common-commmands)  
+[Redis Common Commands](https://jin-sheng.github.io/sql/redis-common-commands)  
 [SQL Practice](https://jin-sheng.github.io/sql/sql-practice)  
 
 ### Lost found
