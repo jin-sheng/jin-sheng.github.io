@@ -49,10 +49,10 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
 [Binary Tree](https://jin-sheng.github.io/data/data-binary-tree)  
 
 ### DevOps
-[Git common commands(Git Bash)](https://jin-sheng.github.io/lost-found/git-common-commands)  
-[IntelliJ IDEA](https://jin-sheng.github.io/lost-found/intellij-idea)  
-[Maven](https://jin-sheng.github.io/lost-found/maven)  
-[Maven common commands](https://jin-sheng.github.io/lost-found/maven-common-commands)  
+[Git common commands(Git Bash)](https://jin-sheng.github.io/devops/git-common-commands)  
+[IntelliJ IDEA](https://jin-sheng.github.io/devops/intellij-idea)  
+[Maven](https://jin-sheng.github.io/devops/maven)  
+[Maven common commands](https://jin-sheng.github.io/devops/maven-common-commands)  
 
 ### Docker
 [Docker common commands](https://jin-sheng.github.io/docker/docker-common-commands)
@@ -97,7 +97,8 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
 [Spring Cloud Zuul](https://jin-sheng.github.io/spring/spring-cloud-zuul)  
 
 ### SQL
-[SQL Practice](https://jin-sheng.github.io/sql/sql-practice) 
+[Redis Common Commands](https://jin-sheng.github.io/sql/redis-common-commmands)  
+[SQL Practice](https://jin-sheng.github.io/sql/sql-practice)  
 
 ### Lost found
 [Abbreviation](https://jin-sheng.github.io/lost-found/abbreviation)  
