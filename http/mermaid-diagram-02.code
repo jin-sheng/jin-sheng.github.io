@@ -1,0 +1,16 @@
+sequenceDiagram
+	客户端->>服务端: 发送 Client Hello 报文，通知服务端开始 SSL 通信
+	服务端-->>客户端: 发送 Server Hello 报文
+	服务端->>客户端: 发送 Certificate 报文，报文中包含公开密钥证书
+	服务端->>客户端: 发送 Server Hello Done报文，通知客户端最初阶段的 SSL 握手协商部分结束
+	客户端->>客户端: 使用公开密钥加密 Client Key Exchange 报文
+	客户端->>服务端: 发送加密后的 Client Key Exchange 报文，报文中包含 Pre-Master Secret 密钥
+	客户端->>服务端: 发送 Change Cipher Spec 报文，通知客户端之后的通信会采用 Pre-Master Secret 密钥加密
+	客户端->>服务端: 发送 Finished 报文，报文中包含连接至今全部报文的整体校验值
+	服务端->>服务端: 解密报文
+	服务端->>客户端: 发送 Change Cipher Spec 报文
+	服务端->>客户端: 发送 Finished 报文
+	客户端->>服务端: 发送 HTTP 请求
+	服务端-->>客户端: 发送 HTTP 响应
+	客户端->>服务端: 发送 close_notify 报文，断开连接
+	客户端->>服务端: 发送 TCP FIN 报文，关闭与 TCP 的通信
