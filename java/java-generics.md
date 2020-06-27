@@ -1,12 +1,15 @@
 # Java 泛型
 
 ## 什么是泛型
-能够让代码不拘泥于具体的类型，而是应用于多种类型。
+泛型即代码泛化，能够让代码不拘泥于具体的类型，而是应用于多种类型。
+
+## 何时使用泛型
+当你希望代码能够跨越多个类工作时，使用泛型才有所帮助。
 
 ## 如何使用泛型
 泛型接口
 ```java
-public interface DemoService<T>
+public interface Service<T>
 {
     ...
 }
@@ -14,7 +17,7 @@ public interface DemoService<T>
 
 泛型类
 ```java
-public class DemoServiceImpl<T> extends DemoService<T>
+public abstract class AbstractServiceImpl<T> implements Service<T>
 {
     ...
 }
@@ -70,6 +73,5 @@ list.add("123");
 String s = list.get(0); // 不用强制类型转换
 ```
 
-
-
-## 泛型擦除
+## 为什么要擦除泛型
+为了允许非泛型代码与泛型代码共存，使向着泛型的迁移成为可能。
