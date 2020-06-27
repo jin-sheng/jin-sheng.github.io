@@ -1,0 +1,563 @@
+<svg id="mermaid-1593253644900" width="100%" xmlns="http://www.w3.org/2000/svg" height="100%" style="max-width:1323.765625px;" viewBox="-50 -10 1323.765625 826"><style>
+
+
+
+#mermaid-1593253644900 .label {
+  font-family: 'trebuchet ms', verdana, arial;
+  font-family: var(--mermaid-font-family);
+  color: #333; }
+
+#mermaid-1593253644900 .label text {
+  fill: #333; }
+
+#mermaid-1593253644900 .node rect,
+#mermaid-1593253644900 .node circle,
+#mermaid-1593253644900 .node ellipse,
+#mermaid-1593253644900 .node polygon,
+#mermaid-1593253644900 .node path {
+  fill: #ECECFF;
+  stroke: #9370DB;
+  stroke-width: 1px; }
+
+#mermaid-1593253644900 .node .label {
+  text-align: center; }
+
+#mermaid-1593253644900 .node.clickable {
+  cursor: pointer; }
+
+#mermaid-1593253644900 .arrowheadPath {
+  fill: #333333; }
+
+#mermaid-1593253644900 .edgePath .path {
+  stroke: #333333;
+  stroke-width: 1.5px; }
+
+#mermaid-1593253644900 .edgeLabel {
+  background-color: #e8e8e8;
+  text-align: center; }
+#mermaid-1593253644900   .edgeLabel rect {
+    opacity: 0.5; }
+
+#mermaid-1593253644900 .cluster rect {
+  fill: #ffffde;
+  stroke: #aaaa33;
+  stroke-width: 1px; }
+
+#mermaid-1593253644900 .cluster text {
+  fill: #333; }
+
+#mermaid-1593253644900 div.mermaidTooltip {
+  position: absolute;
+  text-align: center;
+  max-width: 200px;
+  padding: 2px;
+  font-family: 'trebuchet ms', verdana, arial;
+  font-family: var(--mermaid-font-family);
+  font-size: 12px;
+  background: #ffffde;
+  border: 1px solid #aaaa33;
+  border-radius: 2px;
+  pointer-events: none;
+  z-index: 100; }
+
+#mermaid-1593253644900 .actor {
+  stroke: #CCCCFF;
+  fill: #ECECFF; }
+
+#mermaid-1593253644900 text.actor {
+  fill: black;
+  stroke: none; }
+
+#mermaid-1593253644900 .actor-line {
+  stroke: grey; }
+
+#mermaid-1593253644900 .messageLine0 {
+  stroke-width: 1.5;
+  stroke-dasharray: '2 2';
+  stroke: #333; }
+
+#mermaid-1593253644900 .messageLine1 {
+  stroke-width: 1.5;
+  stroke-dasharray: '2 2';
+  stroke: #333; }
+
+#mermaid-1593253644900 #arrowhead {
+  fill: #333; }
+
+#mermaid-1593253644900 .sequenceNumber {
+  fill: white; }
+
+#mermaid-1593253644900 #sequencenumber {
+  fill: #333; }
+
+#mermaid-1593253644900 #crosshead path {
+  fill: #333 !important;
+  stroke: #333 !important; }
+
+#mermaid-1593253644900 .messageText {
+  fill: #333;
+  stroke: none; }
+
+#mermaid-1593253644900 .labelBox {
+  stroke: #CCCCFF;
+  fill: #ECECFF; }
+
+#mermaid-1593253644900 .labelText {
+  fill: black;
+  stroke: none; }
+
+#mermaid-1593253644900 .loopText {
+  fill: black;
+  stroke: none; }
+
+#mermaid-1593253644900 .loopLine {
+  stroke-width: 2;
+  stroke-dasharray: '2 2';
+  stroke: #CCCCFF; }
+
+#mermaid-1593253644900 .note {
+  stroke: #aaaa33;
+  fill: #fff5ad; }
+
+#mermaid-1593253644900 .noteText {
+  fill: black;
+  stroke: none;
+  font-family: 'trebuchet ms', verdana, arial;
+  font-family: var(--mermaid-font-family);
+  font-size: 14px; }
+
+#mermaid-1593253644900 .activation0 {
+  fill: #f4f4f4;
+  stroke: #666; }
+
+#mermaid-1593253644900 .activation1 {
+  fill: #f4f4f4;
+  stroke: #666; }
+
+#mermaid-1593253644900 .activation2 {
+  fill: #f4f4f4;
+  stroke: #666; }
+
+
+#mermaid-1593253644900 .mermaid-main-font {
+  font-family: "trebuchet ms", verdana, arial;
+  font-family: var(--mermaid-font-family); }
+
+#mermaid-1593253644900 .section {
+  stroke: none;
+  opacity: 0.2; }
+
+#mermaid-1593253644900 .section0 {
+  fill: rgba(102, 102, 255, 0.49); }
+
+#mermaid-1593253644900 .section2 {
+  fill: #fff400; }
+
+#mermaid-1593253644900 .section1,
+#mermaid-1593253644900 .section3 {
+  fill: white;
+  opacity: 0.2; }
+
+#mermaid-1593253644900 .sectionTitle0 {
+  fill: #333; }
+
+#mermaid-1593253644900 .sectionTitle1 {
+  fill: #333; }
+
+#mermaid-1593253644900 .sectionTitle2 {
+  fill: #333; }
+
+#mermaid-1593253644900 .sectionTitle3 {
+  fill: #333; }
+
+#mermaid-1593253644900 .sectionTitle {
+  text-anchor: start;
+  font-size: 11px;
+  text-height: 14px;
+  font-family: 'trebuchet ms', verdana, arial;
+  font-family: var(--mermaid-font-family); }
+
+
+#mermaid-1593253644900 .grid .tick {
+  stroke: lightgrey;
+  opacity: 0.8;
+  shape-rendering: crispEdges; }
+#mermaid-1593253644900   .grid .tick text {
+    font-family: 'trebuchet ms', verdana, arial;
+    font-family: var(--mermaid-font-family); }
+
+#mermaid-1593253644900 .grid path {
+  stroke-width: 0; }
+
+
+#mermaid-1593253644900 .today {
+  fill: none;
+  stroke: red;
+  stroke-width: 2px; }
+
+
+
+#mermaid-1593253644900 .task {
+  stroke-width: 2; }
+
+#mermaid-1593253644900 .taskText {
+  text-anchor: middle;
+  font-family: 'trebuchet ms', verdana, arial;
+  font-family: var(--mermaid-font-family); }
+
+#mermaid-1593253644900 .taskText:not([font-size]) {
+  font-size: 11px; }
+
+#mermaid-1593253644900 .taskTextOutsideRight {
+  fill: black;
+  text-anchor: start;
+  font-size: 11px;
+  font-family: 'trebuchet ms', verdana, arial;
+  font-family: var(--mermaid-font-family); }
+
+#mermaid-1593253644900 .taskTextOutsideLeft {
+  fill: black;
+  text-anchor: end;
+  font-size: 11px; }
+
+
+#mermaid-1593253644900 .task.clickable {
+  cursor: pointer; }
+
+#mermaid-1593253644900 .taskText.clickable {
+  cursor: pointer;
+  fill: #003163 !important;
+  font-weight: bold; }
+
+#mermaid-1593253644900 .taskTextOutsideLeft.clickable {
+  cursor: pointer;
+  fill: #003163 !important;
+  font-weight: bold; }
+
+#mermaid-1593253644900 .taskTextOutsideRight.clickable {
+  cursor: pointer;
+  fill: #003163 !important;
+  font-weight: bold; }
+
+
+#mermaid-1593253644900 .taskText0,
+#mermaid-1593253644900 .taskText1,
+#mermaid-1593253644900 .taskText2,
+#mermaid-1593253644900 .taskText3 {
+  fill: white; }
+
+#mermaid-1593253644900 .task0,
+#mermaid-1593253644900 .task1,
+#mermaid-1593253644900 .task2,
+#mermaid-1593253644900 .task3 {
+  fill: #8a90dd;
+  stroke: #534fbc; }
+
+#mermaid-1593253644900 .taskTextOutside0,
+#mermaid-1593253644900 .taskTextOutside2 {
+  fill: black; }
+
+#mermaid-1593253644900 .taskTextOutside1,
+#mermaid-1593253644900 .taskTextOutside3 {
+  fill: black; }
+
+
+#mermaid-1593253644900 .active0,
+#mermaid-1593253644900 .active1,
+#mermaid-1593253644900 .active2,
+#mermaid-1593253644900 .active3 {
+  fill: #bfc7ff;
+  stroke: #534fbc; }
+
+#mermaid-1593253644900 .activeText0,
+#mermaid-1593253644900 .activeText1,
+#mermaid-1593253644900 .activeText2,
+#mermaid-1593253644900 .activeText3 {
+  fill: black !important; }
+
+
+#mermaid-1593253644900 .done0,
+#mermaid-1593253644900 .done1,
+#mermaid-1593253644900 .done2,
+#mermaid-1593253644900 .done3 {
+  stroke: grey;
+  fill: lightgrey;
+  stroke-width: 2; }
+
+#mermaid-1593253644900 .doneText0,
+#mermaid-1593253644900 .doneText1,
+#mermaid-1593253644900 .doneText2,
+#mermaid-1593253644900 .doneText3 {
+  fill: black !important; }
+
+
+#mermaid-1593253644900 .crit0,
+#mermaid-1593253644900 .crit1,
+#mermaid-1593253644900 .crit2,
+#mermaid-1593253644900 .crit3 {
+  stroke: #ff8888;
+  fill: red;
+  stroke-width: 2; }
+
+#mermaid-1593253644900 .activeCrit0,
+#mermaid-1593253644900 .activeCrit1,
+#mermaid-1593253644900 .activeCrit2,
+#mermaid-1593253644900 .activeCrit3 {
+  stroke: #ff8888;
+  fill: #bfc7ff;
+  stroke-width: 2; }
+
+#mermaid-1593253644900 .doneCrit0,
+#mermaid-1593253644900 .doneCrit1,
+#mermaid-1593253644900 .doneCrit2,
+#mermaid-1593253644900 .doneCrit3 {
+  stroke: #ff8888;
+  fill: lightgrey;
+  stroke-width: 2;
+  cursor: pointer;
+  shape-rendering: crispEdges; }
+
+#mermaid-1593253644900 .milestone {
+  transform: rotate(45deg) scale(0.8, 0.8); }
+
+#mermaid-1593253644900 .milestoneText {
+  font-style: italic; }
+
+#mermaid-1593253644900 .doneCritText0,
+#mermaid-1593253644900 .doneCritText1,
+#mermaid-1593253644900 .doneCritText2,
+#mermaid-1593253644900 .doneCritText3 {
+  fill: black !important; }
+
+#mermaid-1593253644900 .activeCritText0,
+#mermaid-1593253644900 .activeCritText1,
+#mermaid-1593253644900 .activeCritText2,
+#mermaid-1593253644900 .activeCritText3 {
+  fill: black !important; }
+
+#mermaid-1593253644900 .titleText {
+  text-anchor: middle;
+  font-size: 18px;
+  fill: black;
+  font-family: 'trebuchet ms', verdana, arial;
+  font-family: var(--mermaid-font-family); }
+
+#mermaid-1593253644900 g.classGroup text {
+  fill: #9370DB;
+  stroke: none;
+  font-family: 'trebuchet ms', verdana, arial;
+  font-family: var(--mermaid-font-family);
+  font-size: 10px; }
+#mermaid-1593253644900   g.classGroup text .title {
+    font-weight: bolder; }
+
+#mermaid-1593253644900 g.clickable {
+  cursor: pointer; }
+
+#mermaid-1593253644900 g.classGroup rect {
+  fill: #ECECFF;
+  stroke: #9370DB; }
+
+#mermaid-1593253644900 g.classGroup line {
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#mermaid-1593253644900 .classLabel .box {
+  stroke: none;
+  stroke-width: 0;
+  fill: #ECECFF;
+  opacity: 0.5; }
+
+#mermaid-1593253644900 .classLabel .label {
+  fill: #9370DB;
+  font-size: 10px; }
+
+#mermaid-1593253644900 .relation {
+  stroke: #9370DB;
+  stroke-width: 1;
+  fill: none; }
+
+#mermaid-1593253644900 .dashed-line {
+  stroke-dasharray: 3; }
+
+#mermaid-1593253644900 #compositionStart {
+  fill: #9370DB;
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#mermaid-1593253644900 #compositionEnd {
+  fill: #9370DB;
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#mermaid-1593253644900 #aggregationStart {
+  fill: #ECECFF;
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#mermaid-1593253644900 #aggregationEnd {
+  fill: #ECECFF;
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#mermaid-1593253644900 #dependencyStart {
+  fill: #9370DB;
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#mermaid-1593253644900 #dependencyEnd {
+  fill: #9370DB;
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#mermaid-1593253644900 #extensionStart {
+  fill: #9370DB;
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#mermaid-1593253644900 #extensionEnd {
+  fill: #9370DB;
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#mermaid-1593253644900 .commit-id,
+#mermaid-1593253644900 .commit-msg,
+#mermaid-1593253644900 .branch-label {
+  fill: lightgrey;
+  color: lightgrey;
+  font-family: 'trebuchet ms', verdana, arial;
+  font-family: var(--mermaid-font-family); }
+
+#mermaid-1593253644900 .pieTitleText {
+  text-anchor: middle;
+  font-size: 25px;
+  fill: black;
+  font-family: 'trebuchet ms', verdana, arial;
+  font-family: var(--mermaid-font-family); }
+
+#mermaid-1593253644900 .slice {
+  font-family: 'trebuchet ms', verdana, arial;
+  font-family: var(--mermaid-font-family); }
+
+#mermaid-1593253644900 g.stateGroup text {
+  fill: #9370DB;
+  stroke: none;
+  font-size: 10px;
+  font-family: 'trebuchet ms', verdana, arial;
+  font-family: var(--mermaid-font-family); }
+
+#mermaid-1593253644900 g.stateGroup text {
+  fill: #9370DB;
+  stroke: none;
+  font-size: 10px; }
+
+#mermaid-1593253644900 g.stateGroup .state-title {
+  font-weight: bolder;
+  fill: black; }
+
+#mermaid-1593253644900 g.stateGroup rect {
+  fill: #ECECFF;
+  stroke: #9370DB; }
+
+#mermaid-1593253644900 g.stateGroup line {
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#mermaid-1593253644900 .transition {
+  stroke: #9370DB;
+  stroke-width: 1;
+  fill: none; }
+
+#mermaid-1593253644900 .stateGroup .composit {
+  fill: white;
+  border-bottom: 1px; }
+
+#mermaid-1593253644900 .stateGroup .alt-composit {
+  fill: #e0e0e0;
+  border-bottom: 1px; }
+
+#mermaid-1593253644900 .state-note {
+  stroke: #aaaa33;
+  fill: #fff5ad; }
+#mermaid-1593253644900   .state-note text {
+    fill: black;
+    stroke: none;
+    font-size: 10px; }
+
+#mermaid-1593253644900 .stateLabel .box {
+  stroke: none;
+  stroke-width: 0;
+  fill: #ECECFF;
+  opacity: 0.5; }
+
+#mermaid-1593253644900 .stateLabel text {
+  fill: black;
+  font-size: 10px;
+  font-weight: bold;
+  font-family: 'trebuchet ms', verdana, arial;
+  font-family: var(--mermaid-font-family); }
+
+#mermaid-1593253644900 .node circle.state-start {
+  fill: black;
+  stroke: black; }
+
+#mermaid-1593253644900 .node circle.state-end {
+  fill: black;
+  stroke: white;
+  stroke-width: 1.5; }
+
+#mermaid-1593253644900 #statediagram-barbEnd {
+  fill: #9370DB; }
+
+#mermaid-1593253644900 .statediagram-cluster rect {
+  fill: #ECECFF;
+  stroke: #9370DB;
+  stroke-width: 1px; }
+
+#mermaid-1593253644900 .statediagram-cluster rect.outer {
+  rx: 5px;
+  ry: 5px; }
+
+#mermaid-1593253644900 .statediagram-state .divider {
+  stroke: #9370DB; }
+
+#mermaid-1593253644900 .statediagram-state .title-state {
+  rx: 5px;
+  ry: 5px; }
+
+#mermaid-1593253644900 .statediagram-cluster.statediagram-cluster .inner {
+  fill: white; }
+
+#mermaid-1593253644900 .statediagram-cluster.statediagram-cluster-alt .inner {
+  fill: #e0e0e0; }
+
+#mermaid-1593253644900 .statediagram-cluster .inner {
+  rx: 0;
+  ry: 0; }
+
+#mermaid-1593253644900 .statediagram-state rect.basic {
+  rx: 5px;
+  ry: 5px; }
+
+#mermaid-1593253644900 .statediagram-state rect.divider {
+  stroke-dasharray: 10,10;
+  fill: #efefef; }
+
+#mermaid-1593253644900 .note-edge {
+  stroke-dasharray: 5; }
+
+#mermaid-1593253644900 .statediagram-note rect {
+  fill: #fff5ad;
+  stroke: #aaaa33;
+  stroke-width: 1px;
+  rx: 0;
+  ry: 0; }
+
+:root {
+  --mermaid-font-family: '"trebuchet ms", verdana, arial';
+  --mermaid-font-family: "Comic Sans MS", "Comic Sans", cursive; }
+
+:root { --mermaid-font-family: "trebuchet ms", verdana, arial;}</style><style>#mermaid-1593253644900 {
+    color: rgb(0, 0, 0);
+    font: 16px "trebuchet ms", verdana, arial;
+  }</style><g></g><g><line id="actor11738" x1="75" y1="5" x2="75" y2="815" class="actor-line" stroke-width="0.5px" stroke="#999"></line><rect x="0" y="0" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="75" y="32.5" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle; font-size: 14px; font-family: Open-Sans, sans-serif;"><tspan x="75" dy="0">用户</tspan></text></g><g><line id="actor11739" x1="375.859375" y1="5" x2="375.859375" y2="815" class="actor-line" stroke-width="0.5px" stroke="#999"></line><rect x="300.859375" y="0" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="375.859375" y="32.5" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle; font-size: 14px; font-family: Open-Sans, sans-serif;"><tspan x="375.859375" dy="0">客户端</tspan></text></g><g><line id="actor11740" x1="1123.765625" y1="5" x2="1123.765625" y2="815" class="actor-line" stroke-width="0.5px" stroke="#999"></line><rect x="1048.765625" y="0" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="1123.765625" y="32.5" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle; font-size: 14px; font-family: Open-Sans, sans-serif;"><tspan x="1123.765625" dy="0">服务端</tspan></text></g><defs><marker id="arrowhead" refX="5" refY="2" markerWidth="6" markerHeight="4" orient="auto"><path d="M 0,0 V 4 L6,2 Z"></path></marker></defs><defs><marker id="crosshead" markerWidth="15" markerHeight="8" orient="auto" refX="16" refY="4"><path fill="black" stroke="#000000" stroke-width="1px" d="M 9,2 V 6 L16,4 Z" style="stroke-dasharray: 0, 0;"></path><path fill="none" stroke="#000000" stroke-width="1px" d="M 0,1 L 6,7 M 6,1 L 0,7" style="stroke-dasharray: 0, 0;"></path></marker></defs><defs><marker id="sequencenumber" refX="15" refY="15" markerWidth="60" markerHeight="40" orient="auto"><circle cx="15" cy="15" r="6"></circle></marker></defs><g><text x="225.4296875" y="93" class="messageText" style="font-size: 16px; font-family: &quot;trebuchet ms&quot;, verdana, arial; text-anchor: middle;">访问 https://www.baidu.com</text><line x1="75" y1="100" x2="375.859375" y2="100" class="messageLine0" stroke-width="2" stroke="black" marker-end="url(#arrowhead)" style="fill: none;"></line></g><g><text x="749.8125" y="128" class="messageText" style="font-size: 16px; font-family: &quot;trebuchet ms&quot;, verdana, arial; text-anchor: middle;">发送 Client Hello 报文，通知服务端开始 SSL 通信</text><line x1="375.859375" y1="135" x2="1123.765625" y2="135" class="messageLine0" stroke-width="2" stroke="black" marker-end="url(#arrowhead)" style="fill: none;"></line></g><g><text x="749.8125" y="163" class="messageText" style="font-size: 16px; font-family: &quot;trebuchet ms&quot;, verdana, arial; text-anchor: middle;">发送 Server Hello 报文</text><line x1="1123.765625" y1="170" x2="375.859375" y2="170" class="messageLine1" stroke-width="2" stroke="black" marker-end="url(#arrowhead)" style="stroke-dasharray: 3, 3; fill: none;"></line></g><g><text x="749.8125" y="198" class="messageText" style="font-size: 16px; font-family: &quot;trebuchet ms&quot;, verdana, arial; text-anchor: middle;">发送 Certificate 报文，报文中包含公开密钥证书</text><line x1="1123.765625" y1="205" x2="375.859375" y2="205" class="messageLine0" stroke-width="2" stroke="black" marker-end="url(#arrowhead)" style="fill: none;"></line></g><g><text x="749.8125" y="233" class="messageText" style="font-size: 16px; font-family: &quot;trebuchet ms&quot;, verdana, arial; text-anchor: middle;">发送 Server Hello Done报文，通知客户端最初阶段的 SSL 握手协商部分结束</text><line x1="1123.765625" y1="240" x2="375.859375" y2="240" class="messageLine0" stroke-width="2" stroke="black" marker-end="url(#arrowhead)" style="fill: none;"></line></g><g><text x="375.859375" y="268" class="messageText" style="font-size: 16px; font-family: &quot;trebuchet ms&quot;, verdana, arial; text-anchor: middle;">使用公开密钥加密 Client Key Exchange 报文</text><path d="M 375.859375,280 C 435.859375,270 435.859375,310 375.859375,300" class="messageLine0" stroke-width="2" stroke="black" marker-end="url(#arrowhead)" style="fill: none;"></path></g><g><text x="749.8125" y="338" class="messageText" style="font-size: 16px; font-family: &quot;trebuchet ms&quot;, verdana, arial; text-anchor: middle;">发送加密后的 Client Key Exchange 报文，报文中包含 Pre-Master Secret 密钥</text><line x1="375.859375" y1="345" x2="1123.765625" y2="345" class="messageLine0" stroke-width="2" stroke="black" marker-end="url(#arrowhead)" style="fill: none;"></line></g><g><text x="749.8125" y="373" class="messageText" style="font-size: 16px; font-family: &quot;trebuchet ms&quot;, verdana, arial; text-anchor: middle;">发送 Change Cipher Spec 报文，通知客户端之后的通信会采用 Pre-Master Secret 密钥加密</text><line x1="375.859375" y1="380" x2="1123.765625" y2="380" class="messageLine0" stroke-width="2" stroke="black" marker-end="url(#arrowhead)" style="fill: none;"></line></g><g><text x="749.8125" y="408" class="messageText" style="font-size: 16px; font-family: &quot;trebuchet ms&quot;, verdana, arial; text-anchor: middle;">发送 Finished 报文，报文中包含连接至今全部报文的整体校验值</text><line x1="375.859375" y1="415" x2="1123.765625" y2="415" class="messageLine0" stroke-width="2" stroke="black" marker-end="url(#arrowhead)" style="fill: none;"></line></g><g><text x="1123.765625" y="443" class="messageText" style="font-size: 16px; font-family: &quot;trebuchet ms&quot;, verdana, arial; text-anchor: middle;">解密报文</text><path d="M 1123.765625,455 C 1183.765625,445 1183.765625,485 1123.765625,475" class="messageLine0" stroke-width="2" stroke="black" marker-end="url(#arrowhead)" style="fill: none;"></path></g><g><text x="749.8125" y="513" class="messageText" style="font-size: 16px; font-family: &quot;trebuchet ms&quot;, verdana, arial; text-anchor: middle;">发送 Change Cipher Spec 报文</text><line x1="1123.765625" y1="520" x2="375.859375" y2="520" class="messageLine0" stroke-width="2" stroke="black" marker-end="url(#arrowhead)" style="fill: none;"></line></g><g><text x="749.8125" y="548" class="messageText" style="font-size: 16px; font-family: &quot;trebuchet ms&quot;, verdana, arial; text-anchor: middle;">发送 Finished 报文</text><line x1="1123.765625" y1="555" x2="375.859375" y2="555" class="messageLine0" stroke-width="2" stroke="black" marker-end="url(#arrowhead)" style="fill: none;"></line></g><g><text x="749.8125" y="583" class="messageText" style="font-size: 16px; font-family: &quot;trebuchet ms&quot;, verdana, arial; text-anchor: middle;">发送 HTTP 请求</text><line x1="375.859375" y1="590" x2="1123.765625" y2="590" class="messageLine0" stroke-width="2" stroke="black" marker-end="url(#arrowhead)" style="fill: none;"></line></g><g><text x="749.8125" y="618" class="messageText" style="font-size: 16px; font-family: &quot;trebuchet ms&quot;, verdana, arial; text-anchor: middle;">发送 HTTP 响应</text><line x1="1123.765625" y1="625" x2="375.859375" y2="625" class="messageLine1" stroke-width="2" stroke="black" marker-end="url(#arrowhead)" style="stroke-dasharray: 3, 3; fill: none;"></line></g><g><text x="749.8125" y="653" class="messageText" style="font-size: 16px; font-family: &quot;trebuchet ms&quot;, verdana, arial; text-anchor: middle;">发送 close_notify 报文，断开连接</text><line x1="375.859375" y1="660" x2="1123.765625" y2="660" class="messageLine0" stroke-width="2" stroke="black" marker-end="url(#arrowhead)" style="fill: none;"></line></g><g><text x="749.8125" y="688" class="messageText" style="font-size: 16px; font-family: &quot;trebuchet ms&quot;, verdana, arial; text-anchor: middle;">发送 TCP FIN 报文，关闭与 TCP 的通信</text><line x1="375.859375" y1="695" x2="1123.765625" y2="695" class="messageLine0" stroke-width="2" stroke="black" marker-end="url(#arrowhead)" style="fill: none;"></line></g><g><text x="225.4296875" y="723" class="messageText" style="font-size: 16px; font-family: &quot;trebuchet ms&quot;, verdana, arial; text-anchor: middle;">返回结果</text><line x1="375.859375" y1="730" x2="75" y2="730" class="messageLine0" stroke-width="2" stroke="black" marker-end="url(#arrowhead)" style="fill: none;"></line></g><g><rect x="0" y="750" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="75" y="782.5" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle; font-size: 14px; font-family: Open-Sans, sans-serif;"><tspan x="75" dy="0">用户</tspan></text></g><g><rect x="300.859375" y="750" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="375.859375" y="782.5" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle; font-size: 14px; font-family: Open-Sans, sans-serif;"><tspan x="375.859375" dy="0">客户端</tspan></text></g><g><rect x="1048.765625" y="750" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="1123.765625" y="782.5" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle; font-size: 14px; font-family: Open-Sans, sans-serif;"><tspan x="1123.765625" dy="0">服务端</tspan></text></g></svg>
