@@ -75,3 +75,6 @@ String s = list.get(0); // 不用强制类型转换
 
 ## 为什么要擦除泛型
 为了允许非泛型代码与泛型代码共存，使向着泛型的迁移成为可能。
+
+## 参考
+[面试官：十问泛型，你能扛住吗？](https://mp.weixin.qq.com/s/4XCXIvT1EfFeB5y4agbNEw)  
