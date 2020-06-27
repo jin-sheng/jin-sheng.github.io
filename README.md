@@ -62,14 +62,16 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
 
 ### I/O
 [I/O system](https://jin-sheng.github.io/io/system)
+[Serializable and Deserialize](https://jin-sheng.github.io/io/serializable-and-deserialize)  
 
 ### Java
 [Class Loader](https://jin-sheng.github.io/java/jvm/class-loader)  
-[Java common tools](https://jin-sheng.github.io/java/java-common-tools)  
 [Java 8 Lambda Expression](https://jin-sheng.github.io/java/java-8-lambda-expression)  
+[Java common tools](https://jin-sheng.github.io/java/java-common-tools)  
+[Java Development Manual.md](https://jin-sheng.github.io/java/java-development-manual)  
+[Java Generics](https://jin-sheng.github.io/java/java-generics)  
 [JNDI](https://jin-sheng.github.io/java/jndi)  
 [JVM Garbage Collection](https://jin-sheng.github.io/java/jvm/jvm-garbage-collection)  
-[Serializable and Deserialize](https://jin-sheng.github.io/java/serializable-and-deserialize)  
 
 ### Linux
 [Bash common commands](https://jin-sheng.github.io/linux/bash-common-commands)  
