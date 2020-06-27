@@ -59,6 +59,7 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
 
 ### HTTP
 [Cookie and Session](https://jin-sheng.github.io/http/cookie-and-session)  
+[HTTP and HTTPS](https://jin-sheng.github.io/http/http-and-https)  
 
 ### I/O
 [I/O system](https://jin-sheng.github.io/io/system)  
