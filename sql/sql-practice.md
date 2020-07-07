@@ -31,14 +31,19 @@ select * from user where username = ...
 
 ## 提高效率
 
+是否存在
+```sql
+SELECT 1 FROM user WHERE username = ... AND password = ... LIMIT 1
+```
+
 查询结果只有一条时，明确告诉数据库，让它主动停止游标移动
 ```sql
-select * from user where username = ... limit 1
+SELECT * FROM USER WHERE username = ... AND password = ... LIMIT 1
 ```
 
 只返回需要的列，节省数据传输量与数据库的内存使用量
 ```sql
-select username,password from user
+SELECT username,password FROM USER
 ```
 
 # 参考
