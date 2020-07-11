@@ -33,6 +33,7 @@
 |M|||||
 ||MESI|Modified Exclusive Shared Or Invalid|CPU 缓存一致性协议||
 ||MRP|Material Requirement Planning|物资需求计划||
+||MRPII|Manufacturing Resources Planning|制造资源计划||
 |N|||||
 |O|||||
 |P|||||
