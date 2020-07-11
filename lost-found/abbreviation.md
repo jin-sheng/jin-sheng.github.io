@@ -50,6 +50,7 @@
 ||RMI|Remote Method Invocation|远程方法调用||
 ||RPC|Remote Procedure Call|远程过程调用||
 |S|||||
+||SCP|Supply Chain Partnership|供应链合作伙伴关系||
 ||SSRF|Server-Side Request Forgery|服务器端请求伪造||
 |T|||||
 ||TQC|Total Quality Control|全面质量管理||
