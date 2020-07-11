@@ -1,6 +1,7 @@
 |字典|英文缩写|英文全称|中文全称|备注|
 |---|---|---|---|---|
 |A|||||
+||AMS|Agile Manufacturing System|敏捷制造系统||
 ||APR|Apache Portable Run-time libraries|Apache 可移植运行库||
 |B|||||
 ||BCD|Binary Coded Decimal|二进制化十进制数||
@@ -11,7 +12,9 @@
 ||CSR|Certificate Signing Request|证书请求文件||
 ||CSRF|Cross-site request forgery|跨站请求伪造||
 |D|||||
+||DRP|Distribution Resource Planning|分销资源计划||
 |E|||||
+||ERP|Enterprise Resource Planning|企业资源计划||
 |F|||||
 ||FIFO|First Input First Output|先进先出队列||
 |G|||||
@@ -22,6 +25,7 @@
 ||IOPS|Input/Output Operations Per Second|磁盘每秒最多可以完成的 I/O 次数||
 |J|||||
 ||JCE|Java Cryptography Extension|Java 加密扩展||
+||JIT|Just In Time|及时生产||
 ||JMX|Java Management Extensions|Java 管理扩展||
 ||JNDI|Java Naming and Directory Interface|Java 命名和目录接口||
 ||JNI|Java Native Interface|Java 本地接口||
@@ -31,12 +35,14 @@
 |L|||||
 ||LRU|Least Recently Used|最近最少使用|页面置换算法|
 |M|||||
+||MES|Manufacturing Execute System|制造执行系统||
 ||MESI|Modified Exclusive Shared Or Invalid|CPU 缓存一致性协议||
 ||MRP|Material Requirement Planning|物资需求计划||
 ||MRPII|Manufacturing Resources Planning|制造资源计划||
 ||EDI|Electronic data interchange|电子数据交换||
 |N|||||
 |O|||||
+||OPT|Optimized Production Technology|优化生产技术||
 |P|||||
 |Q|||||
 ||QPI|Quick Path Interconnect|快速通道互联||
@@ -46,6 +52,7 @@
 |S|||||
 ||SSRF|Server-Side Request Forgery|服务器端请求伪造||
 |T|||||
+||TQC|Total Quality Control|全面质量管理||
 |U|||||
 |V|||||
 |W|||||
