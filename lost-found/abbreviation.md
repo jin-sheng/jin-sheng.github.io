@@ -34,6 +34,7 @@
 ||MESI|Modified Exclusive Shared Or Invalid|CPU 缓存一致性协议||
 ||MRP|Material Requirement Planning|物资需求计划||
 ||MRPII|Manufacturing Resources Planning|制造资源计划||
+||EDI|Electronic data interchange|电子数据交换||
 |N|||||
 |O|||||
 |P|||||
