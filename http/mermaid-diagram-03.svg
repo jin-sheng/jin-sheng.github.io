@@ -1,0 +1,595 @@
+<svg id="mermaid-1594721251207" width="100%" xmlns="http://www.w3.org/2000/svg" height="100%" style="max-width:1604px;" viewBox="-50 -10 1604 877"><style>
+
+
+
+#mermaid-1594721251207 .label {
+  font-family: 'trebuchet ms', verdana, arial;
+  font-family: var(--mermaid-font-family);
+  color: #333; }
+
+#mermaid-1594721251207 .label text {
+  fill: #333; }
+
+#mermaid-1594721251207 .node rect,
+#mermaid-1594721251207 .node circle,
+#mermaid-1594721251207 .node ellipse,
+#mermaid-1594721251207 .node polygon,
+#mermaid-1594721251207 .node path {
+  fill: #ECECFF;
+  stroke: #9370DB;
+  stroke-width: 1px; }
+
+#mermaid-1594721251207 .node .label {
+  text-align: center; }
+
+#mermaid-1594721251207 .node.clickable {
+  cursor: pointer; }
+
+#mermaid-1594721251207 .arrowheadPath {
+  fill: #333333; }
+
+#mermaid-1594721251207 .edgePath .path {
+  stroke: #333333;
+  stroke-width: 1.5px; }
+
+#mermaid-1594721251207 .flowchart-link {
+  stroke: #333333;
+  fill: none; }
+
+#mermaid-1594721251207 .edgeLabel {
+  background-color: #e8e8e8;
+  text-align: center; }
+#mermaid-1594721251207   .edgeLabel rect {
+    opacity: 0.5; }
+
+#mermaid-1594721251207 .cluster rect {
+  fill: #ffffde;
+  stroke: #aaaa33;
+  stroke-width: 1px; }
+
+#mermaid-1594721251207 .cluster text {
+  fill: #333; }
+
+#mermaid-1594721251207 div.mermaidTooltip {
+  position: absolute;
+  text-align: center;
+  max-width: 200px;
+  padding: 2px;
+  font-family: 'trebuchet ms', verdana, arial;
+  font-family: var(--mermaid-font-family);
+  font-size: 12px;
+  background: #ffffde;
+  border: 1px solid #aaaa33;
+  border-radius: 2px;
+  pointer-events: none;
+  z-index: 100; }
+
+#mermaid-1594721251207 .actor {
+  stroke: #CCCCFF;
+  fill: #ECECFF; }
+
+#mermaid-1594721251207 text.actor &gt; tspan {
+  fill: black;
+  stroke: none; }
+
+#mermaid-1594721251207 .actor-line {
+  stroke: grey; }
+
+#mermaid-1594721251207 .messageLine0 {
+  stroke-width: 1.5;
+  stroke-dasharray: none;
+  stroke: #333; }
+
+#mermaid-1594721251207 .messageLine1 {
+  stroke-width: 1.5;
+  stroke-dasharray: 2, 2;
+  stroke: #333; }
+
+#mermaid-1594721251207 #arrowhead path {
+  fill: #333;
+  stroke: #333; }
+
+#mermaid-1594721251207 .sequenceNumber {
+  fill: white; }
+
+#mermaid-1594721251207 #sequencenumber {
+  fill: #333; }
+
+#mermaid-1594721251207 #crosshead path {
+  fill: #333;
+  stroke: #333; }
+
+#mermaid-1594721251207 .messageText {
+  fill: #333;
+  stroke: #333; }
+
+#mermaid-1594721251207 .labelBox {
+  stroke: #CCCCFF;
+  fill: #ECECFF; }
+
+#mermaid-1594721251207 .labelText,#mermaid-1594721251207  .labelText &gt; tspan {
+  fill: black;
+  stroke: none; }
+
+#mermaid-1594721251207 .loopText,#mermaid-1594721251207  .loopText &gt; tspan {
+  fill: black;
+  stroke: none; }
+
+#mermaid-1594721251207 .loopLine {
+  stroke-width: 2px;
+  stroke-dasharray: 2, 2;
+  stroke: #CCCCFF;
+  fill: #CCCCFF; }
+
+#mermaid-1594721251207 .note {
+  stroke: #aaaa33;
+  fill: #fff5ad; }
+
+#mermaid-1594721251207 .noteText,#mermaid-1594721251207  .noteText &gt; tspan {
+  fill: black;
+  stroke: none; }
+
+#mermaid-1594721251207 .activation0 {
+  fill: #f4f4f4;
+  stroke: #666; }
+
+#mermaid-1594721251207 .activation1 {
+  fill: #f4f4f4;
+  stroke: #666; }
+
+#mermaid-1594721251207 .activation2 {
+  fill: #f4f4f4;
+  stroke: #666; }
+
+
+#mermaid-1594721251207 .mermaid-main-font {
+  font-family: "trebuchet ms", verdana, arial;
+  font-family: var(--mermaid-font-family); }
+
+#mermaid-1594721251207 .section {
+  stroke: none;
+  opacity: 0.2; }
+
+#mermaid-1594721251207 .section0 {
+  fill: rgba(102, 102, 255, 0.49); }
+
+#mermaid-1594721251207 .section2 {
+  fill: #fff400; }
+
+#mermaid-1594721251207 .section1,
+#mermaid-1594721251207 .section3 {
+  fill: white;
+  opacity: 0.2; }
+
+#mermaid-1594721251207 .sectionTitle0 {
+  fill: #333; }
+
+#mermaid-1594721251207 .sectionTitle1 {
+  fill: #333; }
+
+#mermaid-1594721251207 .sectionTitle2 {
+  fill: #333; }
+
+#mermaid-1594721251207 .sectionTitle3 {
+  fill: #333; }
+
+#mermaid-1594721251207 .sectionTitle {
+  text-anchor: start;
+  font-size: 11px;
+  text-height: 14px;
+  font-family: 'trebuchet ms', verdana, arial;
+  font-family: var(--mermaid-font-family); }
+
+
+#mermaid-1594721251207 .grid .tick {
+  stroke: lightgrey;
+  opacity: 0.8;
+  shape-rendering: crispEdges; }
+#mermaid-1594721251207   .grid .tick text {
+    font-family: 'trebuchet ms', verdana, arial;
+    font-family: var(--mermaid-font-family); }
+
+#mermaid-1594721251207 .grid path {
+  stroke-width: 0; }
+
+
+#mermaid-1594721251207 .today {
+  fill: none;
+  stroke: red;
+  stroke-width: 2px; }
+
+
+
+#mermaid-1594721251207 .task {
+  stroke-width: 2; }
+
+#mermaid-1594721251207 .taskText {
+  text-anchor: middle;
+  font-family: 'trebuchet ms', verdana, arial;
+  font-family: var(--mermaid-font-family); }
+
+#mermaid-1594721251207 .taskText:not([font-size]) {
+  font-size: 11px; }
+
+#mermaid-1594721251207 .taskTextOutsideRight {
+  fill: black;
+  text-anchor: start;
+  font-size: 11px;
+  font-family: 'trebuchet ms', verdana, arial;
+  font-family: var(--mermaid-font-family); }
+
+#mermaid-1594721251207 .taskTextOutsideLeft {
+  fill: black;
+  text-anchor: end;
+  font-size: 11px; }
+
+
+#mermaid-1594721251207 .task.clickable {
+  cursor: pointer; }
+
+#mermaid-1594721251207 .taskText.clickable {
+  cursor: pointer;
+  fill: #003163 !important;
+  font-weight: bold; }
+
+#mermaid-1594721251207 .taskTextOutsideLeft.clickable {
+  cursor: pointer;
+  fill: #003163 !important;
+  font-weight: bold; }
+
+#mermaid-1594721251207 .taskTextOutsideRight.clickable {
+  cursor: pointer;
+  fill: #003163 !important;
+  font-weight: bold; }
+
+
+#mermaid-1594721251207 .taskText0,
+#mermaid-1594721251207 .taskText1,
+#mermaid-1594721251207 .taskText2,
+#mermaid-1594721251207 .taskText3 {
+  fill: white; }
+
+#mermaid-1594721251207 .task0,
+#mermaid-1594721251207 .task1,
+#mermaid-1594721251207 .task2,
+#mermaid-1594721251207 .task3 {
+  fill: #8a90dd;
+  stroke: #534fbc; }
+
+#mermaid-1594721251207 .taskTextOutside0,
+#mermaid-1594721251207 .taskTextOutside2 {
+  fill: black; }
+
+#mermaid-1594721251207 .taskTextOutside1,
+#mermaid-1594721251207 .taskTextOutside3 {
+  fill: black; }
+
+
+#mermaid-1594721251207 .active0,
+#mermaid-1594721251207 .active1,
+#mermaid-1594721251207 .active2,
+#mermaid-1594721251207 .active3 {
+  fill: #bfc7ff;
+  stroke: #534fbc; }
+
+#mermaid-1594721251207 .activeText0,
+#mermaid-1594721251207 .activeText1,
+#mermaid-1594721251207 .activeText2,
+#mermaid-1594721251207 .activeText3 {
+  fill: black !important; }
+
+
+#mermaid-1594721251207 .done0,
+#mermaid-1594721251207 .done1,
+#mermaid-1594721251207 .done2,
+#mermaid-1594721251207 .done3 {
+  stroke: grey;
+  fill: lightgrey;
+  stroke-width: 2; }
+
+#mermaid-1594721251207 .doneText0,
+#mermaid-1594721251207 .doneText1,
+#mermaid-1594721251207 .doneText2,
+#mermaid-1594721251207 .doneText3 {
+  fill: black !important; }
+
+
+#mermaid-1594721251207 .crit0,
+#mermaid-1594721251207 .crit1,
+#mermaid-1594721251207 .crit2,
+#mermaid-1594721251207 .crit3 {
+  stroke: #ff8888;
+  fill: red;
+  stroke-width: 2; }
+
+#mermaid-1594721251207 .activeCrit0,
+#mermaid-1594721251207 .activeCrit1,
+#mermaid-1594721251207 .activeCrit2,
+#mermaid-1594721251207 .activeCrit3 {
+  stroke: #ff8888;
+  fill: #bfc7ff;
+  stroke-width: 2; }
+
+#mermaid-1594721251207 .doneCrit0,
+#mermaid-1594721251207 .doneCrit1,
+#mermaid-1594721251207 .doneCrit2,
+#mermaid-1594721251207 .doneCrit3 {
+  stroke: #ff8888;
+  fill: lightgrey;
+  stroke-width: 2;
+  cursor: pointer;
+  shape-rendering: crispEdges; }
+
+#mermaid-1594721251207 .milestone {
+  transform: rotate(45deg) scale(0.8, 0.8); }
+
+#mermaid-1594721251207 .milestoneText {
+  font-style: italic; }
+
+#mermaid-1594721251207 .doneCritText0,
+#mermaid-1594721251207 .doneCritText1,
+#mermaid-1594721251207 .doneCritText2,
+#mermaid-1594721251207 .doneCritText3 {
+  fill: black !important; }
+
+#mermaid-1594721251207 .activeCritText0,
+#mermaid-1594721251207 .activeCritText1,
+#mermaid-1594721251207 .activeCritText2,
+#mermaid-1594721251207 .activeCritText3 {
+  fill: black !important; }
+
+#mermaid-1594721251207 .titleText {
+  text-anchor: middle;
+  font-size: 18px;
+  fill: black;
+  font-family: 'trebuchet ms', verdana, arial;
+  font-family: var(--mermaid-font-family); }
+
+#mermaid-1594721251207 g.classGroup text {
+  fill: #9370DB;
+  stroke: none;
+  font-family: 'trebuchet ms', verdana, arial;
+  font-family: var(--mermaid-font-family);
+  font-size: 10px; }
+#mermaid-1594721251207   g.classGroup text .title {
+    font-weight: bolder; }
+
+#mermaid-1594721251207 g.clickable {
+  cursor: pointer; }
+
+#mermaid-1594721251207 g.classGroup rect {
+  fill: #ECECFF;
+  stroke: #9370DB; }
+
+#mermaid-1594721251207 g.classGroup line {
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#mermaid-1594721251207 .classLabel .box {
+  stroke: none;
+  stroke-width: 0;
+  fill: #ECECFF;
+  opacity: 0.5; }
+
+#mermaid-1594721251207 .classLabel .label {
+  fill: #9370DB;
+  font-size: 10px; }
+
+#mermaid-1594721251207 .relation {
+  stroke: #9370DB;
+  stroke-width: 1;
+  fill: none; }
+
+#mermaid-1594721251207 .dashed-line {
+  stroke-dasharray: 3; }
+
+#mermaid-1594721251207 #compositionStart {
+  fill: #9370DB;
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#mermaid-1594721251207 #compositionEnd {
+  fill: #9370DB;
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#mermaid-1594721251207 #aggregationStart {
+  fill: #ECECFF;
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#mermaid-1594721251207 #aggregationEnd {
+  fill: #ECECFF;
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#mermaid-1594721251207 #dependencyStart {
+  fill: #9370DB;
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#mermaid-1594721251207 #dependencyEnd {
+  fill: #9370DB;
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#mermaid-1594721251207 #extensionStart {
+  fill: #9370DB;
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#mermaid-1594721251207 #extensionEnd {
+  fill: #9370DB;
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#mermaid-1594721251207 .commit-id,
+#mermaid-1594721251207 .commit-msg,
+#mermaid-1594721251207 .branch-label {
+  fill: lightgrey;
+  color: lightgrey;
+  font-family: 'trebuchet ms', verdana, arial;
+  font-family: var(--mermaid-font-family); }
+
+#mermaid-1594721251207 .pieTitleText {
+  text-anchor: middle;
+  font-size: 25px;
+  fill: black;
+  font-family: 'trebuchet ms', verdana, arial;
+  font-family: var(--mermaid-font-family); }
+
+#mermaid-1594721251207 .slice {
+  font-family: 'trebuchet ms', verdana, arial;
+  font-family: var(--mermaid-font-family); }
+
+#mermaid-1594721251207 g.stateGroup text {
+  fill: #9370DB;
+  stroke: none;
+  font-size: 10px;
+  font-family: 'trebuchet ms', verdana, arial;
+  font-family: var(--mermaid-font-family); }
+
+#mermaid-1594721251207 g.stateGroup text {
+  fill: #9370DB;
+  stroke: none;
+  font-size: 10px; }
+
+#mermaid-1594721251207 g.stateGroup .state-title {
+  font-weight: bolder;
+  fill: black; }
+
+#mermaid-1594721251207 g.stateGroup rect {
+  fill: #ECECFF;
+  stroke: #9370DB; }
+
+#mermaid-1594721251207 g.stateGroup line {
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#mermaid-1594721251207 .transition {
+  stroke: #9370DB;
+  stroke-width: 1;
+  fill: none; }
+
+#mermaid-1594721251207 .stateGroup .composit {
+  fill: white;
+  border-bottom: 1px; }
+
+#mermaid-1594721251207 .stateGroup .alt-composit {
+  fill: #e0e0e0;
+  border-bottom: 1px; }
+
+#mermaid-1594721251207 .state-note {
+  stroke: #aaaa33;
+  fill: #fff5ad; }
+#mermaid-1594721251207   .state-note text {
+    fill: black;
+    stroke: none;
+    font-size: 10px; }
+
+#mermaid-1594721251207 .stateLabel .box {
+  stroke: none;
+  stroke-width: 0;
+  fill: #ECECFF;
+  opacity: 0.5; }
+
+#mermaid-1594721251207 .stateLabel text {
+  fill: black;
+  font-size: 10px;
+  font-weight: bold;
+  font-family: 'trebuchet ms', verdana, arial;
+  font-family: var(--mermaid-font-family); }
+
+#mermaid-1594721251207 .node circle.state-start {
+  fill: black;
+  stroke: black; }
+
+#mermaid-1594721251207 .node circle.state-end {
+  fill: black;
+  stroke: white;
+  stroke-width: 1.5; }
+
+#mermaid-1594721251207 #statediagram-barbEnd {
+  fill: #9370DB; }
+
+#mermaid-1594721251207 .statediagram-cluster rect {
+  fill: #ECECFF;
+  stroke: #9370DB;
+  stroke-width: 1px; }
+
+#mermaid-1594721251207 .statediagram-cluster rect.outer {
+  rx: 5px;
+  ry: 5px; }
+
+#mermaid-1594721251207 .statediagram-state .divider {
+  stroke: #9370DB; }
+
+#mermaid-1594721251207 .statediagram-state .title-state {
+  rx: 5px;
+  ry: 5px; }
+
+#mermaid-1594721251207 .statediagram-cluster.statediagram-cluster .inner {
+  fill: white; }
+
+#mermaid-1594721251207 .statediagram-cluster.statediagram-cluster-alt .inner {
+  fill: #e0e0e0; }
+
+#mermaid-1594721251207 .statediagram-cluster .inner {
+  rx: 0;
+  ry: 0; }
+
+#mermaid-1594721251207 .statediagram-state rect.basic {
+  rx: 5px;
+  ry: 5px; }
+
+#mermaid-1594721251207 .statediagram-state rect.divider {
+  stroke-dasharray: 10,10;
+  fill: #efefef; }
+
+#mermaid-1594721251207 .note-edge {
+  stroke-dasharray: 5; }
+
+#mermaid-1594721251207 .statediagram-note rect {
+  fill: #fff5ad;
+  stroke: #aaaa33;
+  stroke-width: 1px;
+  rx: 0;
+  ry: 0; }
+
+:root {
+  --mermaid-font-family: '"trebuchet ms", verdana, arial';
+  --mermaid-font-family: "Comic Sans MS", "Comic Sans", cursive; }
+
+
+#mermaid-1594721251207 .error-icon {
+  fill: #552222; }
+
+#mermaid-1594721251207 .error-text {
+  fill: #552222;
+  stroke: #552222; }
+
+#mermaid-1594721251207 .edge-thickness-normal {
+  stroke-width: 2px; }
+
+#mermaid-1594721251207 .edge-thickness-thick {
+  stroke-width: 3.5px; }
+
+#mermaid-1594721251207 .edge-pattern-solid {
+  stroke-dasharray: 0; }
+
+#mermaid-1594721251207 .edge-pattern-dashed {
+  stroke-dasharray: 3; }
+
+#mermaid-1594721251207 .edge-pattern-dotted {
+  stroke-dasharray: 2; }
+
+#mermaid-1594721251207 .marker {
+  fill: #333333; }
+
+#mermaid-1594721251207 .marker.cross {
+  stroke: #333333; }
+
+:root { --mermaid-font-family: "trebuchet ms", verdana, arial;}</style><style>#mermaid-1594721251207 {
+    color: rgb(0, 0, 0);
+    font: 16px "trebuchet ms", verdana, arial;
+  }</style><g></g><g><line id="actor10" x1="75" y1="5" x2="75" y2="866" class="actor-line" stroke-width="0.5px" stroke="#999"></line><rect x="0" y="0" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="75" y="32.5" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle; font-size: 14px; font-weight: 400; font-family: Open-Sans, sans-serif;"><tspan x="75" dy="0">用户</tspan></text></g><g><line id="actor11" x1="361" y1="5" x2="361" y2="866" class="actor-line" stroke-width="0.5px" stroke="#999"></line><rect x="286" y="0" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="361" y="32.5" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle; font-size: 14px; font-weight: 400; font-family: Open-Sans, sans-serif;"><tspan x="361" dy="0">浏览器</tspan></text></g><g><line id="actor12" x1="599" y1="5" x2="599" y2="866" class="actor-line" stroke-width="0.5px" stroke="#999"></line><rect x="524" y="0" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="599" y="32.5" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle; font-size: 14px; font-weight: 400; font-family: Open-Sans, sans-serif;"><tspan x="599" dy="0">本地 HOSTS</tspan></text></g><g><line id="actor13" x1="799" y1="5" x2="799" y2="866" class="actor-line" stroke-width="0.5px" stroke="#999"></line><rect x="724" y="0" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="799" y="32.5" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle; font-size: 14px; font-weight: 400; font-family: Open-Sans, sans-serif;"><tspan x="799" dy="0">本地 DNS 服务器</tspan></text></g><g><line id="actor14" x1="1029" y1="5" x2="1029" y2="866" class="actor-line" stroke-width="0.5px" stroke="#999"></line><rect x="954" y="0" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="1029" y="32.5" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle; font-size: 14px; font-weight: 400; font-family: Open-Sans, sans-serif;"><tspan x="1029" dy="0">根 DNS 服务器</tspan></text></g><g><line id="actor15" x1="1229" y1="5" x2="1229" y2="866" class="actor-line" stroke-width="0.5px" stroke="#999"></line><rect x="1154" y="0" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="1229" y="32.5" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle; font-size: 14px; font-weight: 400; font-family: Open-Sans, sans-serif;"><tspan x="1229" dy="0">域服务器</tspan></text></g><g><line id="actor16" x1="1429" y1="5" x2="1429" y2="866" class="actor-line" stroke-width="0.5px" stroke="#999"></line><rect x="1354" y="0" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="1429" y="32.5" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle; font-size: 14px; font-weight: 400; font-family: Open-Sans, sans-serif;"><tspan x="1429" dy="0">服务器</tspan></text></g><defs><marker id="arrowhead" refX="5" refY="2" markerWidth="6" markerHeight="4" orient="auto"><path d="M 0,0 V 4 L6,2 Z"></path></marker></defs><defs><marker id="crosshead" markerWidth="15" markerHeight="8" orient="auto" refX="16" refY="4"><path fill="black" stroke="#000000" stroke-width="1px" d="M 9,2 V 6 L16,4 Z" style="stroke-dasharray: 0, 0;"></path><path fill="none" stroke="#000000" stroke-width="1px" d="M 0,1 L 6,7 M 6,1 L 0,7" style="stroke-dasharray: 0, 0;"></path></marker></defs><defs><marker id="sequencenumber" refX="15" refY="15" markerWidth="60" markerHeight="40" orient="auto"><circle cx="15" cy="15" r="6"></circle></marker></defs><text x="218" y="80" text-anchor="middle" dominant-baseline="middle" alignment-baseline="middle" class="messageText" dy="1em" style="font-family: &quot;trebuchet ms&quot;, verdana, arial; font-size: 16px; font-weight: 400;">访问 https://www.baidu.com</text><line x1="75" y1="117" x2="361" y2="117" class="messageLine0" stroke-width="2" stroke="none" marker-end="url(#arrowhead)" style="fill: none;"></line><text x="361" y="132" text-anchor="middle" dominant-baseline="middle" alignment-baseline="middle" class="messageText" dy="1em" style="font-family: &quot;trebuchet ms&quot;, verdana, arial; font-size: 16px; font-weight: 400;">查找浏览器缓存有无对应的 IP 地址</text><path d="M 361,169 C 421,159 421,199 361,189" class="messageLine0" stroke-width="2" stroke="none" marker-end="url(#arrowhead)" style="fill: none;"></path><text x="480" y="214" text-anchor="middle" dominant-baseline="middle" alignment-baseline="middle" class="messageText" dy="1em" style="font-family: &quot;trebuchet ms&quot;, verdana, arial; font-size: 16px; font-weight: 400;">查找有无对应的 IP 地址</text><line x1="361" y1="251" x2="599" y2="251" class="messageLine0" stroke-width="2" stroke="none" marker-end="url(#arrowhead)" style="fill: none;"></line><text x="580" y="266" text-anchor="middle" dominant-baseline="middle" alignment-baseline="middle" class="messageText" dy="1em" style="font-family: &quot;trebuchet ms&quot;, verdana, arial; font-size: 16px; font-weight: 400;">查找有无对应的 IP 地址</text><line x1="361" y1="303" x2="799" y2="303" class="messageLine0" stroke-width="2" stroke="none" marker-end="url(#arrowhead)" style="fill: none;"></line><text x="914" y="318" text-anchor="middle" dominant-baseline="middle" alignment-baseline="middle" class="messageText" dy="1em" style="font-family: &quot;trebuchet ms&quot;, verdana, arial; font-size: 16px; font-weight: 400;">要一个域服务器的地址</text><line x1="799" y1="351" x2="1029" y2="351" class="messageLine0" stroke-width="2" stroke="none" marker-end="url(#arrowhead)" style="fill: none;"></line><text x="914" y="366" text-anchor="middle" dominant-baseline="middle" alignment-baseline="middle" class="messageText" dy="1em" style="font-family: &quot;trebuchet ms&quot;, verdana, arial; font-size: 16px; font-weight: 400;">域服务器的地址</text><line x1="1029" y1="399" x2="799" y2="399" class="messageLine1" stroke-width="2" stroke="none" marker-end="url(#arrowhead)" style="stroke-dasharray: 3, 3; fill: none;"></line><text x="1014" y="414" text-anchor="middle" dominant-baseline="middle" alignment-baseline="middle" class="messageText" dy="1em" style="font-family: &quot;trebuchet ms&quot;, verdana, arial; font-size: 16px; font-weight: 400;">查找有无对应的 IP 地址</text><line x1="799" y1="451" x2="1229" y2="451" class="messageLine0" stroke-width="2" stroke="none" marker-end="url(#arrowhead)" style="fill: none;"></line><text x="1014" y="466" text-anchor="middle" dominant-baseline="middle" alignment-baseline="middle" class="messageText" dy="1em" style="font-family: &quot;trebuchet ms&quot;, verdana, arial; font-size: 16px; font-weight: 400;">IP 地址</text><line x1="1229" y1="503" x2="799" y2="503" class="messageLine1" stroke-width="2" stroke="none" marker-end="url(#arrowhead)" style="stroke-dasharray: 3, 3; fill: none;"></line><text x="580" y="518" text-anchor="middle" dominant-baseline="middle" alignment-baseline="middle" class="messageText" dy="1em" style="font-family: &quot;trebuchet ms&quot;, verdana, arial; font-size: 16px; font-weight: 400;">IP 地址</text><line x1="799" y1="555" x2="361" y2="555" class="messageLine1" stroke-width="2" stroke="none" marker-end="url(#arrowhead)" style="stroke-dasharray: 3, 3; fill: none;"></line><text x="895" y="570" text-anchor="middle" dominant-baseline="middle" alignment-baseline="middle" class="messageText" dy="1em" style="font-family: &quot;trebuchet ms&quot;, verdana, arial; font-size: 16px; font-weight: 400;">发送 HTTP 请求</text><line x1="361" y1="607" x2="1429" y2="607" class="messageLine0" stroke-width="2" stroke="none" marker-end="url(#arrowhead)" style="fill: none;"></line><text x="895" y="622" text-anchor="middle" dominant-baseline="middle" alignment-baseline="middle" class="messageText" dy="1em" style="font-family: &quot;trebuchet ms&quot;, verdana, arial; font-size: 16px; font-weight: 400;">返回结果</text><line x1="1429" y1="655" x2="361" y2="655" class="messageLine1" stroke-width="2" stroke="none" marker-end="url(#arrowhead)" style="stroke-dasharray: 3, 3; fill: none;"></line><text x="361" y="670" text-anchor="middle" dominant-baseline="middle" alignment-baseline="middle" class="messageText" dy="1em" style="font-family: &quot;trebuchet ms&quot;, verdana, arial; font-size: 16px; font-weight: 400;">渲染页面</text><path d="M 361,703 C 421,693 421,733 361,723" class="messageLine0" stroke-width="2" stroke="none" marker-end="url(#arrowhead)" style="fill: none;"></path><text x="218" y="748" text-anchor="middle" dominant-baseline="middle" alignment-baseline="middle" class="messageText" dy="1em" style="font-family: &quot;trebuchet ms&quot;, verdana, arial; font-size: 16px; font-weight: 400;">返回结果</text><line x1="361" y1="781" x2="75" y2="781" class="messageLine1" stroke-width="2" stroke="none" marker-end="url(#arrowhead)" style="stroke-dasharray: 3, 3; fill: none;"></line><g><rect x="0" y="801" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="75" y="833.5" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle; font-size: 14px; font-weight: 400; font-family: Open-Sans, sans-serif;"><tspan x="75" dy="0">用户</tspan></text></g><g><rect x="286" y="801" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="361" y="833.5" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle; font-size: 14px; font-weight: 400; font-family: Open-Sans, sans-serif;"><tspan x="361" dy="0">浏览器</tspan></text></g><g><rect x="524" y="801" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="599" y="833.5" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle; font-size: 14px; font-weight: 400; font-family: Open-Sans, sans-serif;"><tspan x="599" dy="0">本地 HOSTS</tspan></text></g><g><rect x="724" y="801" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="799" y="833.5" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle; font-size: 14px; font-weight: 400; font-family: Open-Sans, sans-serif;"><tspan x="799" dy="0">本地 DNS 服务器</tspan></text></g><g><rect x="954" y="801" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="1029" y="833.5" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle; font-size: 14px; font-weight: 400; font-family: Open-Sans, sans-serif;"><tspan x="1029" dy="0">根 DNS 服务器</tspan></text></g><g><rect x="1154" y="801" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="1229" y="833.5" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle; font-size: 14px; font-weight: 400; font-family: Open-Sans, sans-serif;"><tspan x="1229" dy="0">域服务器</tspan></text></g><g><rect x="1354" y="801" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="1429" y="833.5" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle; font-size: 14px; font-weight: 400; font-family: Open-Sans, sans-serif;"><tspan x="1429" dy="0">服务器</tspan></text></g></svg>
