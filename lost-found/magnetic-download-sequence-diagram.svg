@@ -1,0 +1,595 @@
+<svg id="mermaid-1595127696407" width="100%" xmlns="http://www.w3.org/2000/svg" height="100%" style="max-width:1477px;" viewBox="-50 -10 1477 1017"><style>
+
+
+
+#mermaid-1595127696407 .label {
+  font-family: 'trebuchet ms', verdana, arial;
+  font-family: var(--mermaid-font-family);
+  color: #333; }
+
+#mermaid-1595127696407 .label text {
+  fill: #333; }
+
+#mermaid-1595127696407 .node rect,
+#mermaid-1595127696407 .node circle,
+#mermaid-1595127696407 .node ellipse,
+#mermaid-1595127696407 .node polygon,
+#mermaid-1595127696407 .node path {
+  fill: #ECECFF;
+  stroke: #9370DB;
+  stroke-width: 1px; }
+
+#mermaid-1595127696407 .node .label {
+  text-align: center; }
+
+#mermaid-1595127696407 .node.clickable {
+  cursor: pointer; }
+
+#mermaid-1595127696407 .arrowheadPath {
+  fill: #333333; }
+
+#mermaid-1595127696407 .edgePath .path {
+  stroke: #333333;
+  stroke-width: 1.5px; }
+
+#mermaid-1595127696407 .flowchart-link {
+  stroke: #333333;
+  fill: none; }
+
+#mermaid-1595127696407 .edgeLabel {
+  background-color: #e8e8e8;
+  text-align: center; }
+#mermaid-1595127696407   .edgeLabel rect {
+    opacity: 0.5; }
+
+#mermaid-1595127696407 .cluster rect {
+  fill: #ffffde;
+  stroke: #aaaa33;
+  stroke-width: 1px; }
+
+#mermaid-1595127696407 .cluster text {
+  fill: #333; }
+
+#mermaid-1595127696407 div.mermaidTooltip {
+  position: absolute;
+  text-align: center;
+  max-width: 200px;
+  padding: 2px;
+  font-family: 'trebuchet ms', verdana, arial;
+  font-family: var(--mermaid-font-family);
+  font-size: 12px;
+  background: #ffffde;
+  border: 1px solid #aaaa33;
+  border-radius: 2px;
+  pointer-events: none;
+  z-index: 100; }
+
+#mermaid-1595127696407 .actor {
+  stroke: #CCCCFF;
+  fill: #ECECFF; }
+
+#mermaid-1595127696407 text.actor &gt; tspan {
+  fill: black;
+  stroke: none; }
+
+#mermaid-1595127696407 .actor-line {
+  stroke: grey; }
+
+#mermaid-1595127696407 .messageLine0 {
+  stroke-width: 1.5;
+  stroke-dasharray: none;
+  stroke: #333; }
+
+#mermaid-1595127696407 .messageLine1 {
+  stroke-width: 1.5;
+  stroke-dasharray: 2, 2;
+  stroke: #333; }
+
+#mermaid-1595127696407 #arrowhead path {
+  fill: #333;
+  stroke: #333; }
+
+#mermaid-1595127696407 .sequenceNumber {
+  fill: white; }
+
+#mermaid-1595127696407 #sequencenumber {
+  fill: #333; }
+
+#mermaid-1595127696407 #crosshead path {
+  fill: #333;
+  stroke: #333; }
+
+#mermaid-1595127696407 .messageText {
+  fill: #333;
+  stroke: #333; }
+
+#mermaid-1595127696407 .labelBox {
+  stroke: #CCCCFF;
+  fill: #ECECFF; }
+
+#mermaid-1595127696407 .labelText,#mermaid-1595127696407  .labelText &gt; tspan {
+  fill: black;
+  stroke: none; }
+
+#mermaid-1595127696407 .loopText,#mermaid-1595127696407  .loopText &gt; tspan {
+  fill: black;
+  stroke: none; }
+
+#mermaid-1595127696407 .loopLine {
+  stroke-width: 2px;
+  stroke-dasharray: 2, 2;
+  stroke: #CCCCFF;
+  fill: #CCCCFF; }
+
+#mermaid-1595127696407 .note {
+  stroke: #aaaa33;
+  fill: #fff5ad; }
+
+#mermaid-1595127696407 .noteText,#mermaid-1595127696407  .noteText &gt; tspan {
+  fill: black;
+  stroke: none; }
+
+#mermaid-1595127696407 .activation0 {
+  fill: #f4f4f4;
+  stroke: #666; }
+
+#mermaid-1595127696407 .activation1 {
+  fill: #f4f4f4;
+  stroke: #666; }
+
+#mermaid-1595127696407 .activation2 {
+  fill: #f4f4f4;
+  stroke: #666; }
+
+
+#mermaid-1595127696407 .mermaid-main-font {
+  font-family: "trebuchet ms", verdana, arial;
+  font-family: var(--mermaid-font-family); }
+
+#mermaid-1595127696407 .section {
+  stroke: none;
+  opacity: 0.2; }
+
+#mermaid-1595127696407 .section0 {
+  fill: rgba(102, 102, 255, 0.49); }
+
+#mermaid-1595127696407 .section2 {
+  fill: #fff400; }
+
+#mermaid-1595127696407 .section1,
+#mermaid-1595127696407 .section3 {
+  fill: white;
+  opacity: 0.2; }
+
+#mermaid-1595127696407 .sectionTitle0 {
+  fill: #333; }
+
+#mermaid-1595127696407 .sectionTitle1 {
+  fill: #333; }
+
+#mermaid-1595127696407 .sectionTitle2 {
+  fill: #333; }
+
+#mermaid-1595127696407 .sectionTitle3 {
+  fill: #333; }
+
+#mermaid-1595127696407 .sectionTitle {
+  text-anchor: start;
+  font-size: 11px;
+  text-height: 14px;
+  font-family: 'trebuchet ms', verdana, arial;
+  font-family: var(--mermaid-font-family); }
+
+
+#mermaid-1595127696407 .grid .tick {
+  stroke: lightgrey;
+  opacity: 0.8;
+  shape-rendering: crispEdges; }
+#mermaid-1595127696407   .grid .tick text {
+    font-family: 'trebuchet ms', verdana, arial;
+    font-family: var(--mermaid-font-family); }
+
+#mermaid-1595127696407 .grid path {
+  stroke-width: 0; }
+
+
+#mermaid-1595127696407 .today {
+  fill: none;
+  stroke: red;
+  stroke-width: 2px; }
+
+
+
+#mermaid-1595127696407 .task {
+  stroke-width: 2; }
+
+#mermaid-1595127696407 .taskText {
+  text-anchor: middle;
+  font-family: 'trebuchet ms', verdana, arial;
+  font-family: var(--mermaid-font-family); }
+
+#mermaid-1595127696407 .taskText:not([font-size]) {
+  font-size: 11px; }
+
+#mermaid-1595127696407 .taskTextOutsideRight {
+  fill: black;
+  text-anchor: start;
+  font-size: 11px;
+  font-family: 'trebuchet ms', verdana, arial;
+  font-family: var(--mermaid-font-family); }
+
+#mermaid-1595127696407 .taskTextOutsideLeft {
+  fill: black;
+  text-anchor: end;
+  font-size: 11px; }
+
+
+#mermaid-1595127696407 .task.clickable {
+  cursor: pointer; }
+
+#mermaid-1595127696407 .taskText.clickable {
+  cursor: pointer;
+  fill: #003163 !important;
+  font-weight: bold; }
+
+#mermaid-1595127696407 .taskTextOutsideLeft.clickable {
+  cursor: pointer;
+  fill: #003163 !important;
+  font-weight: bold; }
+
+#mermaid-1595127696407 .taskTextOutsideRight.clickable {
+  cursor: pointer;
+  fill: #003163 !important;
+  font-weight: bold; }
+
+
+#mermaid-1595127696407 .taskText0,
+#mermaid-1595127696407 .taskText1,
+#mermaid-1595127696407 .taskText2,
+#mermaid-1595127696407 .taskText3 {
+  fill: white; }
+
+#mermaid-1595127696407 .task0,
+#mermaid-1595127696407 .task1,
+#mermaid-1595127696407 .task2,
+#mermaid-1595127696407 .task3 {
+  fill: #8a90dd;
+  stroke: #534fbc; }
+
+#mermaid-1595127696407 .taskTextOutside0,
+#mermaid-1595127696407 .taskTextOutside2 {
+  fill: black; }
+
+#mermaid-1595127696407 .taskTextOutside1,
+#mermaid-1595127696407 .taskTextOutside3 {
+  fill: black; }
+
+
+#mermaid-1595127696407 .active0,
+#mermaid-1595127696407 .active1,
+#mermaid-1595127696407 .active2,
+#mermaid-1595127696407 .active3 {
+  fill: #bfc7ff;
+  stroke: #534fbc; }
+
+#mermaid-1595127696407 .activeText0,
+#mermaid-1595127696407 .activeText1,
+#mermaid-1595127696407 .activeText2,
+#mermaid-1595127696407 .activeText3 {
+  fill: black !important; }
+
+
+#mermaid-1595127696407 .done0,
+#mermaid-1595127696407 .done1,
+#mermaid-1595127696407 .done2,
+#mermaid-1595127696407 .done3 {
+  stroke: grey;
+  fill: lightgrey;
+  stroke-width: 2; }
+
+#mermaid-1595127696407 .doneText0,
+#mermaid-1595127696407 .doneText1,
+#mermaid-1595127696407 .doneText2,
+#mermaid-1595127696407 .doneText3 {
+  fill: black !important; }
+
+
+#mermaid-1595127696407 .crit0,
+#mermaid-1595127696407 .crit1,
+#mermaid-1595127696407 .crit2,
+#mermaid-1595127696407 .crit3 {
+  stroke: #ff8888;
+  fill: red;
+  stroke-width: 2; }
+
+#mermaid-1595127696407 .activeCrit0,
+#mermaid-1595127696407 .activeCrit1,
+#mermaid-1595127696407 .activeCrit2,
+#mermaid-1595127696407 .activeCrit3 {
+  stroke: #ff8888;
+  fill: #bfc7ff;
+  stroke-width: 2; }
+
+#mermaid-1595127696407 .doneCrit0,
+#mermaid-1595127696407 .doneCrit1,
+#mermaid-1595127696407 .doneCrit2,
+#mermaid-1595127696407 .doneCrit3 {
+  stroke: #ff8888;
+  fill: lightgrey;
+  stroke-width: 2;
+  cursor: pointer;
+  shape-rendering: crispEdges; }
+
+#mermaid-1595127696407 .milestone {
+  transform: rotate(45deg) scale(0.8, 0.8); }
+
+#mermaid-1595127696407 .milestoneText {
+  font-style: italic; }
+
+#mermaid-1595127696407 .doneCritText0,
+#mermaid-1595127696407 .doneCritText1,
+#mermaid-1595127696407 .doneCritText2,
+#mermaid-1595127696407 .doneCritText3 {
+  fill: black !important; }
+
+#mermaid-1595127696407 .activeCritText0,
+#mermaid-1595127696407 .activeCritText1,
+#mermaid-1595127696407 .activeCritText2,
+#mermaid-1595127696407 .activeCritText3 {
+  fill: black !important; }
+
+#mermaid-1595127696407 .titleText {
+  text-anchor: middle;
+  font-size: 18px;
+  fill: black;
+  font-family: 'trebuchet ms', verdana, arial;
+  font-family: var(--mermaid-font-family); }
+
+#mermaid-1595127696407 g.classGroup text {
+  fill: #9370DB;
+  stroke: none;
+  font-family: 'trebuchet ms', verdana, arial;
+  font-family: var(--mermaid-font-family);
+  font-size: 10px; }
+#mermaid-1595127696407   g.classGroup text .title {
+    font-weight: bolder; }
+
+#mermaid-1595127696407 g.clickable {
+  cursor: pointer; }
+
+#mermaid-1595127696407 g.classGroup rect {
+  fill: #ECECFF;
+  stroke: #9370DB; }
+
+#mermaid-1595127696407 g.classGroup line {
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#mermaid-1595127696407 .classLabel .box {
+  stroke: none;
+  stroke-width: 0;
+  fill: #ECECFF;
+  opacity: 0.5; }
+
+#mermaid-1595127696407 .classLabel .label {
+  fill: #9370DB;
+  font-size: 10px; }
+
+#mermaid-1595127696407 .relation {
+  stroke: #9370DB;
+  stroke-width: 1;
+  fill: none; }
+
+#mermaid-1595127696407 .dashed-line {
+  stroke-dasharray: 3; }
+
+#mermaid-1595127696407 #compositionStart {
+  fill: #9370DB;
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#mermaid-1595127696407 #compositionEnd {
+  fill: #9370DB;
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#mermaid-1595127696407 #aggregationStart {
+  fill: #ECECFF;
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#mermaid-1595127696407 #aggregationEnd {
+  fill: #ECECFF;
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#mermaid-1595127696407 #dependencyStart {
+  fill: #9370DB;
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#mermaid-1595127696407 #dependencyEnd {
+  fill: #9370DB;
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#mermaid-1595127696407 #extensionStart {
+  fill: #9370DB;
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#mermaid-1595127696407 #extensionEnd {
+  fill: #9370DB;
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#mermaid-1595127696407 .commit-id,
+#mermaid-1595127696407 .commit-msg,
+#mermaid-1595127696407 .branch-label {
+  fill: lightgrey;
+  color: lightgrey;
+  font-family: 'trebuchet ms', verdana, arial;
+  font-family: var(--mermaid-font-family); }
+
+#mermaid-1595127696407 .pieTitleText {
+  text-anchor: middle;
+  font-size: 25px;
+  fill: black;
+  font-family: 'trebuchet ms', verdana, arial;
+  font-family: var(--mermaid-font-family); }
+
+#mermaid-1595127696407 .slice {
+  font-family: 'trebuchet ms', verdana, arial;
+  font-family: var(--mermaid-font-family); }
+
+#mermaid-1595127696407 g.stateGroup text {
+  fill: #9370DB;
+  stroke: none;
+  font-size: 10px;
+  font-family: 'trebuchet ms', verdana, arial;
+  font-family: var(--mermaid-font-family); }
+
+#mermaid-1595127696407 g.stateGroup text {
+  fill: #9370DB;
+  stroke: none;
+  font-size: 10px; }
+
+#mermaid-1595127696407 g.stateGroup .state-title {
+  font-weight: bolder;
+  fill: black; }
+
+#mermaid-1595127696407 g.stateGroup rect {
+  fill: #ECECFF;
+  stroke: #9370DB; }
+
+#mermaid-1595127696407 g.stateGroup line {
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#mermaid-1595127696407 .transition {
+  stroke: #9370DB;
+  stroke-width: 1;
+  fill: none; }
+
+#mermaid-1595127696407 .stateGroup .composit {
+  fill: white;
+  border-bottom: 1px; }
+
+#mermaid-1595127696407 .stateGroup .alt-composit {
+  fill: #e0e0e0;
+  border-bottom: 1px; }
+
+#mermaid-1595127696407 .state-note {
+  stroke: #aaaa33;
+  fill: #fff5ad; }
+#mermaid-1595127696407   .state-note text {
+    fill: black;
+    stroke: none;
+    font-size: 10px; }
+
+#mermaid-1595127696407 .stateLabel .box {
+  stroke: none;
+  stroke-width: 0;
+  fill: #ECECFF;
+  opacity: 0.5; }
+
+#mermaid-1595127696407 .stateLabel text {
+  fill: black;
+  font-size: 10px;
+  font-weight: bold;
+  font-family: 'trebuchet ms', verdana, arial;
+  font-family: var(--mermaid-font-family); }
+
+#mermaid-1595127696407 .node circle.state-start {
+  fill: black;
+  stroke: black; }
+
+#mermaid-1595127696407 .node circle.state-end {
+  fill: black;
+  stroke: white;
+  stroke-width: 1.5; }
+
+#mermaid-1595127696407 #statediagram-barbEnd {
+  fill: #9370DB; }
+
+#mermaid-1595127696407 .statediagram-cluster rect {
+  fill: #ECECFF;
+  stroke: #9370DB;
+  stroke-width: 1px; }
+
+#mermaid-1595127696407 .statediagram-cluster rect.outer {
+  rx: 5px;
+  ry: 5px; }
+
+#mermaid-1595127696407 .statediagram-state .divider {
+  stroke: #9370DB; }
+
+#mermaid-1595127696407 .statediagram-state .title-state {
+  rx: 5px;
+  ry: 5px; }
+
+#mermaid-1595127696407 .statediagram-cluster.statediagram-cluster .inner {
+  fill: white; }
+
+#mermaid-1595127696407 .statediagram-cluster.statediagram-cluster-alt .inner {
+  fill: #e0e0e0; }
+
+#mermaid-1595127696407 .statediagram-cluster .inner {
+  rx: 0;
+  ry: 0; }
+
+#mermaid-1595127696407 .statediagram-state rect.basic {
+  rx: 5px;
+  ry: 5px; }
+
+#mermaid-1595127696407 .statediagram-state rect.divider {
+  stroke-dasharray: 10,10;
+  fill: #efefef; }
+
+#mermaid-1595127696407 .note-edge {
+  stroke-dasharray: 5; }
+
+#mermaid-1595127696407 .statediagram-note rect {
+  fill: #fff5ad;
+  stroke: #aaaa33;
+  stroke-width: 1px;
+  rx: 0;
+  ry: 0; }
+
+:root {
+  --mermaid-font-family: '"trebuchet ms", verdana, arial';
+  --mermaid-font-family: "Comic Sans MS", "Comic Sans", cursive; }
+
+
+#mermaid-1595127696407 .error-icon {
+  fill: #552222; }
+
+#mermaid-1595127696407 .error-text {
+  fill: #552222;
+  stroke: #552222; }
+
+#mermaid-1595127696407 .edge-thickness-normal {
+  stroke-width: 2px; }
+
+#mermaid-1595127696407 .edge-thickness-thick {
+  stroke-width: 3.5px; }
+
+#mermaid-1595127696407 .edge-pattern-solid {
+  stroke-dasharray: 0; }
+
+#mermaid-1595127696407 .edge-pattern-dashed {
+  stroke-dasharray: 3; }
+
+#mermaid-1595127696407 .edge-pattern-dotted {
+  stroke-dasharray: 2; }
+
+#mermaid-1595127696407 .marker {
+  fill: #333333; }
+
+#mermaid-1595127696407 .marker.cross {
+  stroke: #333333; }
+
+:root { --mermaid-font-family: "trebuchet ms", verdana, arial;}</style><style>#mermaid-1595127696407 {
+    color: rgb(0, 0, 0);
+    font: 16px "trebuchet ms", verdana, arial;
+  }</style><g></g><g><line id="actor8647" x1="75" y1="5" x2="75" y2="1006" class="actor-line" stroke-width="0.5px" stroke="#999"></line><rect x="0" y="0" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="75" y="32.5" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle; font-size: 14px; font-weight: 400; font-family: Open-Sans, sans-serif;"><tspan x="75" dy="0">用户</tspan></text></g><g><line id="actor8648" x1="275" y1="5" x2="275" y2="1006" class="actor-line" stroke-width="0.5px" stroke="#999"></line><rect x="200" y="0" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="275" y="32.5" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle; font-size: 14px; font-weight: 400; font-family: Open-Sans, sans-serif;"><tspan x="275" dy="0">BT客户端</tspan></text></g><g><line id="actor8649" x1="502" y1="5" x2="502" y2="1006" class="actor-line" stroke-width="0.5px" stroke="#999"></line><rect x="427" y="0" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="502" y="32.5" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle; font-size: 14px; font-weight: 400; font-family: Open-Sans, sans-serif;"><tspan x="502" dy="0">种子服务器</tspan></text></g><g><line id="actor8650" x1="702" y1="5" x2="702" y2="1006" class="actor-line" stroke-width="0.5px" stroke="#999"></line><rect x="627" y="0" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="702" y="32.5" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle; font-size: 14px; font-weight: 400; font-family: Open-Sans, sans-serif;"><tspan x="702" dy="0">Tracker 服务器</tspan></text></g><g><line id="actor8651" x1="902" y1="5" x2="902" y2="1006" class="actor-line" stroke-width="0.5px" stroke="#999"></line><rect x="827" y="0" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="902" y="32.5" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle; font-size: 14px; font-weight: 400; font-family: Open-Sans, sans-serif;"><tspan x="902" dy="0">DHT 网络</tspan></text></g><g><line id="actor8652" x1="1102" y1="5" x2="1102" y2="1006" class="actor-line" stroke-width="0.5px" stroke="#999"></line><rect x="1027" y="0" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="1102" y="32.5" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle; font-size: 14px; font-weight: 400; font-family: Open-Sans, sans-serif;"><tspan x="1102" dy="0">节点1</tspan></text></g><g><line id="actor8653" x1="1302" y1="5" x2="1302" y2="1006" class="actor-line" stroke-width="0.5px" stroke="#999"></line><rect x="1227" y="0" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="1302" y="32.5" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle; font-size: 14px; font-weight: 400; font-family: Open-Sans, sans-serif;"><tspan x="1302" dy="0">节点n</tspan></text></g><defs><marker id="arrowhead" refX="5" refY="2" markerWidth="6" markerHeight="4" orient="auto"><path d="M 0,0 V 4 L6,2 Z"></path></marker></defs><defs><marker id="crosshead" markerWidth="15" markerHeight="8" orient="auto" refX="16" refY="4"><path fill="black" stroke="#000000" stroke-width="1px" d="M 9,2 V 6 L16,4 Z" style="stroke-dasharray: 0, 0;"></path><path fill="none" stroke="#000000" stroke-width="1px" d="M 0,1 L 6,7 M 6,1 L 0,7" style="stroke-dasharray: 0, 0;"></path></marker></defs><defs><marker id="sequencenumber" refX="15" refY="15" markerWidth="60" markerHeight="40" orient="auto"><circle cx="15" cy="15" r="6"></circle></marker></defs><text x="175" y="80" text-anchor="middle" dominant-baseline="middle" alignment-baseline="middle" class="messageText" dy="1em" style="font-family: &quot;trebuchet ms&quot;, verdana, arial; font-size: 16px; font-weight: 400;">复制磁力链接</text><line x1="75" y1="113" x2="275" y2="113" class="messageLine0" stroke-width="2" stroke="none" marker-end="url(#arrowhead)" style="fill: none;"></line><text x="275" y="128" text-anchor="middle" dominant-baseline="middle" alignment-baseline="middle" class="messageText" dy="1em" style="font-family: &quot;trebuchet ms&quot;, verdana, arial; font-size: 16px; font-weight: 400;">自动唤醒</text><path d="M 275,161 C 335,151 335,191 275,181" class="messageLine0" stroke-width="2" stroke="none" marker-end="url(#arrowhead)" style="fill: none;"></path><text x="389" y="206" text-anchor="middle" dominant-baseline="middle" alignment-baseline="middle" class="messageText" dy="1em" style="font-family: &quot;trebuchet ms&quot;, verdana, arial; font-size: 16px; font-weight: 400;">根据 hash 值查找种子</text><line x1="275" y1="243" x2="502" y2="243" class="messageLine0" stroke-width="2" stroke="none" marker-end="url(#arrowhead)" style="fill: none;"></line><text x="389" y="258" text-anchor="middle" dominant-baseline="middle" alignment-baseline="middle" class="messageText" dy="1em" style="font-family: &quot;trebuchet ms&quot;, verdana, arial; font-size: 16px; font-weight: 400;">返回种子</text><line x1="502" y1="291" x2="275" y2="291" class="messageLine1" stroke-width="2" stroke="none" marker-end="url(#arrowhead)" style="stroke-dasharray: 3, 3; fill: none;"></line><text x="275" y="306" text-anchor="middle" dominant-baseline="middle" alignment-baseline="middle" class="messageText" dy="1em" style="font-family: &quot;trebuchet ms&quot;, verdana, arial; font-size: 16px; font-weight: 400;">解析种子</text><path d="M 275,339 C 335,329 335,369 275,359" class="messageLine0" stroke-width="2" stroke="none" marker-end="url(#arrowhead)" style="fill: none;"></path><text x="175" y="384" text-anchor="middle" dominant-baseline="middle" alignment-baseline="middle" class="messageText" dy="1em" style="font-family: &quot;trebuchet ms&quot;, verdana, arial; font-size: 16px; font-weight: 400;">返回种子信息</text><line x1="275" y1="417" x2="75" y2="417" class="messageLine1" stroke-width="2" stroke="none" marker-end="url(#arrowhead)" style="stroke-dasharray: 3, 3; fill: none;"></line><text x="175" y="432" text-anchor="middle" dominant-baseline="middle" alignment-baseline="middle" class="messageText" dy="1em" style="font-family: &quot;trebuchet ms&quot;, verdana, arial; font-size: 16px; font-weight: 400;">确认下载</text><line x1="75" y1="465" x2="275" y2="465" class="messageLine0" stroke-width="2" stroke="none" marker-end="url(#arrowhead)" style="fill: none;"></line><text x="489" y="480" text-anchor="middle" dominant-baseline="middle" alignment-baseline="middle" class="messageText" dy="1em" style="font-family: &quot;trebuchet ms&quot;, verdana, arial; font-size: 16px; font-weight: 400;">发送下载请求</text><line x1="275" y1="513" x2="702" y2="513" class="messageLine0" stroke-width="2" stroke="none" marker-end="url(#arrowhead)" style="fill: none;"></line><text x="589" y="528" text-anchor="middle" dominant-baseline="middle" alignment-baseline="middle" class="messageText" dy="1em" style="font-family: &quot;trebuchet ms&quot;, verdana, arial; font-size: 16px; font-weight: 400;">发送下载请求</text><line x1="275" y1="561" x2="902" y2="561" class="messageLine0" stroke-width="2" stroke="none" marker-end="url(#arrowhead)" style="fill: none;"></line><text x="489" y="576" text-anchor="middle" dominant-baseline="middle" alignment-baseline="middle" class="messageText" dy="1em" style="font-family: &quot;trebuchet ms&quot;, verdana, arial; font-size: 16px; font-weight: 400;">返回已下载 ip 列表</text><line x1="702" y1="613" x2="275" y2="613" class="messageLine1" stroke-width="2" stroke="none" marker-end="url(#arrowhead)" style="stroke-dasharray: 3, 3; fill: none;"></line><text x="589" y="628" text-anchor="middle" dominant-baseline="middle" alignment-baseline="middle" class="messageText" dy="1em" style="font-family: &quot;trebuchet ms&quot;, verdana, arial; font-size: 16px; font-weight: 400;">返回已下载 ip 列表</text><line x1="902" y1="665" x2="275" y2="665" class="messageLine1" stroke-width="2" stroke="none" marker-end="url(#arrowhead)" style="stroke-dasharray: 3, 3; fill: none;"></line><text x="689" y="680" text-anchor="middle" dominant-baseline="middle" alignment-baseline="middle" class="messageText" dy="1em" style="font-family: &quot;trebuchet ms&quot;, verdana, arial; font-size: 16px; font-weight: 400;">请求下载数据块1</text><line x1="275" y1="717" x2="1102" y2="717" class="messageLine0" stroke-width="2" stroke="none" marker-end="url(#arrowhead)" style="fill: none;"></line><text x="789" y="732" text-anchor="middle" dominant-baseline="middle" alignment-baseline="middle" class="messageText" dy="1em" style="font-family: &quot;trebuchet ms&quot;, verdana, arial; font-size: 16px; font-weight: 400;">请求下载数据块n</text><line x1="275" y1="769" x2="1302" y2="769" class="messageLine0" stroke-width="2" stroke="none" marker-end="url(#arrowhead)" style="fill: none;"></line><text x="689" y="784" text-anchor="middle" dominant-baseline="middle" alignment-baseline="middle" class="messageText" dy="1em" style="font-family: &quot;trebuchet ms&quot;, verdana, arial; font-size: 16px; font-weight: 400;">返回数据块1</text><line x1="1102" y1="821" x2="275" y2="821" class="messageLine1" stroke-width="2" stroke="none" marker-end="url(#arrowhead)" style="stroke-dasharray: 3, 3; fill: none;"></line><text x="789" y="836" text-anchor="middle" dominant-baseline="middle" alignment-baseline="middle" class="messageText" dy="1em" style="font-family: &quot;trebuchet ms&quot;, verdana, arial; font-size: 16px; font-weight: 400;">返回数据块n</text><line x1="1302" y1="873" x2="275" y2="873" class="messageLine1" stroke-width="2" stroke="none" marker-end="url(#arrowhead)" style="stroke-dasharray: 3, 3; fill: none;"></line><text x="175" y="888" text-anchor="middle" dominant-baseline="middle" alignment-baseline="middle" class="messageText" dy="1em" style="font-family: &quot;trebuchet ms&quot;, verdana, arial; font-size: 16px; font-weight: 400;">下载完成</text><line x1="275" y1="921" x2="75" y2="921" class="messageLine1" stroke-width="2" stroke="none" marker-end="url(#arrowhead)" style="stroke-dasharray: 3, 3; fill: none;"></line><g><rect x="0" y="941" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="75" y="973.5" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle; font-size: 14px; font-weight: 400; font-family: Open-Sans, sans-serif;"><tspan x="75" dy="0">用户</tspan></text></g><g><rect x="200" y="941" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="275" y="973.5" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle; font-size: 14px; font-weight: 400; font-family: Open-Sans, sans-serif;"><tspan x="275" dy="0">BT客户端</tspan></text></g><g><rect x="427" y="941" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="502" y="973.5" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle; font-size: 14px; font-weight: 400; font-family: Open-Sans, sans-serif;"><tspan x="502" dy="0">种子服务器</tspan></text></g><g><rect x="627" y="941" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="702" y="973.5" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle; font-size: 14px; font-weight: 400; font-family: Open-Sans, sans-serif;"><tspan x="702" dy="0">Tracker 服务器</tspan></text></g><g><rect x="827" y="941" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="902" y="973.5" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle; font-size: 14px; font-weight: 400; font-family: Open-Sans, sans-serif;"><tspan x="902" dy="0">DHT 网络</tspan></text></g><g><rect x="1027" y="941" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="1102" y="973.5" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle; font-size: 14px; font-weight: 400; font-family: Open-Sans, sans-serif;"><tspan x="1102" dy="0">节点1</tspan></text></g><g><rect x="1227" y="941" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="1302" y="973.5" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle; font-size: 14px; font-weight: 400; font-family: Open-Sans, sans-serif;"><tspan x="1302" dy="0">节点n</tspan></text></g></svg>
