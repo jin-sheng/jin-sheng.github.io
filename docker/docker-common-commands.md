@@ -119,10 +119,14 @@ $ cat test.tar | sudo docker import - test:v1.0
 $ sudo docker run -d -P -v /opt/mysqldb:/var/lib/mysql mysql
 ```
 
-# MongoDB
-启动
+启动 MongoDB
 ```
-$ sudo docker run -d -p 27017:27017 -e AUTH=no --name mongo mongo
+$ sudo docker run -d -p 27017:27017 -e AUTH=no --name MongoDB mongo
+```
+
+启动 ElasticSearch
+```
+$ sudo docker run -d -p 9200:9200 -p 9300:9300 --name ElasticSearch elasticsearch
 ```
 
 # 其他
