@@ -3,130 +3,130 @@
 ## 镜像
 下载 Ubuntu 14.04 标签的镜像
 ```
-$ sudo docker pull ubuntu: 14.04
+$ docker pull ubuntu: 14.04
 ```
 
 从 DockerPool 社区的镜像源 dl.dockerpool.com 下载最新的 Ubuntu 镜像
 ```
-$ sudo docker pull dl.dockerpool.com:5000/ubuntu
+$ docker pull dl.dockerpool.com:5000/ubuntu
 ```
 
 列出本地主机上镜像信息
 ```
-$ sudo docker images
+$ docker images
 ```
 
 获取镜像详细信息
 ```
-$ sudo docker inspect <image_id>
+$ docker inspect <image_id>
 ```
 
 获取镜像的 Architecture 信息
 ```
-$ sudo docker inspect -f {{".Architecture"}} <image_id>
+$ docker inspect -f {{".Architecture"}} <image_id>
 ```
 
 搜索带 mysql 关键字的镜像
 ```
-$ sudo docker search mysql
+$ docker search mysql
 ```
 
 删除标签为 mysql:latest 的镜像
 ```
-$ sudo docker rmi mysql:latest
+$ docker rmi mysql:latest
 ```
 
 提交为一个新的镜像
 ```
-$ sudo docker commit -m <message> -a <author> <container_id> <new_name>
+$ docker commit -m <message> -a <author> <container_id> <new_name>
 ```
 
 导出本地的 ubuntu:14.04 镜像为文件 ubuntu_14.04.tar
 ```
-$ sudo docker save -o ubuntu_14.04.tar ubuntu:14.04
+$ docker save -o ubuntu_14.04.tar ubuntu:14.04
 ```
 
 从文件 ubuntu_14.04.tar 导入镜像到本地镜像
 ```
-$ sudo docker load < ubuntu_14.04.tar
+$ docker load < ubuntu_14.04.tar
 ```
 
 保存为一个新的 sshd:ubuntu 镜像
 ```
-$ sudo docker commit <container_id> sshd:ubuntu
+$ docker commit <container_id> sshd:ubuntu
 ```
 
 使用当前目录中的 Dockerfile 创建自定义镜像
 ```
-$ sudo docker build -t custom:dockerfile .
+$ docker build -t custom:dockerfile .
 ```
 
 ## 容器
 新建一个容器
 ```
-$ sudo docker create -it ubuntu:latest
+$ docker create -it ubuntu:latest
 ```
 
 启动一个 bash 终端
 ```
 # -t 让 Docker 分配一个伪终端并绑定到容器的标准输入上
 # -i 让容器的标准输入保持打开
-$ sudo docker run -t -i ubuntu:14.04 /bin/bash
+$ docker run -t -i ubuntu:14.04 /bin/bash
 ```
 
 终止一个运行中的容器
 ```
-$ sudo docker stop <container_id>
+$ docker stop <container_id>
 ```
 
 启动处于终止状态的容器
 ```
-$ sudo docker start <container_id>
+$ docker start <container_id>
 ```
 
 重新启动一个容器
 ```
-$ sudo docker restart <container_id>
+$ docker restart <container_id>
 ```
 
 进入一个运行中的容器并启动一个 bash
 ```
-$ sudo docker exec -ti <container_id> /bin/bash
+$ docker exec -ti <container_id> /bin/bash
 ```
 
 获取容器的PID
 ```
-$ sudo docker inspect --format "{{.State.Pid}}" <container_id>
+$ docker inspect --format "{{.State.Pid}}" <container_id>
 ```
 
 删除一个运行中的容器
 ```
-$ sudo docker rm <container_id>
+$ docker rm <container_id>
 ```
 
 导出容器到 test.tar 文件
 ```
-$ sudo docker export <container_id> > test.tar
+$ docker export <container_id> > test.tar
 ```
 
 从 test.tar 文件导入，成为镜像
 ```
-$ cat test.tar | sudo docker import - test:v1.0
+$ cat test.tar | docker import - test:v1.0
 ```
 
 挂载本地主机的目录到容器内
 ```
-$ sudo docker run -d -P -v /opt/mysqldb:/var/lib/mysql mysql
+$ docker run -d -P -v /opt/mysqldb:/var/lib/mysql mysql
 ```
 
 启动 MongoDB
 ```
-$ sudo docker run -d -p 27017:27017 -e AUTH=no --name MongoDB mongo
+$ docker run -d -p 27017:27017 -e AUTH=no --name MongoDB mongo
 ```
 
 启动 ElasticSearch
 ```
-$ sudo docker run -d -p 9200:9200 -p 9300:9300 --name ElasticSearch elasticsearch
+$ docker run -d -p 9200:9200 -p 9300:9300 --name ElasticSearch elasticsearch
 ```
 
 ## Docker Compose
@@ -173,5 +173,5 @@ $ docker-compose rm 服务名称
 ## 其他
 获取容器的输出信息
 ```
-$ sudo docker logs <container_id>
+$ docker logs <container_id>
 ```
