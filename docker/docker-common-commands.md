@@ -129,7 +129,48 @@ $ sudo docker run -d -p 27017:27017 -e AUTH=no --name MongoDB mongo
 $ sudo docker run -d -p 9200:9200 -p 9300:9300 --name ElasticSearch elasticsearch
 ```
 
-# 其他
+## Docker Compose
+测试安装结果
+```
+$ docker-compose --version
+```
+
+自动构建镜像并使用镜像在后台启动容器
+```
+$ docker-compose up -d
+```
+
+查看 docker-compose build 的帮助
+```
+$ docker-compose help build
+```
+
+查看服务的日志输出
+```
+$ docker-compose logs
+```
+
+列出所有容器
+```
+$ docker-compose ps
+```
+
+启动指定服务已存在的容器
+```
+$ docker-compose start 服务名称
+```
+
+停止已运行的容器
+```
+$ docker-compose stop 服务名称
+```
+
+删除指定服务的容器
+```
+$ docker-compose rm 服务名称
+```
+
+## 其他
 获取容器的输出信息
 ```
 $ sudo docker logs <container_id>
