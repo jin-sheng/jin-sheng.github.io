@@ -1,7 +1,7 @@
 # Docker 常用命令
 
 ## 登入/登出
-登入到 Docker Hub
+登入 Docker Hub
 ```
 $ docker login -u 用户名 -p 密码
 ```
