@@ -9,6 +9,32 @@ pom.xml
 </dependency>
 ```
 
+application.yml
+```yml
+server:
+  port: 8761
+eureka:
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+```
+
+Application.java
+```java
+@SpringBootApplication
+@EnableEurekaServer
+
+public class Application
+{
+    public static void main(String[] args)
+    {
+        SpringApplication.run(Application.class, args);
+    }
+}
+```
+
 ## 将微服务注册到 Eureka Server 上
 pom.xml
 ```xml
@@ -22,19 +48,20 @@ application.yml
 ```yml
 spring:
   application:
-    name: spring-cloud-sample
+    name: 微服务名称
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://[ip]:[port]/eureka/
+      defaultZone: http://localhost:8761/eureka/
   instance:
     prefer-ip-address: true
 ```
 
 Application.java
 ```java
-@EnableDiscoveryClient
 @SpringBootApplication
+@EnableDiscoveryClient
+
 public class Application
 {
     public static void main(String[] args)
@@ -54,7 +81,7 @@ application.yml
 ```yml
 spring:
   application:
-    name: spring-cloud-sample
+    name: 微服务名称
 ---
 spring:
   profiles: peer1                                 # 指定profile=peer1
