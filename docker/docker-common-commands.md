@@ -1,5 +1,16 @@
 # Docker 常用命令
 
+## 登入/登出
+登入到 Docker Hub
+```
+$ docker login -u 用户名 -p 密码
+```
+
+登出 Docker Hub
+```
+$ docker logout
+```
+
 ## 镜像
 下载 Ubuntu 14.04 标签的镜像
 ```
