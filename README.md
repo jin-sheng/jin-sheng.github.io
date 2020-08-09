@@ -48,6 +48,11 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
 ### Data Structure
 [Binary Tree](https://jin-sheng.github.io/data/data-binary-tree)  
 
+### Database
+[Database Connection Pool](https://jin-sheng.github.io/database/database-connection-pool)  
+[Redis Common Commands](https://jin-sheng.github.io/sql/redis-common-commands)  
+[SQL Practice](https://jin-sheng.github.io/sql/sql-practice) 
+
 ### DevOps
 [Git common commands(Git Bash)](https://jin-sheng.github.io/devops/git-common-commands)  
 [IntelliJ IDEA](https://jin-sheng.github.io/devops/intellij-idea)  
@@ -87,22 +92,17 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
 ### RPC
 [Apache Dubbo](https://jin-sheng.github.io/rpc/apache-dubbo)
 
-### Spring Boot
+### Spring
+[Spring Validation](https://jin-sheng.github.io/spring/spring-validation)  
 [Spring Boot Executable Jar](https://jin-sheng.github.io/spring/spring-boot-executable-jar)  
 [Spring Boot MyBatis](https://jin-sheng.github.io/spring/spring-boot-mybatis)  
 [Spring Boot Starter](https://jin-sheng.github.io/spring/spring-boot-starter)  
-
-### Spring Cloud
 [Spring Cloud Application Context Services](https://jin-sheng.github.io/spring/spring-cloud-application-context-services)  
 [Spring Cloud Actuator](https://jin-sheng.github.io/spring/spring-cloud-actuator)  
 [Spring Cloud Eureka](https://jin-sheng.github.io/spring/spring-cloud-eureka)  
 [Spring Cloud Hystrix](https://jin-sheng.github.io/spring/spring-cloud-hystrix)  
 [Spring Cloud Ribbon](https://jin-sheng.github.io/spring/spring-cloud-ribbon)  
-[Spring Cloud Zuul](https://jin-sheng.github.io/spring/spring-cloud-zuul)  
-
-### SQL
-[Redis Common Commands](https://jin-sheng.github.io/sql/redis-common-commands)  
-[SQL Practice](https://jin-sheng.github.io/sql/sql-practice)  
+[Spring Cloud Zuul](https://jin-sheng.github.io/spring/spring-cloud-zuul)   
 
 ### Lost found
 [Abbreviation](https://jin-sheng.github.io/lost-found/abbreviation)  
