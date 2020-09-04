@@ -38,7 +38,7 @@ public static void main(String[] args)
 }
 ```
 
-结果
+结果（小数部分用二进制表示=.11，正规化后=1.1x10^-1）
 ```
 0-01111110-10000000000000000000000
 ```
@@ -48,7 +48,7 @@ public static void main(String[] args)
 0
 ```
 
-得到指数部分
+得到指数部分（指数=-1，单精度偏移量=127，指数部分=-1+127=126）
 ```
 01111110
 ```
@@ -60,7 +60,7 @@ public static void main(String[] args)
 
 根据 EXCESS 系统表现得到指数 e
 ```
-e = 01111110 的十进制数 - 127 = 126 -127 = -1
+e = 01111110 的十进制数 - 127 = 126 - 127 = -1
 ```
 
 根据正则表达式得到尾数 m
@@ -78,4 +78,5 @@ m = 尾数部分 10000000000000000000000 实际上表示的二进制数转换成
 ```
 
 ## 参考
-[《Java开发手册》解读：大整数传输为何禁用Long类型?](https://mp.weixin.qq.com/s?__biz=MzIzOTU0NTQ0MA==&mid=2247498496&idx=1&sn=a46cd5d34f9afca3f31121fb3ac835e0)
+[《Java开发手册》解读：大整数传输为何禁用Long类型?](https://mp.weixin.qq.com/s?__biz=MzIzOTU0NTQ0MA==&mid=2247498496&idx=1&sn=a46cd5d34f9afca3f31121fb3ac835e0)  
+[【算法】解析IEEE 754 标准](https://www.cnblogs.com/HDK2016/p/10506083.html)
