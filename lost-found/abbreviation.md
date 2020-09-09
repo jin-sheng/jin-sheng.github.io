@@ -16,7 +16,7 @@
 |E|||||
 ||ERP|Enterprise Resource Planning|企业资源计划||
 |F|||||
-||FIFO|First Input First Output|先进先出队列||
+||FIFO|First Input First Output|先进先出队列|缓存淘汰算法|
 |G|||||
 |H|||||
 |I|||||
@@ -33,7 +33,8 @@
 ||JVM|Java Virtual Machine|Java 虚拟机||
 |K|||||
 |L|||||
-||LRU|Least Recently Used|最近最少使用|页面置换算法|
+||LFU|Least Frequently Used|最近最少使用算法|缓存淘汰算法|
+||LRU|Least Recently Used|最近最久未使用算法|缓存淘汰算法|
 |M|||||
 ||MES|Manufacturing Execute System|制造执行系统||
 ||MESI|Modified Exclusive Shared Or Invalid|CPU 缓存一致性协议||
