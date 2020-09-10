@@ -16,6 +16,7 @@
 |E|||||
 ||ERP|Enterprise Resource Planning|企业资源计划||
 |F|||||
+||FAQ|Frequently Asked Questions|常见问题解答||
 ||FIFO|First Input First Output|先进先出队列|缓存淘汰算法|
 |G|||||
 |H|||||
