@@ -110,3 +110,4 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
 [Feynman Technique](https://jin-sheng.github.io/lost-found/feynman-technique)  
 [Regular Expression](https://jin-sheng.github.io/lost-found/regular-expression)  
 [Using docker to quickly deploy Dianping CAT (Windows Environment)](https://jin-sheng.github.io/lost-found/dianping-cat)  
+[Wake on LAN](https://jin-sheng.github.io/lost-found/wake-on-lan)  
