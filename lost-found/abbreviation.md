@@ -44,6 +44,8 @@
 ||EDI|Electronic data interchange|电子数据交换||
 |N|||||
 |O|||||
+||OLTP|On-line Transaction Processing|联机事务处理||
+||OLAP|On-line Analytical Processing|联机分析处理||
 ||OPT|Optimized Production Technology|优化生产技术||
 |P|||||
 |Q|||||
