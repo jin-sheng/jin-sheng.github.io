@@ -50,6 +50,7 @@
 ||QPI|Quick Path Interconnect|快速通道互联||
 |R|||||
 ||RMI|Remote Method Invocation|远程方法调用||
+||ROI|Return On Investment|投资回报率||
 ||RPC|Remote Procedure Call|远程过程调用||
 |S|||||
 ||SCP|Supply Chain Partnership|供应链合作伙伴关系||
