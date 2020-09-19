@@ -13,6 +13,7 @@
 ||CSRF|Cross-site request forgery|跨站请求伪造||
 |D|||||
 ||DRP|Distribution Resource Planning|分销资源计划||
+||DSR|Domain Specific Language|领域特定语言||
 |E|||||
 ||ERP|Enterprise Resource Planning|企业资源计划||
 |F|||||
