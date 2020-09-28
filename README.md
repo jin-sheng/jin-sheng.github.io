@@ -107,8 +107,8 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
 
 ### Lost found
 [Abbreviation](https://jin-sheng.github.io/lost-found/abbreviation)  
-[Feynman Technique](https://jin-sheng.github.io/lost-found/feynman-technique)  
 [Developer Job Category](https://jin-sheng.github.io/lost-found/developer-job-category)  
+[Feynman Technique](https://jin-sheng.github.io/lost-found/feynman-technique)  
 [Regular Expression](https://jin-sheng.github.io/lost-found/regular-expression)  
 [System Architecture](https://jin-sheng.github.io/lost-found/system-architecture)  
 [Using docker to quickly deploy Dianping CAT (Windows Environment)](https://jin-sheng.github.io/lost-found/dianping-cat)  
