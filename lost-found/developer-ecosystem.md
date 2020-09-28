@@ -107,7 +107,14 @@ Dask
 Apache Pig  
 Apache Beam  
 Apache Tez  
-Apache Samza  
+Apache Samza
+
+## 数据托管
+内部服务器  
+本地  
+AWS  
+Google 云  
+Azure
 
 ## 职位
 开发者/程序员/软件工程师  
