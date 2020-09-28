@@ -150,7 +150,7 @@ Meteor
 
 ## IDE
 Visual Studio Code  
-WebStorm  
+WebStorm（或其他 JetBrains IDE）  
 Visual Studio  
 Sublime Text  
 Atom  
