@@ -156,6 +156,16 @@ $ git branch --no-merged master
 $ git branch --contains becd81c9
 ```
 
+查看当前分支所有提交者及其提交次数，按次数由高到低排序
+```shell
+$ git log | grep "^Author: " | awk '{print $2}' | sort | uniq -c | sort -k1,1nr
+```
+
+分析 Git 日志来统计代码量
+```shell
+$ git log --pretty=tformat: --numstat | awk '{ add += $1; subs += $2; loc += $1 - $2 } END { printf "added lines: %s, removed lines: %s, total lines: %s\n", add, subs, loc }' -
+```
+
 # 参考
 [Git-Book](https://git-scm.com/book/zh/v2)  
 [git 简明指南](https://www.runoob.com/manual/git-guide/)  
