@@ -53,6 +53,9 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
 [Redis Common Commands](https://jin-sheng.github.io/sql/redis-common-commands)  
 [SQL Practice](https://jin-sheng.github.io/sql/sql-practice) 
 
+### Design Pattern
+[Adapter](https://jin-sheng.github.io/design-pattern/adapter)
+
 ### DevOps
 [Git common commands(Git Bash)](https://jin-sheng.github.io/devops/git-common-commands)  
 [IntelliJ IDEA](https://jin-sheng.github.io/devops/intellij-idea)  
