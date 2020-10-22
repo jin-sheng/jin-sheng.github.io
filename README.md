@@ -93,6 +93,9 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
 ### MQ
 [Queue](https://jin-sheng.github.io/mq/queue)  
 
+### Python
+[Python PIP Source](https://jin-sheng.github.io/python/python-pip-source.md)  
+
 ### RPC
 [Apache Dubbo](https://jin-sheng.github.io/rpc/apache-dubbo)
 
