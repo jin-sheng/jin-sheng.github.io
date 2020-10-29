@@ -107,5 +107,16 @@ Ctrl + L
 Ctrl + D
 ```
 
-# 参考
+# 其他
+查看当前目录下的文件数量（不包含子目录中的文件）
+```bash
+$ ls -l|grep "^-"| wc -l
+```
+
+查看当前目录下的文件数量（包含子目录中的文件）
+```bash
+$ ls -lR | grep "^-"| wc -l
+```
+
+## 参考
 [Bash 脚本教程](https://wangdoc.com/bash/index.html)  
