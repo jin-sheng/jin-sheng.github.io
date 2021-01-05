@@ -53,6 +53,7 @@
 |P|||||
 |Q|||||
 ||QPI|Quick Path Interconnect|快速通道互联||
+||QPS|Query Per Second|每秒查询率||
 |R|||||
 ||RMI|Remote Method Invocation|远程方法调用||
 ||ROI|Return On Investment|投资回报率||
