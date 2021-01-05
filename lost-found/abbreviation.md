@@ -43,6 +43,7 @@
 |M|||||
 ||MES|Manufacturing Execute System|制造执行系统||
 ||MESI|Modified Exclusive Shared Or Invalid|CPU 缓存一致性协议||
+||MPP|Massive Parallel Processor|大规模并行处理||
 ||MRP|Material Requirement Planning|物资需求计划||
 ||MRPII|Manufacturing Resources Planning|制造资源计划||
 ||EDI|Electronic data interchange|电子数据交换||
