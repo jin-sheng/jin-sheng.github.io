@@ -118,5 +118,10 @@ $ ls -l|grep "^-"| wc -l
 $ ls -lR | grep "^-"| wc -l
 ```
 
+查看服务的 QPS
+```bash
+$ cat /opt/access.log | grep '服务名称'| awk '{print $2}' | awk -F '.' '{print $1}' | uniq -c
+```
+
 ## 参考
 [Bash 脚本教程](https://wangdoc.com/bash/index.html)  
