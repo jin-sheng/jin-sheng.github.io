@@ -3,6 +3,7 @@
 |A|||||
 ||AMS|Agile Manufacturing System|敏捷制造系统||
 ||APR|Apache Portable Run-time libraries|Apache 可移植运行库||
+||ARP|Address Resolution Protocol|地址解析协议||
 |B|||||
 ||B2C|Business to Customer|商家对顾客||
 ||BCD|Binary Coded Decimal|二进制化十进制数||
