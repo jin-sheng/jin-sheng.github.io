@@ -49,7 +49,7 @@
 ||MPP|Massive Parallel Processor|大规模并行处理||
 ||MRP|Material Requirement Planning|物资需求计划||
 ||MRPII|Manufacturing Resources Planning|制造资源计划||
-||MTU|Maximum Transmission Unit|最大传输单元||
+||MTU|Maximum Transmission Unit|最大传输单元|协议栈根据 MTU 参数来判断每个网络包能容纳的数据长度|
 |N|||||
 |O|||||
 ||OLTP|On-line Transaction Processing|联机事务处理||
