@@ -123,5 +123,10 @@ $ ls -lR | grep "^-"| wc -l
 $ cat /opt/access.log | grep '服务名称'| awk '{print $2}' | awk -F '.' '{print $1}' | uniq -c
 ```
 
+显示套接字的内容
+```bash
+$ netstat -ano
+```
+
 ## 参考
 [Bash 脚本教程](https://wangdoc.com/bash/index.html)  
