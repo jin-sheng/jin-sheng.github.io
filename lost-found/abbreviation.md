@@ -55,6 +55,7 @@
 ||OLAP|On-line Analytical Processing|联机分析处理||
 ||OPT|Optimized Production Technology|优化生产技术||
 |P|||||
+||PID|Process ID|进程标识符||
 |Q|||||
 ||QPI|Quick Path Interconnect|快速通道互联||
 ||QPS|Query Per Second|每秒查询率||
