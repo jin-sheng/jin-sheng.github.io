@@ -126,6 +126,9 @@ $ cat /opt/access.log | grep '服务名称'| awk '{print $2}' | awk -F '.' '{pri
 显示套接字的内容
 ```bash
 $ netstat -ano
+# a：不仅显示正在通信的套接字，还显示包括尚未开始通信等状态的所有套接字
+# n：显示 IP 地址和端口号
+# o：显示使用该套接字的程序 PID
 ```
 
 ## 参考
