@@ -25,6 +25,7 @@
 |G|||||
 |H|||||
 |I|||||
+||ICMP|Internet Control Message Protocol|Internet控制报文协议||
 ||IDL|Interface Description Language|接口描述语言||
 ||IEEE|Institute of Electrical and Electronics Engineers|美国电气和电子工程师协会||
 ||IOPS|Input/Output Operations Per Second|磁盘每秒最多可以完成的 I/O 次数||
