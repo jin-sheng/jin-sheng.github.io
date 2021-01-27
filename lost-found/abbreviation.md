@@ -68,7 +68,7 @@
 ||RPC|Remote Procedure Call|远程过程调用||
 |S|||||
 ||SCP|Supply Chain Partnership|供应链合作伙伴关系||
-||SFD|Start Frame Delimiter|起始帧分界符|参与实现传输信号的同步|
+||SFD|Start Frame Delimiter|起始帧分界符|用来表示包起始位置的标记|
 ||SLA|Service Level Agreement|服务等级协议|提供服务的企业与客户之间就服务的品质、水准、性能等方面所达成的双方共同认可的协议或契约。|
 ||SSRF|Server-Side Request Forgery|服务器端请求伪造||
 |T|||||
