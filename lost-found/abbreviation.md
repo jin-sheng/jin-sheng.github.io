@@ -21,8 +21,9 @@
 ||EDI|Electronic data interchange|电子数据交换||
 ||ERP|Enterprise Resource Planning|企业资源计划||
 ||ETL|Extract Transform Load|数据仓库技术||
-|F|||||
+|F|Frame Check Sequence|帧校验序列|用来检查包传输过程中因噪声导致的波形紊乱、数据错误||
 ||FAQ|Frequently Asked Questions|常见问题解答||
+||FCS||||
 ||FIFO|First Input First Output|先进先出队列|缓存淘汰算法|
 |G|||||
 |H|||||
