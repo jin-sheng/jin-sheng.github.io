@@ -44,6 +44,7 @@
 ||LFU|Least Frequently Used|最近最少使用算法|缓存淘汰算法|
 ||LRU|Least Recently Used|最近最久未使用算法|缓存淘汰算法|
 |M|||||
+||MAC|Media Access Control|MAC 地址|用来确认网络设备位置的位址|
 ||MES|Manufacturing Execute System|制造执行系统||
 ||MESI|Modified Exclusive Shared Or Invalid|CPU 缓存一致性协议||
 ||MPP|Massive Parallel Processor|大规模并行处理||
