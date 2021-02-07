@@ -85,6 +85,9 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
 [JNDI](https://jin-sheng.github.io/java/jndi)  
 [JVM Garbage Collection](https://jin-sheng.github.io/java/jvm/jvm-garbage-collection)  
 
+### JavaScript
+[Arrow Function](https://jin-sheng.github.io/javascript/arrow-function)  
+
 ### Linux
 [Bash common commands](https://jin-sheng.github.io/linux/bash-common-commands)  
 [Crontab](https://jin-sheng.github.io/linux/crontab)  
