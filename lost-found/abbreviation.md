@@ -54,6 +54,7 @@
 ||MRPII|Manufacturing Resources Planning|制造资源计划||
 ||MSS|Maximum Segment Size|最大分段大小|除去头部之后，一个网络包所能容纳的 TCP 数据的最大长度|
 ||MTU|Maximum Transmission Unit|最大传输单元|一个网络包的最大长度，以太网中一般为 1500 字节|
+||MVVM|Model-View-ViewModel|||
 |N|||||
 |O|||||
 ||OLTP|On-line Transaction Processing|联机事务处理||
