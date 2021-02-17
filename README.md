@@ -99,6 +99,7 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
 
 ### Python
 [Python Async Programming](https://jin-sheng.github.io/python/python-async-programming)  
+[Python common commands](https://jin-sheng.github.io/python/python-common-commands)  
 [Python PIP Source](https://jin-sheng.github.io/python/python-pip-source)  
 
 ### RPC
