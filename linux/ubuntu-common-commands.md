@@ -15,6 +15,11 @@ $ sudo apt-get update
 $ sudo apt-get upgrade
 ```
 
+强制更新软件包到最新版本，并自动解决缺少的依赖包
+```bash
+$ sudo apt-get -u dist-upgrade
+```
+
 检查是否有损坏的依赖
 ```bash
 $ sudo apt-get check
