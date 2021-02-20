@@ -59,3 +59,6 @@ $ sudo apt-get remove python3-pip
 ```bash
 $ sudo apt install git
 ```
+
+# 参考
+[Ubuntu系统更新apt安装的软件包](https://blog.csdn.net/qq_36938617/article/details/95234763)  
