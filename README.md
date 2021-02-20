@@ -93,8 +93,8 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
 [Crontab](https://jin-sheng.github.io/linux/crontab)  
 [Installing and uninstalling JDK on Linux](https://jin-sheng.github.io/linux/installing-and-uninstalling-jdk)  
 [Share Directory](https://jin-sheng.github.io/linux/share-directory)  
-[Ubuntu python install](https://jin-sheng.github.io/linux/ubuntu-python-install)  
 [Ubuntu common commands](https://jin-sheng.github.io/linux/ubuntu-common-commands)  
+[Ubuntu source list](https://jin-sheng.github.io/linux/ubuntu-source-list)  
 
 ### MQ
 [Queue](https://jin-sheng.github.io/mq/queue)  
