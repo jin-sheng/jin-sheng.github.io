@@ -51,6 +51,14 @@
 |Ctrl + Shift + Alt + S|打开当前项目设置|
 |Ctrl + Shift + Alt + C|复制参考信息|
 
+## 实用插件
+|插件名称|插件作者|备注|
+|---|---|---|
+|Grep Console|VojtechKrasa||
+|BashSupport|Joachim Ansorg||
+|CodeGlance|Vektah||
+|Translation|Yii.Guxing||
+
 ## Live Templates
 Stream
 ```java
