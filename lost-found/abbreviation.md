@@ -1,7 +1,7 @@
 |字典|英文缩写|英文全称|中文全称|备注|
 |---|---|---|---|---|
 |A|||||
-||AEAD|Authenticated Encryption with Associated Data||分组模式|
+||AEAD|Authenticated Encryption with Associated Data||加密算法使用的分组模式|
 ||AES|Advanced Encryption Standard|高级加密标准|对称加密算法|
 ||AMS|Agile Manufacturing System|敏捷制造系统||
 ||APR|Apache Portable Run-time libraries|Apache 可移植运行库||
