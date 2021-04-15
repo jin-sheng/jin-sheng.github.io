@@ -15,6 +15,7 @@
 ||CORS|Cross-origin resource sharing|跨域资源共享||
 ||CPI|Clocks Per Instruction|每 CPU 指令时钟周期||
 ||CRC|Cyclic Redundancy Check|循环冗余校验||
+||CRL|Certificate revocation list|证书吊销列表||
 ||CSR|Certificate Signing Request|证书请求文件||
 ||CSRF|Cross-site request forgery|跨站请求伪造||
 |D|||||
@@ -60,6 +61,7 @@
 ||MVVM|Model-View-ViewModel|||
 |N|||||
 |O|||||
+||OCSP|Online Certificate Status Protocol|在线证书状态协议||
 ||OLTP|On-line Transaction Processing|联机事务处理||
 ||OLAP|On-line Analytical Processing|联机分析处理||
 ||OPT|Optimized Production Technology|优化生产技术||
