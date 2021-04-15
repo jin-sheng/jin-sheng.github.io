@@ -1,6 +1,7 @@
 |字典|英文缩写|英文全称|中文全称|备注|
 |---|---|---|---|---|
 |A|||||
+||AES|Advanced Encryption Standard|高级加密标准||
 ||AMS|Agile Manufacturing System|敏捷制造系统||
 ||APR|Apache Portable Run-time libraries|Apache 可移植运行库||
 ||ARP|Address Resolution Protocol|地址解析协议||
