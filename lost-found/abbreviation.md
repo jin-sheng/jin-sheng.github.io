@@ -21,6 +21,7 @@
 ||DRP|Distribution Resource Planning|分销资源计划||
 ||DSR|Domain Specific Language|领域特定语言||
 |E|||||
+||ECC|Elliptic Curve Cryptography||非对称加密算法|
 ||EDI|Electronic data interchange|电子数据交换||
 ||ERP|Enterprise Resource Planning|企业资源计划||
 ||ETL|Extract Transform Load|数据仓库技术||
