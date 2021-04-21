@@ -70,3 +70,4 @@ System.out.println(Integer.toBinaryString(i));
 [《Java开发手册》解读：大整数传输为何禁用Long类型?](https://mp.weixin.qq.com/s?__biz=MzIzOTU0NTQ0MA==&mid=2247498496&idx=1&sn=a46cd5d34f9afca3f31121fb3ac835e0)  
 [【算法】解析IEEE 754 标准](https://www.cnblogs.com/HDK2016/p/10506083.html)  
 [binaryconvert](https://www.binaryconvert.com/index.html)  
+[浮点数，你真的懂了吗？](https://mp.weixin.qq.com/s/vHxqOESLdEutvfsjbGRtQQ)  
