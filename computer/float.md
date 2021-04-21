@@ -59,11 +59,17 @@
 - 通过公式【(-1) ^ 符号 x (1 + 尾数) x 2 ^ (指数 - 偏移量)】计算十进制小数：(-1) ^ 0 x (1 + 0.328125) x 2 ^ (130 - 127) = 10.625
 
 ## 获取十进制小数的二进制浮点数
-单精度
+Java
 ```java
+// 单精度浮点数
 float f = 0.75f;
 int i = Float.floatToIntBits(f);
 System.out.println(Integer.toBinaryString(i));
+
+// 双精度浮点数
+double d = 10.625d;
+long l = Double.doubleToLongBits(d);
+System.out.println(Long.toBinaryString(l));
 ```
 
 ## 参考
