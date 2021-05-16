@@ -49,6 +49,7 @@
 |L|||||
 ||LFU|Least Frequently Used|最近最少使用算法|缓存淘汰算法|
 ||LRU|Least Recently Used|最近最久未使用算法|缓存淘汰算法|
+||LSP|Liskov Substitution Principle|里氏替换原则||
 |M|||||
 ||MAC|Media Access Control|MAC 地址|用来确认网络设备位置的位址|
 ||MES|Manufacturing Execute System|制造执行系统||
