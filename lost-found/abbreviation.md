@@ -83,6 +83,7 @@
 ||SSRF|Server-Side Request Forgery|服务器端请求伪造||
 |T|||||
 ||TQC|Total Quality Control|全面质量管理||
+||TTL|Time to Live|生存时间||
 |U|||||
 |V|||||
 |W|||||
