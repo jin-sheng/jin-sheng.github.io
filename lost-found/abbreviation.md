@@ -85,6 +85,7 @@
 ||TQC|Total Quality Control|全面质量管理||
 ||TTL|Time to Live|生存时间||
 |U|||||
+||UAT|User Acceptance Test|用户验收测试||
 |V|||||
 |W|||||
 |X|||||
